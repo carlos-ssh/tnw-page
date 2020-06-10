@@ -165,7 +165,7 @@ position: absolute;
 
 .bio-tnw{
     display: grid;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
 }
 
 .right-art{
@@ -176,10 +176,8 @@ position: absolute;
 .right-art-top{
     background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Sprint_image.jpg");
     background-size: cover;
-    mask-image: linear-gradient(to bottom, transparent 25%, black 75%);
-    width: 500px;
-    height: 200px;
-    margin: 10px 10px 0 0;
+    width: 100%;
+    height: 40vh;
     grid-row: 1;
     position: relative;
 }
@@ -201,7 +199,7 @@ position: absolute;
     color: #FFFFFF;
     font-size: 35px;
     position: relative;
-    top: 80px;
+    top: 50px;
     left: 30px;
     line-height: 35px;
     z-index: 0;
@@ -210,9 +208,7 @@ position: absolute;
 .right-art-bottom{
     background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/bmw-ix3-all-electric-car-suv-sav-shift-evs-796x448.jpg");
     background-size: cover;
-    width: 500px;
-    height: 200px;
-    margin: 5px 5px 10px 0;
+    height: 206px;
     grid-row: 2;
     position: relative;
 }
@@ -236,7 +232,7 @@ position: absolute;
     font-size: 30px;
     position: relative;
     top: 70px;
-    padding: 0 10px 0 10px;
+    padding-left: 30px;
     line-height: 35px;
     z-index: 0;
 }
@@ -246,13 +242,11 @@ position: absolute;
     grid-template-rows: repeat(2,auto);
     background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/header-image-apple-own-arm-based-chips-796x417.png");
     background-size: 100% 100%;
-    width: 950px;
-    margin: 10px;
+    width: 100%;
     font-family: Georgia, "Times New Roman", Times, serif;
     color: #FFFFFF;
     height: 400px;
-    grid-gap: 5px;
-    padding: 10px 10px 0 10px;
+    gap: 5px;
     z-index: 0;
     position: relative;
 }
@@ -718,8 +712,8 @@ position: absolute;
 }
 
 .latest-div5 img{
-    width: 120px;
-    height: 110px;
+    width: 12vw;
+    height: 11vh;
     position: relative;
     left: 331px;
     bottom: 74px;
@@ -1068,9 +1062,9 @@ position: absolute;
 }
 
 .div-4-eight {
-display: grid;
-grid-template-rows: repeat(5, auto);
-padding: 0 40px 0 40px;
+    display: grid;
+    grid-template-rows: repeat(5, auto);
+    padding: 0 40px 0 40px;
 
 }
 .apps-anch{
@@ -1177,7 +1171,7 @@ padding: 0 40px 0 40px;
 }
 
 .tnw-small {
- width:10px   
+    width:10px   
 }
 
 .footer-up-div *{
@@ -1221,5 +1215,3 @@ padding:30px 0 20px 0;
 .footer-down-div span {
   color: #e7e3e3;
 }
-
-/*HOVERS*/
