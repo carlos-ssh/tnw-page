@@ -487,7 +487,7 @@ position: absolute;
 }
 .red-txt img{
     position: relative;
-    left: 326px;
+    left: 288px;
     bottom: 95px;
     width: 120px;
     height: 120px;
@@ -606,7 +606,7 @@ position: absolute;
 .latest-div1 img{
     position: relative;
     bottom: 85px;
-    left: 326px;
+    left: 289px;
     height: 120px;
     width: 120px;
     z-index: 0;
@@ -633,7 +633,7 @@ position: absolute;
     width: 120px;
     height: 110px;
     position: relative;
-    left: 330px;
+    left: 293px;
     bottom: 84px;
 }
 
@@ -659,7 +659,7 @@ position: absolute;
     width: 120px;
     height: 110px;
     position: relative;
-    left: 336px;
+    left: 298px;
     bottom: 74px;
 }
 
@@ -698,7 +698,7 @@ position: absolute;
     width: 120px;
     height: 110px;
     position: relative;
-    left: 327px;
+    left: 289px;
     bottom: 74px;
 }
 
@@ -722,10 +722,10 @@ position: absolute;
 }
 
 .latest-div5 img{
-    width: 12vw;
-    height: 11vh;
+    width: 100px;
+    height: 110px;
     position: relative;
-    left: 331px;
+    left: 313px;
     bottom: 74px;
 }
 
@@ -752,7 +752,7 @@ position: absolute;
     width: 120px;
     height: 110px;
     position: relative;
-    left: 336px;
+    left: 298px;
     bottom: 92px;
 }
 
@@ -765,8 +765,8 @@ position: absolute;
 }
 .latest-div7 img{
     position: relative;
-    bottom: 85px;
-    left: 329px;
+    bottom: 102px;
+    left: 289px;
     height: 120px;
     width: 120px;
     z-index: 0;
@@ -1067,7 +1067,7 @@ position: absolute;
 .iwatch small{
     color: #FFFFFF;
     position: relative;
-    top: 160px;
+    top: 130px;
     left: 20px;
 }
 
@@ -1214,7 +1214,7 @@ padding:30px 0 20px 0;
 
 .footer-up-div {
     height: 120px;
-    background-color: #4d4a4a;
+    background-color: #000000;
 }
 
 .footer-down-div {
