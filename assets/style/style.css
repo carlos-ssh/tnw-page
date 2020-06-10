@@ -166,14 +166,10 @@ position: absolute;
 .bio-tnw{
     display: grid;
     grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+    padding-left: 10px;
 }
 
-<<<<<<< HEAD
-.right-art, .div-4-eight,
-.funding, .footer-up-div,.footer-cont {
-=======
 .right-art{
->>>>>>> d79fae132718deac74fef33d3520e7db94680d98
     display: grid;
     grid-template-rows: repeat(2,auto);
 }
@@ -181,10 +177,11 @@ position: absolute;
 .right-art-top{
     background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Sprint_image.jpg");
     background-size: cover;
-    width: 100%;
+    width: 98%;
     height: 40vh;
     grid-row: 1;
     position: relative;
+    margin: 5px 10px 10px 10px;
 }
 .right-art-top::before{
     content: '';
@@ -205,17 +202,18 @@ position: absolute;
     font-size: 35px;
     position: relative;
     top: 50px;
-    left: 30px;
-    line-height: 35px;
+    left: 15px;
+    line-height: 30px;
     z-index: 0;
 }
 
 .right-art-bottom{
     background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/bmw-ix3-all-electric-car-suv-sav-shift-evs-796x448.jpg");
     background-size: cover;
-    height: 206px;
+    height: 40vh;
     grid-row: 2;
     position: relative;
+    margin: 0 0 10px 10px;
 }
 
 .right-art-bottom::before{
@@ -234,12 +232,13 @@ position: absolute;
 .right-art-bottom a{
     text-decoration: none;
     color: #FFFFFF;
-    font-size: 30px;
+    font-size: 35px;
     position: relative;
     top: 70px;
-    padding-left: 30px;
     line-height: 35px;
     z-index: 0;
+    display: block;
+    margin-left: 15px;
 }
 
 .left-art {
@@ -250,8 +249,8 @@ position: absolute;
     width: 100%;
     font-family: Georgia, "Times New Roman", Times, serif;
     color: #FFFFFF;
-    height: 400px;
-    gap: 5px;
+    height: 82vh;
+    margin-top: 5px;
     z-index: 0;
     position: relative;
 }
@@ -274,6 +273,8 @@ position: absolute;
     height: 200px;
     position: relative;
     z-index: 0;
+    padding: 20px;
+    bottom: 20px;
 }
 
 .left-art p{
@@ -289,6 +290,8 @@ position: absolute;
     font-size: 35px;
     position: relative;
     z-index: 0;
+    padding: 20px;
+    bottom: 30px;
 }
 
 .left-art h4{
@@ -296,11 +299,13 @@ position: absolute;
     right: 0px;
     bottom: 80px;
     z-index: 0;
+    margin-left: 10px;
 }
 
 .left-art a{
     text-decoration: none;
     color: #FFFFFF;
+  
 }
 
 .left-art-top, .left-art-down{
@@ -1019,12 +1024,6 @@ position: absolute;
     left: 20px;
 }
 
-<<<<<<< HEAD
-.apps-anch {
-display: grid;
-grid-template-rows: repeat(5, auto);
-padding: 0 40px 0 40px;
-=======
 .fb-class small{
     position: relative;
     top: 130px;
@@ -1057,7 +1056,6 @@ padding: 0 40px 0 40px;
     top: 100px;
     left: 20px;
 }
->>>>>>> d79fae132718deac74fef33d3520e7db94680d98
 
 .iwatch a{
     color: #FFFFFF;
@@ -1146,7 +1144,7 @@ padding: 0 40px 0 40px;
 
 .cont-main {
     display: grid;
-    grid-template-rows: repeat(8, auto);
+    grid-template-rows: repeat(7, auto);
 }
 
 .funding-up,.latest-div{
@@ -1227,28 +1225,3 @@ padding:30px 0 20px 0;
 .footer-down-div span {
   color: #e7e3e3;
 }
-<<<<<<< HEAD
-
-@media only screen and (max-width: 768px){
-    .bio-tnw-cont{
-        display: grid;
-        grid-template-columns: 1fr;
-        }
-
-        .upper-grid,.lower-grid {
-            display: grid;
-            grid-template-columns:repeat(2,1fr) ;
-        }
-
-        .top-img-div,.top-img-caps,.next-img-cap,.next-img-div {
-            display: grid;
-            grid-template-columns: auto;
-        }
-
-        .funding-img-cont,.funding-up,.funding-list {
-            display: flex;
-            flex-direction: column;
-        }
-}
-=======
->>>>>>> d79fae132718deac74fef33d3520e7db94680d98
