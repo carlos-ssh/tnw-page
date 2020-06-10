@@ -1,19 +1,24 @@
+
 *{
     margin: 0;
     padding: 0;
 }
 
 body{
-width: 100%;
-font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
 }
 
 .top-div li, .top-div a, .white-nav li, .white-nav a{
-list-style-type: none;
-text-decoration-line: none;
-font-size: 12px;
-padding: 5px;
-color: #808080;
+    list-style-type: none;
+    text-decoration-line: none;
+    font-size: 12px;
+    padding: 5px;
+    color: #808080;
 }
 
 
@@ -106,26 +111,26 @@ position: absolute;
 }
 
 .white-nav-img{
-height: 30px;
-width: 205px;    
+    height: 30px;
+    width: 205px;    
 }
 
 #date {
-color: #e04141;
-font-size: 20px;
-font-weight: 700;
+    color: #e04141;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .white-nav .button {
     width: 145px;
     height: 35px;
-   font-size: 12px;
-   border-radius: 5px;
-   background-color: #00cccc;
-   border: 0;
-   padding: 10px;
-   color: #d6cdcd;
-   font-weight: 700;
+    font-size: 12px;
+    border-radius: 5px;
+    background-color: #00cccc;
+    border: 0;
+    padding: 10px;
+    color: #d6cdcd;
+    font-weight: 700;
 }
 
 
@@ -157,40 +162,150 @@ font-weight: 700;
     
 }
 
-.bio-tnw-cont {
+
+.bio-tnw{
     display: grid;
-    grid-template-columns: repeat(2, auto);
-    column-gap: 10px;
-    row-gap: 10px;
-    padding: 0 10px 0 10px;
+    grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
 }
 
+<<<<<<< HEAD
 .right-art, .div-4-eight,
 .funding, .footer-up-div,.footer-cont {
+=======
+.right-art{
+>>>>>>> d79fae132718deac74fef33d3520e7db94680d98
     display: grid;
     grid-template-rows: repeat(2,auto);
+}
+
+.right-art-top{
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Sprint_image.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+    grid-row: 1;
+    position: relative;
+}
+.right-art-top::before{
+    content: '';
+    position: absolute;
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3) 10%,
+      rgba(0, 0, 0, 1) 95%);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+}
+.right-art-top a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 35px;
+    position: relative;
+    top: 50px;
+    left: 30px;
+    line-height: 35px;
+    z-index: 0;
+}
+
+.right-art-bottom{
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/bmw-ix3-all-electric-car-suv-sav-shift-evs-796x448.jpg");
+    background-size: cover;
+    height: 206px;
+    grid-row: 2;
+    position: relative;
+}
+
+.right-art-bottom::before{
+    content: '';
+    position: absolute;
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3) 10%,
+      rgba(0, 0, 0, 1) 95%);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+}
+.right-art-bottom a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 30px;
+    position: relative;
+    top: 70px;
+    padding-left: 30px;
+    line-height: 35px;
+    z-index: 0;
 }
 
 .left-art {
     display: grid;
     grid-template-rows: repeat(2,auto);
-    background-image: url(../font/img/left-art-img.png);
-    padding-left: 6em;
-    padding-right: 15em;
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/header-image-apple-own-arm-based-chips-796x417.png");
+    background-size: 100% 100%;
+    width: 100%;
     font-family: Georgia, "Times New Roman", Times, serif;
-    color: red;
+    color: #FFFFFF;
     height: 400px;
-    grid-gap: 5px;
+    gap: 5px;
+    z-index: 0;
+    position: relative;
+}
+.left-art::before{
+    content: '';
+    position: absolute;
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3) 10%,
+      rgb(224, 108, 108) 95%);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+}
+
+.left-art img{
+    width: 60%;
+    height: 200px;
+    position: relative;
+    z-index: 0;
+}
+
+.left-art p{
+    text-align: right;
+    height: 5px;
+    position: relative;
+    top: 500px;
+    right: 300px;
+    z-index: 0;
+}
+
+.left-art h1{
+    font-size: 35px;
+    position: relative;
+    z-index: 0;
+}
+
+.left-art h4{
+    position: relative;
+    right: 0px;
+    bottom: 80px;
+    z-index: 0;
+}
+
+.left-art a{
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 .left-art-top, .left-art-down{
     width: 100%;
     height: 198px;
-}
-
-.left-img{
-  width: 800px;
-  height: 400px;
 }
 
 .right-top-img {
@@ -203,29 +318,813 @@ font-weight: 700;
     height: 198px;
 }
 
+ .info{
+    margin: 50px 0 30px 40px;
+}
+
+.info a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 700;
+    color: #FF4422;
+}
+.info a:hover {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.img-clue a{
+    color: #000000;
+    font-size: 16px;
+    word-wrap: break-word;
+    text-justify: newspaper;
+}
+
+.top-img-div{
+    color: #000000;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: repeat(2,auto);
+    margin: 0 35px 0 35px;
+    grid-gap: 20px 20px;
+    margin-bottom: 60px;
+}
+
 .top-header, .app-div {
-display: grid;
-grid-template-rows: repeat(4,auto);
+    display: grid;
+    grid-template-rows: repeat(4,auto);
 
 }
 
+.footer-up-div,.footer-cont {
+    display: grid;
+    grid-template-rows: repeat(2,auto);
+}
+
+.funding{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.funding-nav ul{
+    list-style: none;
+    width: 320px;
+    display: grid;
+    grid-column: 2;
+    font-size: 16px;
+    padding: 60px 60px 0 0;
+    color: #FF4422;
+}
+
+.funding img{
+    margin-left: 40px;
+    justify-content: space-between;
+}
+
+.apps{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(12, auto);
+    grid-gap: 0 30px;
+    margin: 10px 40px 10px 40px;
+}
+
+.apps-txt{
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+    height: 30px;
+}
+.apps-txt1{
+    display: grid;
+    grid-column: 2;
+    grid-row: 1;
+    height: 30px;
+}
+.apps-txt2{
+    display: grid;
+    grid-column: 3;
+    grid-row: 1;
+    height: 30px;
+}
+
+.reddit-div{
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/reddit-argument-513x270.png");
+    height: 276px;
+    display: grid;
+    grid-column: 1;
+    grid-row: 2;
+    position: relative;
+    z-index: 0;
+}
+.reddit-div::before{
+    content: '';
+    position: absolute;
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3) 0%,
+      rgba(0, 0, 0, 1) 95%);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+}
+.reddit-div h2{
+    position: relative;
+    top: 120px;
+    left: 20px;
+    z-index: 0;
+}
+.reddit-div a{
+    position: relative;
+    top: 80px;
+    left: 20px;
+    font-size: 14px;
+    z-index: 0;
+}
+.reddit-div small{
+    position: relative;
+    top: 40px;
+    left: 20px;
+    z-index: 0;
+}
+.reddit-div a{
+    color: #FFFFFF;
+}
+.reddit-div h2{
+    color: #FFFFFF;
+}
+.reddit-div small{
+    color: #FFFFFF;
+}
+
+.red-txt{
+    color: red;
+    background: rgb(252, 213, 210);
+    display: grid;
+    grid-column: 1;
+    grid-row: 3;
+    height: 120px;
+    padding-left: 10px;
+}
+.red-txt h4{
+    margin: 10px;
+}
+.red-txt a{
+    color: red;
+    margin: 10px;
+}
+.red-txt img{
+    position: relative;
+    left: 326px;
+    bottom: 95px;
+    width: 120px;
+    height: 120px;
+    z-index: 0;
+}
+
+.ul-1{
+    display: grid;
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.ul-1 li{
+    color: #f42;
+    border-bottom: 1px solid rgba(180, 178, 178, 0.788);
+    margin: 5px 0 5px 0;
+    align-content: center;
+}
+
+.ul-2{
+    display: grid;
+    grid-column: 2;
+    grid-row: 4;
+    padding-top: 5px; 
+}
+
+.ul-2 li{
+    color: #f42;
+    border-bottom: 1px solid grey;
+}
+
+.ul-3 li{
+    color: #f42;
+    border-bottom: 1px solid grey;
+    line-height: 20px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.ul-4{
+    display: grid;
+    grid-column: 1;
+    grid-row: 8;
+    font-size: 14px;
+}
+
+.ul-4 li{
+    color: #f42;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.657);
+    line-height: 20px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.ul-5{
+    display: grid;
+    grid-column: 1;
+    grid-row: 8;
+    font-size: 14px;
+}
+
+.ul-5 li{
+    color: #f42;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.657);
+    line-height: 20px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.ul-6 {
+    display: grid;
+    grid-column: 1;
+    grid-row: 12;
+    font-size: 14px;
+}
+
+.ul-6 li{
+    color: #f42;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.657);
+    line-height: 20px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.ul-7 {
+    display: grid;
+    grid-column: 2;
+    grid-row: 4;
+    padding-top: 5px; 
+}
+.ul-7 li{
+    color: #f42;
+    border-bottom: 1px solid grey;
+}
+
+.ul-8{
+    display: grid;
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.ul-8 li{
+    color: #f42;
+    border-bottom: 1px solid rgba(180, 178, 178, 0.788);
+    margin: 5px 0 5px 0;
+    align-content: center;
+}
+
+.latest-div1{
+    background: rgb(252, 213, 210);
+    display: grid;
+    grid-column: 2;
+    grid-row: 3;
+    height: 120px;
+}
+.latest-div1 img{
+    position: relative;
+    bottom: 85px;
+    left: 326px;
+    height: 120px;
+    width: 120px;
+    z-index: 0;
+}
+.latest-div1 h4{
+    color: red;
+    padding: 20px 0 10px 20px;
+}
+.latest-div1 a{
+    color: red;
+    padding-left: 20px;
+}
+
+.latest-div2{
+    display: grid;
+    grid-column: 3;
+    grid-row: 3;
+    color: red;
+    background: rgb(252, 213, 210);
+    height: 110px;
+}
+
+.latest-div2 img{
+    width: 120px;
+    height: 110px;
+    position: relative;
+    left: 330px;
+    bottom: 84px;
+}
+
+.latest-div2 a{
+    padding-left: 20px;
+    padding-top: 10px;
+    color: red;
+}
+.latest-div2 h4{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.latest-div3{
+    display: grid;
+    grid-column: 1;
+    grid-row: 7;
+    color: red;
+    background: rgb(252, 213, 210);
+    height: 110px;
+}
+
+.latest-div3 img{
+    width: 120px;
+    height: 110px;
+    position: relative;
+    left: 336px;
+    bottom: 74px;
+}
+
+.latest-div3 a{
+    padding-left: 20px;
+    padding-top: 10px;
+    color: red;
+}
+
+.latest-div3 h4{
+    padding-left: 20px;
+    padding-top: 10px;
+    color: red;
+}
+
+.latest-div4 {
+    display: grid;
+    grid-column: 3;
+    grid-row: 7;
+    background: rgb(252, 213, 210);
+    height: 110px;
+}
+
+.latest-div4 a{
+    padding-left: 20px;
+    padding-top: 10px;
+    color: red;
+}
+.latest-div4 h4{
+    padding-left: 20px;
+    padding-top: 10px;
+    color: red;
+}
+
+.latest-div4 img{
+    width: 120px;
+    height: 110px;
+    position: relative;
+    left: 327px;
+    bottom: 74px;
+}
+
+.latest-div5 {
+    display: grid;
+    grid-column: 3;
+    grid-row: 7;
+    background: rgb(252, 213, 210);
+    height: 110px;
+}
+
+.latest-div5 a{
+    padding-left: 20px;
+    padding-top: 10px;
+    color: red;
+}
+.latest-div5 h4{
+    padding-left: 20px;
+    padding-top: 10px;
+    color: red;
+}
+
+.latest-div5 img{
+    width: 12vw;
+    height: 11vh;
+    position: relative;
+    left: 331px;
+    bottom: 74px;
+}
+
+.latest-div6 {
+    display: grid;
+    grid-column: 3;
+    grid-row: 7;
+    background: rgb(252, 213, 210);
+    height: 110px;
+}
+
+.latest-div6 a{
+    padding-left: 20px;
+    padding-top: 10px;
+    color: red;
+}
+.latest-div6 h4{
+    padding-left: 20px;
+    padding-top: 10px;
+    color: red;
+}
+
+.latest-div6 img{
+    width: 120px;
+    height: 110px;
+    position: relative;
+    left: 336px;
+    bottom: 92px;
+}
+
+.latest-div7 {
+    background: rgb(252, 213, 210);
+    display: grid;
+    grid-column: 2;
+    grid-row: 3;
+    height: 120px;
+}
+.latest-div7 img{
+    position: relative;
+    bottom: 85px;
+    left: 329px;
+    height: 120px;
+    width: 120px;
+    z-index: 0;
+}
+
+.latest-div7 h4{
+    color: red;
+    padding: 20px 0 10px 20px;
+}
+
+.latest-div7 a{
+    color: red;
+    padding-left: 20px;
+}
+
+.simpson {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/header-image-the-outer-worlds-516x270.png");
+    color: #FFFFFF;
+    height: 276px;
+    display: grid;
+    grid-column: 2;
+    grid-row: 2;
+    position: relative;
+}
+.simpson::before{
+    content: '';
+    position: absolute;
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3) 10%,
+      rgba(0, 0, 0, 1) 95%);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+}
+.simpson a{
+    color: #FFFFFF;
+    position: relative;
+    top: 80px;
+    font-size: 14px;
+    left: 20px;
+}
+.simpson small{
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+.simpson h2{
+    position: relative;
+    top: 120px;
+    left: 20px;
+}
+.wacom {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/1-5-796x417.jpg");
+    color: #FFFFFF;
+    height: 276px;
+    background-size: cover;
+    display: grid;
+    grid-column: 3;
+    grid-row: 2;
+    position: relative;
+    z-index: 0;
+}
+.wacom a{
+    color: #FFFFFF;
+    position: relative;
+    top: 70px;
+    left: 20px;
+}
+
+.wacom small{
+    color: #FFFFFF;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+
+.wacom h2{
+    color: #FFFFFF;
+    position: relative;
+    top: 90px;
+    left: 20px;
+}
+
+.wacom::before{
+    content: '';
+    position: absolute;
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 1) 95%);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+}
+.creativity {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/12/2017-07-30-07-28-00-1000x667-405x270.jpg");
+    background-size: cover;
+    height: 276px;
+    display: grid;
+    grid-column: 1;
+    grid-row: 2;
+    position: relative;
+}
+.creativity::before{
+    content: '';
+    position: absolute;
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 1) 95%);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+}
+.creativity a{
+    color: #FFFFFF;
+    position: relative;
+    top: 70px;
+    left: 20px;
+}
+
+.creativity h2{
+    color: #FFFFFF;
+    position: relative;
+    top: 80px;
+    left: 20px;
+}
+
+.creativity small{
+    color: #FFFFFF;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+
+.hacka {
+    background-image: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F08%2Fbitcoin_today-header_bitcoin_today.jpg&signature=b75eca35f42accc83310a4fa4e562088");
+    color: #FFFFFF;
+    height: 276px;
+    position: relative;
+}
+
+.hacka::before{
+    content: '';
+    position: absolute;
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 1) 95%);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+}
+
+.hacka a{
+    color: #FFFFFF;
+    position: relative;
+    top: 140px;
+    left: 20px;
+}
+
+.hacka h2{
+    position: relative;
+    top: 120px;
+    left: 20px;
+}
+
+.hacka small{
+    position: relative;
+    top: 160px;
+    left: 20px;
+}
+
+.insight {
+    background-image: url("https://img-cdn.tnwcdn.com/image?fit=600%2C336&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F06%2Fengineering-manager-gq.png&signature=f82fe12063e6b866a4ed5344df2dbd75");
+    color: #FFFFFF;
+    height: 276px;
+    position: relative;
+    z-index: 0;
+}
+
+.insight::before{
+    content: '';
+    position: absolute;
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 1) 95%);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+}
+
+.insight a{
+    color: #FFFFFF;
+    position: relative;
+    top: 140px;
+    left: 20px;
+}
+
+.insight h2{
+    position: relative;
+    top: 120px;
+    left: 20px;
+}
+
+.insight small{
+    position: relative;
+    top: 160px;
+    left: 20px;
+}
+
+.fb-class{
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Facebook-Discover-796x419.jpg");
+    color: #FFFFFF;
+    height: 276px;
+    position: relative;
+}
+
+.fb-class::before{
+    content: '';
+    position: absolute;
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 1) 95%);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+}
+
+.fb-class a{
+    color: #FFFFFF;
+    position: relative;
+    top: 120px;
+    left: 20px;
+}
+
+.fb-class h2{
+    position: relative;
+    top: 100px;
+    left: 20px;
+}
+
+<<<<<<< HEAD
 .apps-anch {
 display: grid;
 grid-template-rows: repeat(5, auto);
 padding: 0 40px 0 40px;
-
+=======
+.fb-class small{
+    position: relative;
+    top: 130px;
+    left: 20px;
 }
 
-.funding-img-cont,
+.iwatch{
+    background-image: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F06%2Fheader-image-apple-watch-band-bands.png&signature=e71f734a54cf45be7afa11767acb60fa");
+    color: #FFFFFF;
+    height: 276px;
+    position: relative;
+}
+
+.iwatch::before{
+    content: '';
+    position: absolute;
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 1) 95%);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+}
+
+.iwatch h2{
+    position: relative;
+    top: 100px;
+    left: 20px;
+}
+>>>>>>> d79fae132718deac74fef33d3520e7db94680d98
+
+.iwatch a{
+    color: #FFFFFF;
+    position: relative;
+    top: 120px;
+    left: 20px;
+}
+
+.iwatch small{
+    color: #FFFFFF;
+    position: relative;
+    top: 160px;
+    left: 20px;
+}
+
+.div-4-eight {
+    display: grid;
+    grid-template-rows: repeat(5, auto);
+    padding: 0 40px 0 40px;
+
+}
+.apps-anch{
+    display: grid;
+    grid-template-rows: repeat(5, auto);
+    padding: 15px 40px 0 40px; 
+}
+
 .top-img-div, 
 .top-img-caps, 
 .next-img-div, 
 .next-img-cap {
-display: grid;
-grid-template-columns: repeat(4, auto);
-column-gap: 20px;
-row-gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    column-gap: 20px;
+    row-gap: 20px;
 }
+
+.funding-img-cont{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    column-gap: 20px;
+    row-gap: 10px;
+    justify-content: space-between;
+}
+
+.one{
+    display: grid;
+    grid-column: 1;
+    margin-left: 60px;
+}
+
+.two{
+    display: grid;
+    grid-column: 2;
+}
+
+.three{
+    display: grid;
+    grid-column: 3;
+}
+
+.four{
+    display: grid;
+    grid-column: 4;
+    margin-right: 60px;
+}
+
 
 .top-img-div img,
 .next-img-div img, .apps-img {
@@ -242,6 +1141,7 @@ row-gap: 20px;
 
 .eight-grids{
     width: 100%;
+    margin-top: 40px;
 }
 
 .cont-main {
@@ -254,10 +1154,17 @@ row-gap: 20px;
     grid-template-columns: repeat(2, auto);
 }
 
-.funding-list, .apps, 
-.creative-cont, .launch-cont  {
+.funding-list, .launch-cont  {
     display: grid;
     grid-template-columns: repeat(3, auto);
+}
+
+.creative-cont{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-column-gap: 15px;
+    grid-row-gap: 20px;
 }
 
 .latest-img {
@@ -276,7 +1183,7 @@ row-gap: 20px;
 }
 
 .tnw-small {
- width:10px   
+    width:10px   
 }
 
 .footer-up-div *{
@@ -314,11 +1221,13 @@ padding:30px 0 20px 0;
 
 .footer-down-div {
     background-color: #131111;
+    text-align: center;
 }
 
 .footer-down-div span {
   color: #e7e3e3;
 }
+<<<<<<< HEAD
 
 @media only screen and (max-width: 768px){
     .bio-tnw-cont{
@@ -341,3 +1250,5 @@ padding:30px 0 20px 0;
             flex-direction: column;
         }
 }
+=======
+>>>>>>> d79fae132718deac74fef33d3520e7db94680d98
