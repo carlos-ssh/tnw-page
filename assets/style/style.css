@@ -49,6 +49,11 @@ a{
     width: 500px;
 }
 
+.eight-grids{
+    width: 100%;
+    justify-content: space-between;
+}
+
 .right-list {
     display: grid;
     grid-template-columns: repeat(4, auto);
@@ -350,12 +355,8 @@ position: absolute;
 
 .top-img-div{
     color: #000000;
-    display: grid;
-    grid-template-columns: repeat(4,auto);
-    grid-template-rows: repeat(2,auto);
-    margin: 0 35px 0 35px;
-    grid-gap: 20px 20px;
-    margin-bottom: 60px;
+    margin: 0 55px 0 55px;
+    width: 270px;
 }
 
 .top-header, .app-div {
@@ -390,6 +391,10 @@ position: absolute;
     font-size: 16px;
     padding: 60px 60px 0 0;
     color: #FF4422;
+}
+
+.red h4{
+    width: 270px;
 }
 
 .funding img{
@@ -1095,8 +1100,8 @@ position: absolute;
 .next-img-cap {
     display: grid;
     grid-template-columns: repeat(4, auto);
-    column-gap: 20px;
-    row-gap: 20px;
+    column-gap: 5px;
+    row-gap: 5px;
 }
 
 .funding-img-cont{
@@ -1129,6 +1134,16 @@ position: absolute;
     margin-right: 60px;
 }
 
+.micro-grav {
+    width: 270px;  
+    border: 3px solid red;
+}
+
+.micro-grav h4{
+    width: 270px;
+    
+}
+
 .top-img-div img,
 .next-img-div img, .apps-img {
     height: 210px;
@@ -1140,11 +1155,6 @@ position: absolute;
     width: 240px;
     height: 100px;
     
-}
-
-.eight-grids{
-    width: 100%;
-    margin-top: 40px;
 }
 
 .cont-main {
