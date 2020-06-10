@@ -21,7 +21,6 @@ a{
     color: #808080;
 }
 
-
 .white-nav li, .white-nav a {
     list-style-type: none;
     text-decoration-line: none;
@@ -58,12 +57,14 @@ width: 500px;
 
 .event-list, .bizlist {
     display: none;
+    
 }
 
 .event-drop:hover > .event-list, 
 .biz-drop:hover > .bizlist{
     display: block;
     background-color: black;
+    
 }
 
 #neural{
@@ -299,7 +300,7 @@ position: absolute;
     right: 0px;
     bottom: 80px;
     z-index: 0;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .left-art a{
@@ -360,6 +361,7 @@ position: absolute;
 .top-header, .app-div {
     display: grid;
     grid-template-rows: repeat(4,auto);
+    width: 100%;
 
 }
 
@@ -1143,8 +1145,9 @@ position: absolute;
 }
 
 .cont-main {
+    width: 100%;
     display: grid;
-    grid-template-rows: repeat(7, auto);
+    grid-template-rows: repeat(9, auto);
 }
 
 .funding-up,.latest-div{
@@ -1166,8 +1169,8 @@ position: absolute;
 }
 
 .latest-img {
-    height: 95px;
-    width: 95px;
+    width: 30px;
+    height: 90px;
 }
 
 .icon-cont {
