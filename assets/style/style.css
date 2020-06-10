@@ -1129,11 +1129,10 @@ position: absolute;
     margin-right: 60px;
 }
 
-
 .top-img-div img,
 .next-img-div img, .apps-img {
     height: 210px;
-    width: 100%;
+    width:270px;
 }
 
 .top-img-caps .img-clue,
@@ -1180,15 +1179,19 @@ position: absolute;
 .icon-cont {
     display: grid;
     grid-template-columns: repeat(7, auto);
+    position: relative;
+    bottom: 10px;
 }
 
 .list-container {
     display: grid;
     grid-template-columns: repeat(5, auto);
+    position: relative;
+    bottom: 20px;
 }
 
 .tnw-small {
-    width:10px   
+    width:50px   
 }
 
 .footer-up-div *{
@@ -1220,18 +1223,32 @@ padding:30px 0 20px 0;
 }
 
 .footer-up-div {
-    height: 120px;
-    background-color: #000000;
+    height: 100px;
+    background-color: #1f1d1d;
 }
 
 .footer-down-div {
-    background-color: #131111;
+    background-color: #070707;
     text-align: center;
+    height: 80px;
 }
 
 .footer-down-div span {
   color: #e7e3e3;
+  position: relative;
+  top: 35px;
 }
+
+.footer-down-div a {
+    color: #e9e3e3;
+}
+
+
+.footer-down-div b {
+    color:#c20606;
+}
+
+
 
 /*Media Queries*/
 
