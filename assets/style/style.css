@@ -10,6 +10,11 @@ body{
     overflow-x: hidden;
 }
 
+.top-header {
+    position: fixed;
+    z-index: 1;
+}
+
 a{
     text-decoration: none;
 }
@@ -52,6 +57,7 @@ a{
 
 .eight-grids{
     width: 100%;
+    margin-top: 40px;
 }
 
 .right-list {
@@ -173,6 +179,8 @@ position: absolute;
     display: grid;
     grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
     padding-left: 10px;
+    position: relative;
+    top: 90px;
 }
 
 .right-art{
@@ -353,7 +361,7 @@ position: absolute;
 }
 
 .news-latest {
-    margin-left: 55px;
+    margin-left: 105px;
 }
 
 .img-clue a{
@@ -368,6 +376,8 @@ position: absolute;
     margin: 0 55px 0 55px;
     width: 270px;
     gap: 20px;
+    position: relative;
+    left: 50px;
 }
 
 .top-header, .app-div {
@@ -1172,7 +1182,7 @@ position: absolute;
 .one{
     display: grid;
     grid-column: 1;
-    margin-left: 60px;
+    
 }
 
 .two{
@@ -1330,7 +1340,7 @@ padding:30px 0 20px 0;
 @media screen and (max-width: 1024px) and (min-width: 782px){
 
     .top-header{
-
+      display: none;
     }
 
     .top-nav {
@@ -1354,4 +1364,310 @@ padding:30px 0 20px 0;
         display: grid;
         grid-template-columns: repeat(4, auto);
     }
+
+
+
+
+
+    .small-header {
+        display: grid;
+        grid-template-rows:repeat(2,auto);
+        width: 100%;
+    }
+    
+    .small-top-bar {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        justify-content: space-between;
+        height: 80px;
+    }
+
+    .small-top-bar img {
+        width: 106px;
+        height: 80px;
+    }
+
+    .fas.fa-search.fa-3x, .fas.fa-bars.fa-3x{
+        padding: 20px;
+        border-left: 1px solid black;
+    }
+
+.yellow-bar {
+    background-color: #ffdd33;
+    width: 100%;
+}
+
+.yellow-bar h4 {
+    padding: 25px;
+    width: 100%;
+    position: relative;
+    left: 350px;
+    font-size: 15px;
+}
+
+.bio-tnw {
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap
+}
+
+.top-img-div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.right-art-bottom, 
+.left-art, .right-art-top {
+  padding:  0 ;
+  margin: 10px 0 10px 0;
+  width: 100%;
+}
+
+.eight-grids {
+    font-size: 18px;
+}
+
+.left-art {
+ height: 500px; 
+}
+
+.right-art-bottom, 
+.right-art-top{
+    height: 500px; 
+   }
+
+.right-art-top a, .right-art-bottom a {
+    bottom: 50px;
+    top: 250px;
+    left: 50px;
+}
+
+.micro-grav h4 {
+    position: relative;
+    left: 300px;
+    bottom: 210px;
+}
+
+   #cosmic-op {
+    position: relative;
+    left: 300px;
+    bottom: 210px;
+}
+
+.reddit-tag {
+    position: relative;
+    left: 300px;
+    bottom: 210px
+}
+
+.micro-grav span {
+    position: relative;
+    left: 110px;
+    bottom: 190px;
+}
+
+#rachael-2 {
+    position: relative;
+    left: 200px;
+    bottom: 190px;
+}
+
+#hours-22 {
+    left: 215px;
+}
+
+#rachael-1 {
+    left: 200px;
+}
+
+#mark-up {
+    left: 210px;
+}
+
+#rachael-3 {
+    left: 190px;
+}
+
+
+.funding-img-cont img {
+    position: relative;
+    left: 60px;
+}
+
+#matthew {
+    left: 160px;
+}
+
+.funding-img-cont,.funding, .apps
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+ 
+
+
+
+}
+
+
+
+
+@media screen and ( max-width: 782px ){
+.top-header {
+    display: none;
+}
+.small-header {
+    display: grid;
+    grid-template-rows:repeat(2,auto);
+    width: 100%;
+}
+
+.small-top-bar {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-between;
+    height: 80px;
+}
+
+.small-top-bar img {
+    width: 106px;
+    height: 80px;
+}
+
+.fas.fa-search.fa-3x, .fas.fa-bars.fa-3x{
+    padding: 20px;
+    border-left: 1px solid black;
+}
+
+.yellow-bar {
+background-color: #ffdd33;
+width: 100%;
+}
+
+.yellow-bar h4 {
+padding: 25px;
+width: 100%;
+position: relative;
+left: 50px;
+font-size: 15px;
+}
+
+.bio-tnw {
+top: 0;
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap
+}
+
+.top-img-div {
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+}
+
+.right-art-bottom, 
+.left-art, .right-art-top {
+padding:  0 ;
+margin: 10px 0 10px 0;
+width: 100%;
+}
+
+.eight-grids {
+font-size: 18px;
+}
+
+.left-art {
+height: 500px; 
+}
+
+.right-art-bottom, 
+.right-art-top{
+height: 500px; 
+}
+
+.right-art-top a, .right-art-bottom a {
+bottom: 50px;
+top: 250px;
+left: 50px;
+}
+
+.micro-grav h4 {
+position: relative;
+left: 300px;
+bottom: 210px;
+}
+
+#cosmic-op {
+position: relative;
+left: 300px;
+bottom: 210px;
+}
+
+.reddit-tag {
+position: relative;
+left: 300px;
+bottom: 210px
+}
+
+.micro-grav span {
+position: relative;
+left: 110px;
+bottom: 190px;
+}
+
+#rachael-2 {
+position: relative;
+left: 200px;
+bottom: 190px;
+}
+
+#hours-22 {
+left: 215px;
+}
+
+#rachael-1 {
+left: 200px;
+}
+
+#mark-up {
+left: 210px;
+}
+
+#rachael-3 {
+left: 190px;
+}
+
+
+.funding-img-cont img {
+position: relative;
+left: 60px;
+}
+
+#matthew {
+left: 160px;
+}
+
+.funding-img-cont,.funding, .apps
+{
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+}
+
+
+
+
+
+
+}
+
+
+@media screen and ( min-width: 1024px ) {
+.small-header {
+    display: none;
+}
 }
