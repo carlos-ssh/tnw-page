@@ -436,6 +436,10 @@ position: absolute;
     color: #f42;
 }
 
+.get-mail {
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+}
 
 .apps{
     display: grid;
@@ -1172,7 +1176,7 @@ position: absolute;
 .funding-img-cont{
     display: grid;
     grid-template-columns: repeat(4, auto);
-}
+    }
 
 .funding-img-cont  img {
     height: 300px;
@@ -1182,7 +1186,7 @@ position: absolute;
 .one{
     display: grid;
     grid-column: 1;
-    
+    margin-left: 60px;
 }
 
 .two{
@@ -1371,148 +1375,169 @@ padding:30px 0 20px 0;
 
     .small-header {
         display: grid;
-        grid-template-rows:repeat(2,auto);
-        width: 100%;
+        grid-template-rows: repeat(2, auto);
     }
-    
+
     .small-top-bar {
-        display: grid;
-        grid-template-columns: repeat(2, auto);
-        justify-content: space-between;
-        height: 80px;
+      display: grid;
+      grid-template-columns: repeat(2, auto);
+      justify-content: space-between;
+      width: 100%;
+      height: 100px;
     }
 
-    .small-top-bar img {
-        width: 106px;
-        height: 80px;
+
+    .fas.fa-search.fa-3x, .fas.fa-bars.fa-3x {
+        padding: 25px;
+        border-left: 1px solid #3f3c3c
     }
 
-    .fas.fa-search.fa-3x, .fas.fa-bars.fa-3x{
-        padding: 20px;
-        border-left: 1px solid black;
+    .fas.fa-bars.fa-3x {
+        color: red;
     }
 
 .yellow-bar {
-    background-color: #ffdd33;
-    width: 100%;
+ background-color: #ffdd33;
+ height: 100px;
 }
 
 .yellow-bar h4 {
-    padding: 25px;
-    width: 100%;
-    position: relative;
-    left: 350px;
-    font-size: 15px;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 10px;
+  padding: 25px;
+  
 }
 
 .bio-tnw {
-    top: 0;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+}
+
+.right-art-top, .right-art-bottom, .left-art {
+    width: 100%;
+    padding: 0px;
+    margin: 5px 0 5px 0;
+    height: 500px;
+    font-size: 40px;
+}
+
+.left-art h1, .left-art h4,
+.right-art-top a {
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.right-art-top a, .right-art-bottom a {
+    padding: 30px;
+    margin-top: 50px;
+    top: 200px;
 }
 
 .top-img-div {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    width: 750px;
+}
+
+.micro-grav, .red, .deals-cont {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.micro-grav2 {
+    padding-left: 20px;
+    width: 750px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.top-img-div img {
+height: 300px;
+width: 350px;
+}
+
+.funding {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
 }
 
-.right-art-bottom, 
-.left-art, .right-art-top {
-  padding:  0 ;
-  margin: 10px 0 10px 0;
-  width: 100%;
+.funding-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    left: 80px;
 }
 
-.eight-grids {
-    font-size: 18px;
+.funding-nav ul {
+  bottom: 40px;
 }
 
-.left-art {
- height: 500px; 
+.funding-list li, #fund-round {
+    padding: 5px;
+    font-size: 30px;
 }
 
-.right-art-bottom, 
-.right-art-top{
-    height: 500px; 
-   }
-
-.right-art-top a, .right-art-bottom a {
-    bottom: 50px;
-    top: 250px;
-    left: 50px;
+#fund-round {
+    padding: 5px;
+    font-size: 30px;
+    margin-left: 80px;
 }
 
-.micro-grav h4 {
-    position: relative;
-    left: 300px;
-    bottom: 210px;
+.get-mail {
+    border-left: none;
+    border-right: none;
 }
 
-   #cosmic-op {
-    position: relative;
-    left: 300px;
-    bottom: 210px;
+.one {
+    margin-left: 0;
 }
 
-.reddit-tag {
-    position: relative;
-    left: 300px;
-    bottom: 210px
-}
-
-.micro-grav span {
-    position: relative;
-    left: 110px;
-    bottom: 190px;
-}
-
-#rachael-2 {
-    position: relative;
-    left: 200px;
-    bottom: 190px;
-}
-
-#hours-22 {
-    left: 215px;
-}
-
-#rachael-1 {
-    left: 200px;
-}
-
-#mark-up {
-    left: 210px;
-}
-
-#rachael-3 {
-    left: 190px;
-}
-
-
-.funding-img-cont img {
-    position: relative;
-    left: 60px;
-}
-
-#matthew {
-    left: 160px;
-}
-
-.funding-img-cont,.funding, .apps
-{
+.funding-img-cont, .apps {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    padding-left: 40px;
 }
 
- 
-
-
-
+.footer-down-div {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
+.tnw-small {
+    width: 100px;
+}
+
+.footer-down-div span {
+    font-size: 30px;
+    background-color: black;
+}
+
+#one-img {
+    padding: 20px;
+    width: 100%;
+    height: 500px;
+}
+
+.info-txt-div, .reddit-div, .red-txt, .simpson, 
+.latest-div1,.wacom, .latest-div2, .latest-div3, 
+.creative-div, .launch-div, .deals-cont, .div-4-eigh{
+    width: 100%;
+}
+
+.deals-cont h4 {
+    font-size: 30px;
+}
+
+#latest-d {
+    margin-left: 105px;
+}
+
+}
 
 
 
@@ -1520,147 +1545,170 @@ padding:30px 0 20px 0;
 .top-header {
     display: none;
 }
+
 .small-header {
     display: grid;
-    grid-template-rows:repeat(2,auto);
-    width: 100%;
+    grid-template-rows: repeat(2, auto);
 }
 
 .small-top-bar {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    justify-content: space-between;
-    height: 80px;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
 }
 
-.small-top-bar img {
-    width: 106px;
-    height: 80px;
+
+.fas.fa-search.fa-3x, .fas.fa-bars.fa-3x {
+    padding: 25px;
+    border-left: 1px solid #3f3c3c
 }
 
-.fas.fa-search.fa-3x, .fas.fa-bars.fa-3x{
-    padding: 20px;
-    border-left: 1px solid black;
+.fas.fa-bars.fa-3x {
+    color: red;
 }
 
 .yellow-bar {
 background-color: #ffdd33;
-width: 100%;
+height: 100px;
 }
 
 .yellow-bar h4 {
+text-align: center;
+font-size: 30px;
+margin-top: 10px;
 padding: 25px;
-width: 100%;
-position: relative;
-left: 50px;
-font-size: 15px;
 }
 
 .bio-tnw {
-top: 0;
-display: flex;
-flex-direction: column;
-flex-wrap: nowrap
+    display: grid;
+    grid-template-columns: 1fr;
+    top:10px;
 }
 
-.top-img-div {
-display: flex;
-flex-direction: column;
-flex-wrap: nowrap;
+
+.right-art-top, .right-art-bottom, .left-art {
+    width: 100%;
+    padding: 0px;
+    margin: 5px 0 5px 0;
+    height: 500px;
+    font-size: 40px;
 }
 
-.right-art-bottom, 
-.left-art, .right-art-top {
-padding:  0 ;
-margin: 10px 0 10px 0;
-width: 100%;
-}
-
-.eight-grids {
-font-size: 18px;
-}
-
-.left-art {
-height: 500px; 
-}
-
-.right-art-bottom, 
-.right-art-top{
-height: 500px; 
+.left-art h1, .left-art h4,
+.right-art-top a {
+    font-size: 30px;
+    margin-left: 50px;
 }
 
 .right-art-top a, .right-art-bottom a {
-bottom: 50px;
-top: 250px;
-left: 50px;
+    padding: 30px;
+    margin-top: 50px;
+    top: 200px;
 }
 
-.micro-grav h4 {
-position: relative;
-left: 300px;
-bottom: 210px;
+.top-img-div {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    width: 750px;
 }
 
-#cosmic-op {
-position: relative;
-left: 300px;
-bottom: 210px;
-}
-
-.reddit-tag {
-position: relative;
-left: 300px;
-bottom: 210px
-}
-
-.micro-grav span {
-position: relative;
-left: 110px;
-bottom: 190px;
-}
-
-#rachael-2 {
-position: relative;
-left: 200px;
-bottom: 190px;
-}
-
-#hours-22 {
-left: 215px;
-}
-
-#rachael-1 {
-left: 200px;
-}
-
-#mark-up {
-left: 210px;
-}
-
-#rachael-3 {
-left: 190px;
+.micro-grav, .red, .deals-cont {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 
-.funding-img-cont img {
-position: relative;
-left: 60px;
+.micro-grav2 {
+    padding-left: 20px;
+    width: 750px;
+    font-size: 30px;
+    font-weight: 700;
 }
 
-#matthew {
-left: 160px;
+.top-img-div img {
+height: 300px;
+width: 350px;
 }
 
-.funding-img-cont,.funding, .apps
-{
-display: flex;
-flex-direction: column;
-flex-wrap: nowrap;
+.funding {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 
+.funding-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    left: 80px;
+}
 
+.funding-nav ul {
+  bottom: 40px;
+}
 
+.funding-list li, #fund-round {
+    padding: 5px;
+    font-size: 30px;
+}
 
+#fund-round {
+    padding: 5px;
+    font-size: 30px;
+    margin-left: 80px;
+}
+
+.get-mail {
+    border-left: none;
+    border-right: none;
+}
+
+.one {
+    margin-left: 0;
+}
+
+.funding-img-cont, .apps {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-left: 40px;
+}
+
+.footer-down-div {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.tnw-small {
+    width: 100px;
+}
+
+.footer-down-div span {
+    font-size: 30px;
+    background-color: black;
+}
+
+#one-img {
+    padding: 20px;
+    width: 100%;
+    height: 500px;
+}
+
+.info-txt-div, .reddit-div, .red-txt, .simpson, 
+.latest-div1,.wacom, .latest-div2, .latest-div3, 
+.creative-div, .launch-div, .deals-cont, .div-4-eigh{
+    width: 100%;
+}
+
+.deals-cont h4 {
+    font-size: 30px;
+}
+
+#latest-d {
+    margin-left: 105px;
+}
 
 
 }
