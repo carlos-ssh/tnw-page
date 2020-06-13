@@ -30,7 +30,7 @@ a{
 .white-nav li, .white-nav a {
     list-style-type: none;
     text-decoration-line: none;
-    font-size: 14px;
+    font-size: 13px;
     padding: 5px;
     color: #999595;
     line-height: 10px;
@@ -58,6 +58,7 @@ a{
 .eight-grids{
     width: 100%;
     margin-top: 40px;
+    position: relative;
 }
 
 .right-list {
@@ -120,6 +121,11 @@ position: absolute;
     padding-left: 20px;
     position: relative;
     width: 20px;
+    left: 20px;
+}
+
+.left-white-list #latest-d {
+    margin: 0;
 }
 
 .white-nav-img{
@@ -145,6 +151,13 @@ position: absolute;
     font-weight: 700;
 }
 
+#fund-round {
+    font-size: 30px;
+}
+
+.funding-list li {
+    font-size: 18px;
+}
 
 .white-nav .button:hover {
     background-color:#500d50; 
@@ -156,6 +169,15 @@ position: absolute;
 
 #latest {
     margin-left: 10px;
+}
+
+.funding-img-cont {
+   gap: 25px;
+}
+
+
+#one-img {
+   width: 100%;
 }
 
 .yellow a {
@@ -180,7 +202,7 @@ position: absolute;
     grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
     padding-left: 10px;
     position: relative;
-    top: 5px;
+    top: 90px;
 }
 
 .right-art{
@@ -358,10 +380,17 @@ position: absolute;
 
 .info-txt-div {
     width: 370px;
+    padding-right: 20px;
+}
+
+.info-txt-div small {
+font-size: 20px;
 }
 
 .news-latest {
-    margin-left: 105px;
+    font-size: 40px;
+    margin: 50px 0 0 20px;
+    position: relative;
 }
 
 .img-clue a{
@@ -371,13 +400,17 @@ position: absolute;
     text-justify: newspaper;
 }
 
+#latest-d {
+    font-size: 40px;
+    margin-left: 0px;
+}
+
 .top-img-div{
     color: #000000;
-    margin: 0 55px 0 55px;
     width: 270px;
     gap: 20px;
     position: relative;
-    left: 50px;
+    margin-left: 10px;
 }
 
 .top-header, .app-div {
@@ -419,12 +452,12 @@ position: absolute;
 .red h4{
     width: 270px;
 }
-#fund-round, #latest-d {
+#fund-round {
     margin-left: 60px;
 }
 
 #latest-d {
-    margin-left: 55px;
+    margin-left: 10px;
 }
 
 .funding img{
@@ -733,6 +766,15 @@ position: absolute;
     padding-left: 20px;
     padding-top: 10px;
     color: red;
+}
+
+.apps-anch  a {
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.micro-grav2 h4{
+font-size: 25px;
 }
 
 .latest-div4 {
@@ -1155,7 +1197,8 @@ position: absolute;
     display: grid;
     grid-template-rows: repeat(5, auto);
     padding: 0 40px 0 40px;
-
+    position: relative;
+    bottom: 30px;
 }
 .apps-anch{
     display: grid;
@@ -1173,6 +1216,12 @@ position: absolute;
     row-gap: 5px;
 }
 
+#latest-d a {
+    position: relative;
+    margin-top: 50px;
+    top: 30px
+}
+
 .funding-img-cont{
     display: grid;
     grid-template-columns: repeat(4, auto);
@@ -1186,7 +1235,7 @@ position: absolute;
 .one{
     display: grid;
     grid-column: 1;
-    margin-left: 60px;
+    margin-left: 10px;
 }
 
 .two{
@@ -1202,12 +1251,12 @@ position: absolute;
 .four{
     display: grid;
     grid-column: 4;
-    margin-right: 60px;
+    margin-right: 10px;
 }
 
 .micro-grav {
     width: 270px;  
-    
+    padding-right: 20px;
 }
 
 .micro-grav h4{
@@ -1297,6 +1346,10 @@ position: absolute;
     color: #f1ecec;
 }
 
+.deals-cont {
+    padding-right: 20px;
+}
+
 .icon-cont li {
     padding: 0 20px 0 20px;
     color: white;
@@ -1343,41 +1396,15 @@ padding:30px 0 20px 0;
 
 @media screen and (max-width: 1024px) and (min-width: 782px){
 
-    .top-header{
-      display: none;
+    .top-header {
+        display: none;
     }
-
-    .top-nav {
-        display: grid;
-        grid-template-columns: repeat(2, auto);
-        justify-content: space-between;
-        background-color: #1f1d1d;
-        width: 50%;
-        position: relative;
-    }
-    
-    .left-list {
-        display: grid;
-        grid-template-columns: repeat(6, auto);
-    }
-    
-    .left-list a{
-        padding: 0;
-    }
-    .right-list {
-        display: grid;
-        grid-template-columns: repeat(4, auto);
-    }
-
-
-
-
 
     .small-header {
         display: grid;
         grid-template-rows: repeat(2, auto);
     }
-
+    
     .small-top-bar {
       display: grid;
       grid-template-columns: repeat(2, auto);
@@ -1385,80 +1412,226 @@ padding:30px 0 20px 0;
       width: 100%;
       height: 100px;
     }
-
-
+    
+    
     .fas.fa-search.fa-3x, .fas.fa-bars.fa-3x {
         padding: 25px;
         border-left: 1px solid #3f3c3c
     }
-
+    
     .fas.fa-bars.fa-3x {
         color: red;
     }
+    
+    .yellow-bar {
+    background-color: #ffdd33;
+    height: 100px;
+    }
+    
+    .yellow-bar h4 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    padding: 25px;
+    }
+    
 
-.yellow-bar {
- background-color: #ffdd33;
- height: 100px;
+.bio-tnw{
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+    padding-left: 10px;
+    position: relative;
+    top: 5px;
 }
 
-.yellow-bar h4 {
-  text-align: center;
-  font-size: 30px;
-  margin-top: 10px;
-  padding: 25px;
+.right-art{
+    display: grid;
+    grid-template-rows: repeat(2,auto);
+}
+
+.right-art-top{
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Sprint_image.jpg");
+    background-size: cover;
+    width: 98%;
+    height: 40vh;
+    grid-row: 1;
+    position: relative;
+    margin: 5px 10px 10px 10px;
+}
+.right-art-top::before{
+    content: '';
+    position: absolute;
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3) 10%,
+      rgba(0, 0, 0, 1) 95%);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+}
+.right-art-top a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 30px;
+    position: relative;
+    top: 30px;
+    left: 10px;
+    line-height: 30px;
+    z-index: 0;
+}
+
+.right-art-bottom{
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/bmw-ix3-all-electric-car-suv-sav-shift-evs-796x448.jpg");
+    background-size: cover;
+    height: 40vh;
+    grid-row: 2;
+    position: relative;
+    margin: 0 0 10px 10px;
+}
+
+.right-art-bottom::before{
+    content: '';
+    position: absolute;
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3) 10%,
+      rgba(0, 0, 0, 1) 95%);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+}
+.right-art-bottom a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 32px;
+    position: relative;
+    top: 30px;
+    line-height: 35px;
+    z-index: 0;
+    display: block;
+    margin-left: 15px;
+    right: 5px;
+}
+.right-art-bottom {
+    width: 98%;
+}
+
+.left-art {
+    display: grid;
+    grid-template-rows: repeat(2,auto);
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/header-image-apple-own-arm-based-chips-796x417.png");
+    background-size: 100% 100%;
+    width: 100%;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #FFFFFF;
+    height: 82vh;
+    margin-top: 5px;
+    z-index: 0;
+    position: relative;
+}
+.left-art::before{
+    content: '';
+    position: absolute;
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3) 10%,
+      rgb(224, 108, 108) 95%);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+}
+
+.left-art img{
+    width: 60%;
+    height: 200px;
+    position: relative;
+    z-index: 0;
+    padding: 20px;
+    bottom: 20px;
+}
+
+.left-art p{
+    text-align: right;
+    height: 5px;
+    position: relative;
+    top: 500px;
+    right: 300px;
+    z-index: 0;
+}
+
+.left-art h1{
+    font-size: 35px;
+    position: relative;
+    z-index: 0;
+    padding: 20px;
+    bottom: 30px;
+}
+
+.left-art h4{
+    position: relative;
+    right: 0px;
+    bottom: 80px;
+    z-index: 0;
+    margin-left: 20px;
+}
+
+.left-art a{
+    text-decoration: none;
+    color: #FFFFFF;
   
 }
 
-.bio-tnw {
-    display: grid;
-    grid-template-columns: 1fr;
+.left-art-top, .left-art-down{
     width: 100%;
-    border-top: 5px;
+    height: 198px;
 }
 
-.right-art-top, .right-art-bottom, .left-art {
+.right-top-img {
     width: 100%;
-    padding: 0px;
-    margin: 5px 0 5px 0;
-    height: 500px;
-    font-size: 40px;
+    height: 198px;
 }
 
-.left-art h1, .left-art h4,
-.right-art-top a {
-    font-size: 30px;
-    margin-left: 50px;
+.right-bottom-img {
+    width: 100%;
+    height: 198px;
 }
 
-.right-art-top a, .right-art-bottom a {
-    padding: 30px;
-    margin-top: 50px;
-    top: 200px;
-}
 
 .top-img-div {
     display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px;
-    width: 750px;
+    grid-template-columns: repeat(2, auto);
+    gap: 5px;
+    top: 5px;
+    position: relative;
+    margin: 80px;
 }
 
-.micro-grav, .red, .deals-cont {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-
-.micro-grav2 {
-    padding-left: 20px;
-    width: 750px;
-    font-size: 30px;
-    font-weight: 700;
+.micro-grav, .red {
+    padding: 40px 20px 40px 20px;
+    width: 350px;
+    height: 310px;
+    margin-bottom: 80px;
 }
 
 .top-img-div img {
-height: 300px;
-width: 350px;
+    width: 350px;
+    height: 310px;
+}
+
+
+.micro-grav2  h4, .apps small {
+    font-size: 21px;
+}
+
+.news-latest {
+    margin-left: 120px;
+    font-size: 35px;
 }
 
 .funding {
@@ -1467,10 +1640,26 @@ width: 350px;
     flex-wrap: nowrap;
 }
 
+.apps-h1 h1{
+    font-size: 55px;
+    position: relative;
+    bottom: 30px;
+}
+
+#apps-h1 h1{
+    font-size: 55px;
+}
+
+.apps-anch a {
+    font-size: 30px;
+    line-height: 30px;
+}
+
 .funding-list {
     display: grid;
     grid-template-columns: 1fr;
-    left: 80px;
+    left: 40px;
+    margin-left: 40px;
 }
 
 .funding-nav ul {
@@ -1482,10 +1671,20 @@ width: 350px;
     font-size: 30px;
 }
 
+.funding {
+    position: relative;
+    bottom: 60px;
+}
+
 #fund-round {
     padding: 5px;
     font-size: 30px;
     margin-left: 80px;
+}
+
+.funding-img-cont {
+    position: relative;
+    bottom: 80px;
 }
 
 .get-mail {
@@ -1530,12 +1729,33 @@ width: 350px;
     width: 100%;
 }
 
+.div-4-eight {
+    padding: 0;
+}
+
+.deals-cont {
+    padding-right: 20px;
+}
+
+.deals-cont span {
+    font-size: 25px;
+    font-weight: 500;
+}
+
 .deals-cont h4 {
     font-size: 30px;
 }
 
-#latest-d {
-    margin-left: 105px;
+#latest-d  {
+    position: relative;
+    margin-left: 80px;
+    top: 40px;
+}
+
+.news-latest {
+    margin-top: 40px;
+    position: relative;
+    margin-left: 100px
 }
 
 }
@@ -1606,8 +1826,13 @@ padding: 25px;
 .right-art-top a, .right-art-bottom a {
     padding: 30px;
     margin-top: 50px;
-    top: 200px;
+    top: 150px;
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
 }
+
+
 
 .top-img-div {
     display: grid;
