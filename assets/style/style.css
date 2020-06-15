@@ -237,7 +237,7 @@ position: absolute;
 .right-art-top a{
     text-decoration: none;
     color: #FFFFFF;
-    font-size: 29px;
+    font-size: 25px;
     position: relative;
     top: 50px;
     left: 15px;
@@ -279,6 +279,7 @@ position: absolute;
     display: block;
     margin-left: 15px;
     right: 5px;
+    width: 450px;
 }
 
 .left-art {
@@ -289,7 +290,7 @@ position: absolute;
     width: 100%;
     font-family: Georgia, "Times New Roman", Times, serif;
     color: #FFFFFF;
-    height: 81.3vh;
+    height: 81.7vh;
     margin-top: 5px;
     z-index: 0;
     position: relative;
@@ -322,7 +323,6 @@ position: absolute;
     height: 5px;
     position: relative;
     top: 10px;
-    right: 50px;
     z-index: 0;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
@@ -428,7 +428,6 @@ font-size: 20px;
     display: grid;
     grid-template-rows: repeat(2,auto);
     width: 100vw;
-    border: 3px solid blue;
 }
 
 .footer-up-div {
@@ -1294,6 +1293,7 @@ font-size: 25px;
     width: 100%;
     display: grid;
     grid-template-rows: repeat(9, auto);
+    overflow-x: hidden;
 }
 
 .funding-up,.latest-div{
@@ -1333,7 +1333,6 @@ font-size: 25px;
     position: relative;
     bottom: 10px;
     width: 100vw;
-    border: 3px solid red;
 }
 
 .list-container {
@@ -1411,7 +1410,7 @@ font-size: 25px;
 /*Media Queries*/
 
 /*Medium Screen*/
-@media screen and (max-width: 1025px) and (min-width: 782px){
+@media screen and (max-width: 1215px) and (min-width: 782px){
 
 
     body{
@@ -1458,7 +1457,7 @@ font-size: 25px;
     
     .yellow-bar h4 {
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 10px;
     padding: 25px;
     }
@@ -1537,7 +1536,7 @@ font-size: 25px;
 .right-art-bottom a{
     text-decoration: none;
     color: #FFFFFF;
-    font-size: 32px;
+    font-size: 25px;
     position: relative;
     top: 30px;
     line-height: 35px;
@@ -1788,7 +1787,7 @@ font-size: 25px;
 
 .news-latest {
     position: relative;
-    top: 0;
+    top: 40px;
     margin-left: 100px;
 }
 
@@ -1833,12 +1832,12 @@ font-size: 25px;
 
 .yellow-bar {
 background-color: #ffdd33;
-height: 100px;
+height: 125px;
 }
 
 .yellow-bar h4 {
 text-align: center;
-font-size: 30px;
+font-size: 20px;
 margin-top: 10px;
 padding: 25px;
 }
@@ -1878,6 +1877,8 @@ padding: 25px;
 .eight-grids{
     width: 100%;
 }
+
+
 
 .top-img-div {
     display: grid;
@@ -1987,15 +1988,39 @@ padding: 25px;
 }
 
 /*Big Screen*/
-@media ( min-width: 1025px ) and (max-width: 1620px) {
+@media ( min-width: 1215px ) and (max-width: 1620px) {
 .small-header {
     display: none;
 }
 
-.eight-grids{
+.eight-grids {
     width: 100%;
-    margin:70px 0 40px 40px;
+    margin:70px 0 40px 0;
     position: relative;
+    left: 200px;
 }
+
+.right-art-top a {
+    font-size: 30px;
+ }
+
+}
+
+
+@media screen and (min-width: 1620px) {
+    .small-header {
+        display: none;
+    }
+    
+    .eight-grids{
+        width: 100%;
+        position: relative;
+        top: 30px;
+        left: 300px;
+    }
+    
+    .right-art-top a {
+    font-size: 30px;
+        }
 
 }
