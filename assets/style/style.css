@@ -1988,7 +1988,7 @@ padding: 25px;
 }
 
 /*Big Screen*/
-@media ( min-width: 1215px ) and (max-width: 1620px) {
+@media ( min-width: 1216px ) and (max-width: 1620px) {
 .small-header {
     display: none;
 }
