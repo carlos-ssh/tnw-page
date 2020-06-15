@@ -2,10 +2,11 @@
 *{
     margin: 0;
     padding: 0;
+
 }
 
 body{
-    width: 100%;
+    width: 100vw;
     font-family: Arial, Helvetica, sans-serif;
     overflow-x: hidden;
 }
@@ -41,6 +42,9 @@ a{
     margin-left: 10px;
 }
 
+.white-cont{
+    position: sticky;
+}
 
 .top-nav {
     display: grid;
@@ -55,11 +59,6 @@ a{
     width: 500px;
 }
 
-.eight-grids{
-    width: 100%;
-    margin-top: 40px;
-    position: relative;
-}
 
 .right-list {
     display: grid;
@@ -172,7 +171,9 @@ position: absolute;
 }
 
 .funding-img-cont {
-   gap: 25px;
+    gap: 25px;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
 
@@ -203,6 +204,7 @@ position: absolute;
     padding-left: 10px;
     position: relative;
     top: 90px;
+    width: 100vw;
 }
 
 .right-art{
@@ -213,11 +215,11 @@ position: absolute;
 .right-art-top{
     background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Sprint_image.jpg");
     background-size: cover;
-    width: 98%;
+    width: 100%;
     height: 40vh;
     grid-row: 1;
     position: relative;
-    margin: 5px 10px 10px 10px;
+    margin: 5px 5px 10px 10px;
 }
 .right-art-top::before{
     content: '';
@@ -235,7 +237,7 @@ position: absolute;
 .right-art-top a{
     text-decoration: none;
     color: #FFFFFF;
-    font-size: 32px;
+    font-size: 29px;
     position: relative;
     top: 50px;
     left: 15px;
@@ -247,6 +249,7 @@ position: absolute;
     background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/bmw-ix3-all-electric-car-suv-sav-shift-evs-796x448.jpg");
     background-size: cover;
     height: 40vh;
+    width: 100%;
     grid-row: 2;
     position: relative;
     margin: 0 0 10px 10px;
@@ -286,7 +289,7 @@ position: absolute;
     width: 100%;
     font-family: Georgia, "Times New Roman", Times, serif;
     color: #FFFFFF;
-    height: 82vh;
+    height: 81.3vh;
     margin-top: 5px;
     z-index: 0;
     position: relative;
@@ -318,9 +321,11 @@ position: absolute;
     text-align: right;
     height: 5px;
     position: relative;
-    top: 500px;
-    right: 300px;
+    top: 10px;
+    right: 50px;
     z-index: 0;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .left-art h1{
@@ -422,18 +427,21 @@ font-size: 20px;
 .footer-cont {
     display: grid;
     grid-template-rows: repeat(2,auto);
+    width: 100vw;
+    border: 3px solid blue;
 }
 
 .footer-up-div {
     display: grid;
     grid-template-rows: repeat(2,auto);
+    width: 100vw;
 }
 
 .funding{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 100%;
+    width: 95%;
     padding-bottom: 20px;
 }
 
@@ -503,6 +511,7 @@ font-size: 20px;
 
 .reddit-div{
     background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/reddit-argument-513x270.png");
+    background-size: cover;
     height: 270px;
     width: 360px;
     display: grid;
@@ -896,6 +905,7 @@ font-size: 25px;
 .simpson {
     background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/header-image-the-outer-worlds-516x270.png");
     color: #FFFFFF;
+    background-size: cover;
     height: 276px;
     display: grid;
     grid-column: 2;
@@ -1026,6 +1036,7 @@ font-size: 25px;
 .hacka {
     background-image: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F08%2Fbitcoin_today-header_bitcoin_today.jpg&signature=b75eca35f42accc83310a4fa4e562088");
     color: #FFFFFF;
+    background-size: cover;
     height: 276px;
     position: relative;
 }
@@ -1066,6 +1077,7 @@ font-size: 25px;
 .insight {
     background-image: url("https://img-cdn.tnwcdn.com/image?fit=600%2C336&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F06%2Fengineering-manager-gq.png&signature=f82fe12063e6b866a4ed5344df2dbd75");
     color: #FFFFFF;
+    background-size: cover;
     height: 276px;
     position: relative;
     z-index: 0;
@@ -1107,6 +1119,7 @@ font-size: 25px;
 .fb-class{
     background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Facebook-Discover-796x419.jpg");
     color: #FFFFFF;
+    background-size: cover;
     height: 276px;
     position: relative;
 }
@@ -1155,6 +1168,7 @@ font-size: 25px;
 .iwatch{
     background-image: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F06%2Fheader-image-apple-watch-band-bands.png&signature=e71f734a54cf45be7afa11767acb60fa");
     color: #FFFFFF;
+    background-size: cover;
     height: 276px;
     position: relative;
 }
@@ -1196,7 +1210,6 @@ font-size: 25px;
 .div-4-eight {
     display: grid;
     grid-template-rows: repeat(5, auto);
-    padding: 0 40px 0 40px;
     position: relative;
     bottom: 30px;
 }
@@ -1319,6 +1332,8 @@ font-size: 25px;
     grid-template-columns: repeat(7, auto);
     position: relative;
     bottom: 10px;
+    width: 100vw;
+    border: 3px solid red;
 }
 
 .list-container {
@@ -1356,7 +1371,8 @@ font-size: 25px;
 }
 
 .icon-div {
-padding:30px 0 20px 0;
+    padding: 30px 0 20px 0;
+    width: 100vw;
 }
 
 .signal-img {
@@ -1394,10 +1410,22 @@ padding:30px 0 20px 0;
 
 /*Media Queries*/
 
-@media screen and (max-width: 1024px) and (min-width: 782px){
+/*Medium Screen*/
+@media screen and (max-width: 1025px) and (min-width: 782px){
 
+
+    body{
+        width: 100%;
+    }
     .top-header {
         display: none;
+    }
+
+    .small-header{
+        position: fixed;
+        background-color: #FFFFFF;
+        z-index: 1;
+        width: 100%;
     }
 
     .small-header {
@@ -1438,10 +1466,11 @@ padding:30px 0 20px 0;
 
 .bio-tnw{
     display: grid;
+    width: 100%;
     grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
     padding-left: 10px;
     position: relative;
-    top: 5px;
+    top: 200px;
 }
 
 .right-art{
@@ -1485,7 +1514,8 @@ padding:30px 0 20px 0;
 .right-art-bottom{
     background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/bmw-ix3-all-electric-car-suv-sav-shift-evs-796x448.jpg");
     background-size: cover;
-    height: 40vh;
+    height: 40.7vh;
+    width: 100%;
     grid-row: 2;
     position: relative;
     margin: 0 0 10px 10px;
@@ -1515,9 +1545,6 @@ padding:30px 0 20px 0;
     display: block;
     margin-left: 15px;
     right: 5px;
-}
-.right-art-bottom {
-    width: 98%;
 }
 
 .left-art {
@@ -1602,6 +1629,12 @@ padding:30px 0 20px 0;
     height: 198px;
 }
 
+.eight-grids{
+    position: relative;
+    top: 150px;
+    margin-left: 80px;
+    margin-bottom: 230px;
+}
 
 .top-img-div {
     display: grid;
@@ -1613,10 +1646,8 @@ padding:30px 0 20px 0;
 }
 
 .micro-grav, .red {
-    padding: 40px 20px 40px 20px;
     width: 350px;
     height: 310px;
-    margin-bottom: 80px;
 }
 
 .top-img-div img {
@@ -1632,6 +1663,8 @@ padding:30px 0 20px 0;
 .news-latest {
     margin-left: 120px;
     font-size: 35px;
+    position: relative;
+    top: 115px;
 }
 
 .funding {
@@ -1715,6 +1748,7 @@ padding:30px 0 20px 0;
 .footer-down-div span {
     font-size: 30px;
     background-color: black;
+
 }
 
 #one-img {
@@ -1748,23 +1782,30 @@ padding:30px 0 20px 0;
 
 #latest-d  {
     position: relative;
-    margin-left: 80px;
+    margin-left: 75px;
     top: 40px;
 }
 
 .news-latest {
-    margin-top: 40px;
     position: relative;
-    margin-left: 100px
+    top: 0;
+    margin-left: 100px;
 }
 
 }
 
 
-
+ /*Small Screen*/
 @media screen and ( max-width: 782px ){
-.top-header {
+    .top-header {
     display: none;
+}
+
+.small-header{
+    position: fixed;
+    background-color: #FFFFFF;
+    z-index: 1;
+    width: 100%;
 }
 
 .small-header {
@@ -1806,6 +1847,8 @@ padding: 25px;
     display: grid;
     grid-template-columns: 1fr;
     top:10px;
+    margin-top: 190px;
+    z-index: 0;
 }
 
 
@@ -1832,7 +1875,9 @@ padding: 25px;
     line-height: 50px;
 }
 
-
+.eight-grids{
+    width: 100%;
+}
 
 .top-img-div {
     display: grid;
@@ -1849,14 +1894,14 @@ padding: 25px;
 
 .micro-grav2 {
     padding-left: 20px;
-    width: 750px;
+    width: 100%;
     font-size: 30px;
     font-weight: 700;
 }
 
-.top-img-div img {
-height: 300px;
-width: 350px;
+.top-img-div img{
+    height: 300px;
+    width: 350px;
 }
 
 .funding {
@@ -1905,6 +1950,7 @@ width: 350px;
 .footer-down-div {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
+    width: 100vw;
 }
 
 .tnw-small {
@@ -1914,11 +1960,12 @@ width: 350px;
 .footer-down-div span {
     font-size: 30px;
     background-color: black;
+    width: 100vw;
 }
 
 #one-img {
     padding: 20px;
-    width: 100%;
+    width: 95%;
     height: 500px;
 }
 
@@ -1933,15 +1980,22 @@ width: 350px;
 }
 
 #latest-d {
-    margin-left: 105px;
+    margin-left: 75px;
 }
 
 
 }
 
-
-@media screen and ( min-width: 1024px ) {
+/*Big Screen*/
+@media ( min-width: 1025px ) and (max-width: 1620px) {
 .small-header {
     display: none;
 }
+
+.eight-grids{
+    width: 100%;
+    margin:70px 0 40px 40px;
+    position: relative;
+}
+
 }
