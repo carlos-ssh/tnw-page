@@ -1393,7 +1393,7 @@ font-size: 25px;
 .right-art-top a{
     text-decoration: none;
     color: #FFFFFF;
-    font-size: 30px;
+    font-size: 20px;
     position: relative;
     top: 50px;
     left: 10px;
@@ -1410,6 +1410,9 @@ font-size: 25px;
     position: relative;
     margin: 0 0 10px 10px;
 }
+
+
+
 
 .right-art-bottom::before{
     content: '';
@@ -1471,15 +1474,14 @@ font-size: 25px;
     position: relative;
     z-index: 0;
     padding: 20px;
-    bottom: 20px;
 }
 
 .left-art p{
     text-align: right;
     height: 5px;
     position: relative;
-    top: 500px;
-    right: 300px;
+    top: 5px;
+    right: 50px;
     z-index: 0;
 }
 
@@ -1514,12 +1516,6 @@ font-size: 25px;
     width: 100%;
     height: 198px;
 }
-
-.right-bottom-img {
-    width: 100%;
-    height: 198px;
-}
-
 
 .div-extra {
     justify-self: start;
@@ -1805,6 +1801,21 @@ padding: 25px;
 .funding-img-cont {
  margin: 0 10px 0 10px;   
 }
+
+.red-txt, .latest-div1,.latest-div2,
+ .latest-div3, .latest-div4,
+ .latest-div5,.latest-div6, 
+ .latest-div7{
+    color: red;
+    background-color: rgb(252, 213, 210);
+    justify-items: end;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: start;
+    height: 120px;
+    width: 360px;
+}
+
 
 .right-art-top a, .right-art-bottom a {
     padding: 30px;
