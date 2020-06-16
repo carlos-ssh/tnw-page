@@ -1972,8 +1972,9 @@ padding: 25px;
 
 
 
-.right-art-top a {
+#stub-para {
     font-size: 30px;
+    width: 400px;
  }
 
 }
@@ -1991,8 +1992,9 @@ padding: 25px;
         left: 50px;
     }
     
-    .right-art-top a {
+    #stub-para {
     font-size: 30px;
+    width: 400px;
         }
 
 }
