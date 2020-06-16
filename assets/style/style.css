@@ -11,6 +11,8 @@ body{
     overflow-x: hidden;
 }
 
+
+
 .top-header {
     position: fixed;
     z-index: 1;
@@ -456,6 +458,7 @@ font-size: 20px;
     position: relative;
     left: 40px;
     margin-left: 40px;
+    line-height: 25px;
 }
 
 .red h4{
@@ -601,6 +604,8 @@ font-size: 20px;
     display: grid;
     grid-column: 1;
     grid-row: 4;
+    font-size: 12px;
+    line-height: 21px;
 }
 
 .ul-1 li{
@@ -614,12 +619,14 @@ font-size: 20px;
     display: grid;
     grid-column: 2;
     grid-row: 4;
-    padding-top: 5px; 
+    font-size: 12px;
+    line-height: 21px;
 }
 
 .ul-2 li{
     color: #f42;
     border-bottom: 1px solid grey;
+    margin: 7px 0 7px 0;
 }
 
 .ul-3 li{
@@ -679,23 +686,27 @@ font-size: 20px;
     display: grid;
     grid-column: 2;
     grid-row: 4;
-    padding-top: 5px; 
+    font-size: 12px;
+    line-height: 21px;
 }
 .ul-7 li{
     color: #f42;
     border-bottom: 1px solid grey;
+    margin: 7px 0 7px 0;
 }
 
 .ul-8{
     display: grid;
     grid-column: 1;
     grid-row: 4;
+    font-size: 12px;
+    line-height: 21px;
 }
 
 .ul-8 li{
     color: #f42;
     border-bottom: 1px solid rgba(180, 178, 178, 0.788);
-    margin: 5px 0 5px 0;
+    margin: 7px 0 7px 0;
     align-content: center;
 }
 
