@@ -367,7 +367,7 @@ position: absolute;
 }
 
  .info {
-    margin-left: 50px;
+    margin: 50px;
 }
 
 .info h1 {
@@ -1753,20 +1753,12 @@ font-size: 20px;
         background-color: #FFFFFF;
         z-index: 1;
         width: 100%;
-    }
-
-    .small-header {
-        display: grid;
         grid-template-rows: repeat(2, auto);
     }
 
     .small-top-bar {
-    display: grid;
-    grid-template-columns: 1fr;
-    top:10px;
-    margin-top: 190px;
-    z-index: 0;
-}
+        display: grid;
+    }
 
 .div-4-eight {
     right: 0px;
