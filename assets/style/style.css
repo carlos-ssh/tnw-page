@@ -273,13 +273,13 @@ position: absolute;
     color: #FFFFFF;
     font-size: 32px;
     position: relative;
-    top: 70px;
+    top: 40px;
     line-height: 35px;
     z-index: 0;
     display: block;
+    left: 10px;
     margin-left: 15px;
-    right: 5px;
-    width:450px;
+    width:300px;
 }
 
 .left-art {
@@ -455,6 +455,7 @@ font-size: 20px;
     color: #FF4422;
     position: relative;
     left: 40px;
+    margin-left: 40px;
 }
 
 .red h4{
@@ -489,6 +490,7 @@ font-size: 20px;
     margin: 0 20px 0 20px;
     justify-content: center
 }
+
 
 .apps-txt{
     display: grid;
@@ -563,30 +565,36 @@ font-size: 20px;
     color: #FFFFFF;
 }
 
-.red-txt{
+.red-txt, .latest-div1,.latest-div2,
+ .latest-div3, .latest-div4,
+ .latest-div5,.latest-div6, 
+ .latest-div7{
     color: red;
-    background: rgb(252, 213, 210);
+    background-color: rgb(252, 213, 210);
+    justify-items: end;
     display: grid;
-    grid-column: 1;
-    grid-row: 3;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
     height: 120px;
     width: 360px;
 }
-.red-txt h4{
-    margin: 10px;
-}
+
 .red-txt a{
     color: red;
-    margin: 10px;
     width: 200px;
 }
-.red-txt img{
-    position: relative;
-    left: 240px;
-    bottom: 112px;
+
+.latest-div4 a {
+    color: red;
+}
+
+.red-txt img, .latest-div1 img,
+.latest-div2 img, .latest-div3 img,
+.latest-div4 img,.latest-div5 img,
+ .latest-div6 img, .latest-div7 img {
     width: 120px;
     height: 120px;
-    z-index: 0;
+  
 }
 
 .ul-1{
@@ -691,168 +699,70 @@ font-size: 20px;
     align-content: center;
 }
 
-.latest-div1{
-    background: rgb(252, 213, 210);
-    display: grid;
-    grid-column: 2;
-    grid-row: 3;
-    height: 120px;
-    width: 360px;
-}
-.latest-div1 img{
-    position: relative;
-    bottom: 120px;
-    left: 240px;
-    height: 120px;
-    width: 120px;
-    z-index: 0;
-}
+
 .latest-div1 h4{
     color: red;
-    padding: 20px 0 10px 20px;
+    padding: 20px 0 10px 0;
 }
 .latest-div1 a{
-    color: red;
-    padding-left: 20px;
-    width: 200px;
-}
-
-.latest-div2{
-    display: grid;
-    grid-column: 3;
-    grid-row: 3;
-    color: red;
-    background: rgb(252, 213, 210);
-    height: 110px;
-    width: 360px;
-}
-
-.latest-div2 img{
-    width: 120px;
-    height: 110px;
-    position: relative;
-    left: 240px;
-    bottom: 120px;
-    }
-
-.latest-div2 a{
-    padding-left: 20px;
-    padding-top: 10px;
     color: red;
     width: 200px;
     position: relative;
     bottom: 10px;
 }
-.latest-div2 h4{
-    padding-left: 20px;
-    padding-top: 20px;
-}
-.latest-div3{
-    display: grid;
-    grid-column: 1;
-    grid-row: 7;
-    color: red;
-    background: rgb(252, 213, 210);
-    height: 110px;
-}
 
-.latest-div3 img{
-    width: 120px;
-    height: 110px;
+
+
+
+
+.latest-div2 a{
+    color: red;
+    width: 200px;
     position: relative;
-    left: 240px;
-    bottom: 93px;
+    
+}
+.latest-div2 h4{
+  padding-top: 20px;
 }
 
 .latest-div3 a{
-    padding-left: 20px;
     padding-top: 10px;
     color: red;
     width:200px;
 }
 
 .latest-div3 h4{
-    padding-left: 20px;
-    padding-top: 10px;
+   padding-top: 10px;
     color: red;
 }
 
 .apps-anch  a {
-    font-size: 25px;
-    line-height: 30px;
+    font-size: 20px;
+    line-height: 15px;
 }
 
 .micro-grav2 h4{
 font-size: 25px;
 }
 
-.latest-div4 {
-    display: grid;
-    grid-column: 3;
-    grid-row: 7;
-    background: rgb(252, 213, 210);
-    height: 110px;
-}
-
-.latest-div4 a{
-    padding-left: 20px;
-    padding-top: 10px;
-    color: red;
-    width:200px;
-}
 .latest-div4 h4{
-    padding-left: 20px;
-    padding-top: 10px;
+                       padding-top: 10px;
     color: red;
 }
 
-.latest-div4 img{
-    width: 120px;
-    height: 110px;
-    position: relative;
-    left: 240px;
-    bottom: 92px;
-}
-
-.latest-div5 {
-    display: grid;
-    grid-column: 3;
-    grid-row: 7;
-    background: rgb(252, 213, 210);
-    height: 110px;
-}
 
 .latest-div5 a{
-    padding-left: 20px;
     padding-top: 10px;
     color: red;
     width:200px;
 }
 .latest-div5 h4{
-    padding-left: 20px;
     padding-top: 10px;
     color: red;
 }
 
-.latest-div5 img{
-    width: 100px;
-    height: 110px;
-    position: relative;
-    left: 260px;
-    bottom: 93px;
-}
-
-.latest-div6 {
-    display: grid;
-    grid-column: 3;
-    grid-row: 7;
-    background: rgb(252, 213, 210);
-    height: 110px;
-}
-
 .latest-div6 a{
     font-size: 13px;
-    padding-left: 20px;
     padding-top: 10px;
     color: red;
     width:200px;
@@ -860,45 +770,23 @@ font-size: 25px;
     bottom: 5px;
 }
 .latest-div6 h4{
-    padding-left: 20px;
     padding-top: 10px;
     color: red;
 }
 
-.latest-div6 img{
-    width: 120px;
-    height: 110px;
-    position: relative;
-    left: 240px;
-    bottom: 98px;
-}
-
-.latest-div7 {
-    background: rgb(252, 213, 210);
-    display: grid;
-    grid-column: 2;
-    grid-row: 3;
-    height: 120px;
-}
-.latest-div7 img{
-    position: relative;
-    bottom: 93px;
-    left: 240px;
-    height: 120px;
-    width: 120px;
-    z-index: 0;
-}
-
 .latest-div7 h4{
     color: red;
-    padding: 20px 0 10px 20px;
+    padding: 20px 0 10px 0;
+    position: relative;
+    bottom: 5px;
 }
 
 .latest-div7 a {
     color: red;
-    padding-left: 20px;
-    width: 200px;
+    width: 240px;
     font-size: 13px;
+    position: relative;
+    bottom: 20px;
 }
 
 
@@ -1416,6 +1304,7 @@ font-size: 25px;
 
     body{
         width: 100%;
+        overflow-x: hidden;
     }
     .top-header {
         display: none;
@@ -1426,6 +1315,7 @@ font-size: 25px;
         background-color: #FFFFFF;
         z-index: 1;
         width: 100%;
+        overflow-x: hidden;
     }
 
     .small-header {
@@ -1630,11 +1520,37 @@ font-size: 25px;
     height: 198px;
 }
 
+
+.div-extra {
+    justify-self: start;
+    width: 200px;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.latest-div1 h4, .latest-div2 h4 {
+    color: red;
+    padding: 20px 0 10px 0;
+    position: relative;
+    bottom: 20px;
+}
+
+.latest-div4, .latest-div5, 
+.latest-div6, .latest-div7 {
+    width: 100%;
+}
+
+.latest-div2 a {
+    color: red;
+    width: 200px;
+    position: relative;
+    bottom: 30px;
+}
+
 .eight-grids{
     position: relative;
-    top: 150px;
     margin-left: 80px;
-    margin-bottom: 230px;
+    margin-bottom: 100px;
 }
 
 .top-img-div {
@@ -1649,13 +1565,13 @@ font-size: 25px;
 .micro-grav, .red {
     width: 350px;
     height: 310px;
+    margin-top: 170px;
 }
 
 .top-img-div img {
     width: 350px;
     height: 310px;
 }
-
 
 .micro-grav2  h4, .apps small {
     font-size: 21px;
@@ -1678,6 +1594,7 @@ font-size: 25px;
     font-size: 55px;
     position: relative;
     bottom: 30px;
+    width: 500px;
 }
 
 #apps-h1 h1{
@@ -1685,8 +1602,8 @@ font-size: 25px;
 }
 
 .apps-anch a {
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 40px;
+    line-height: 35px;
 }
 
 .funding-list {
@@ -1734,7 +1651,10 @@ font-size: 25px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    padding-left: 40px;
+    margin: 0;
+    overflow-x: hidden;
+    padding: 0 20px 0 20px;
+
 }
 
 .footer-down-div {
@@ -1753,7 +1673,7 @@ font-size: 25px;
 }
 
 #one-img {
-    padding: 20px;
+    padding: 0;
     width: 100%;
     height: 500px;
 }
@@ -1765,7 +1685,11 @@ font-size: 25px;
 }
 
 .div-4-eight {
-    padding: 0;
+    padding-right: 50px;
+}
+
+.fb-class h2, .fb-class h1, #apps-h1 h1 {
+    width: 500px;
 }
 
 .deals-cont {
@@ -1789,8 +1713,8 @@ font-size: 25px;
 
 .news-latest {
     position: relative;
-    top: 40px;
-    margin-left: 100px;
+    top: 250px;
+    margin-left: 80px;
 }
 
 }
@@ -1852,6 +1776,14 @@ padding: 25px;
     z-index: 0;
 }
 
+.div-4-eight {
+    right: 0px;
+    padding-left: 20px;
+    left: 0px
+}
+.cont-main {
+    overflow-x: hidden;
+}
 
 .right-art-top, .right-art-bottom, .left-art {
     width: 100%;
@@ -1861,10 +1793,17 @@ padding: 25px;
     font-size: 40px;
 }
 
-.left-art h1, .left-art h4,
+.left-art h1,
 .right-art-top a {
     font-size: 30px;
     margin-left: 50px;
+}
+.left-art h4 {
+    margin-left: 70px;
+}
+
+.funding-img-cont {
+ margin: 0 10px 0 10px;   
 }
 
 .right-art-top a, .right-art-bottom a {
@@ -1876,11 +1815,32 @@ padding: 25px;
     line-height: 50px;
 }
 
+.latest-div4, .latest-div5, 
+.latest-div6, .latest-div7 {
+    width: 100%;
+}
+
 .eight-grids{
     width: 100%;
 }
 
+.micro-grav2 h4 {
+    font-size: 20px;
+    width: 200px;
+}
 
+.info-txt-div {
+    padding-right: 0;
+}
+
+.right-art-bottom a {
+    top: 50px;
+    width: 500px
+}
+
+.apps {
+    margin: 0 10px 0 10px;
+}
 
 .top-img-div {
     display: grid;
@@ -1898,8 +1858,8 @@ padding: 25px;
 .micro-grav2 {
     padding-left: 20px;
     width: 100%;
-    font-size: 30px;
-    font-weight: 700;
+    font-size: 15px;
+    font-weight: 200;
 }
 
 .top-img-div img{
@@ -1947,7 +1907,15 @@ padding: 25px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    padding-left: 40px;
+}
+
+ .apps h1, .apps-anch {
+     width: 500px;
+}
+
+.apps-anch a {
+    font-size: 25px;
+    line-height: 25px;
 }
 
 .footer-down-div {
@@ -1967,7 +1935,6 @@ padding: 25px;
 }
 
 #one-img {
-    padding: 20px;
     width: 95%;
     height: 500px;
 }
@@ -1979,11 +1946,12 @@ padding: 25px;
 }
 
 .deals-cont h4 {
-    font-size: 30px;
+    font-size: 20px;
+    width: 200px;
 }
 
 #latest-d {
-    margin-left: 75px;
+    margin-left: 40px;
 }
 
 
@@ -1999,11 +1967,13 @@ padding: 25px;
     width: 100%;
     margin:70px 0 40px 0;
     position: relative;
-    left: 200px;
+    left: 50px;
 }
 
+
+
 .right-art-top a {
-    font-size: 35px;
+    font-size: 30px;
  }
 
 }
@@ -2018,11 +1988,11 @@ padding: 25px;
         width: 100%;
         position: relative;
         top: 30px;
-        left: 300px;
+        left: 50px;
     }
     
     .right-art-top a {
-    font-size: 43px;
+    font-size: 30px;
         }
 
 }
