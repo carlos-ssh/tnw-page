@@ -1306,10 +1306,17 @@ font-size: 20px;
 
 
 
-                                    /*Media Queries*/
+                 /*Media Queries*/
 
 /*Big Screen*/
-@media ( min-width: 1216px ) and (max-width: 1620px) {
+@media (max-width: 1440px) and (min-width: 1024px) {
+    
+    body{
+        font-size: 12px;
+    }
+    .white-nav{
+        font-size: 10px;
+    }
     .small-header {
         display: none;
     }
@@ -1325,30 +1332,40 @@ font-size: 20px;
         width: 400px;
      }
     
+    #one-img {
+        width: 100%;
+        height: auto;
+     }
+    
 }
     
-    
-@media screen and (min-width: 1620px) {
-        .small-header {
-            display: fixed;
-        }
+/*Big Screen*/
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    .small-header {
+        display: none;
+    }
         
-        .eight-grids{
-            width: 100%;
-            position: relative;
-            top: 30px;
-            left: 50px;
-        }
+    .eight-grids{
+        width: 100%;
+        position: relative;
+        top: 30px;
+        left: 50px;
+    }
         
-        #stub-para {
-            font-size: 30px;
-            width: 400px;
-        }
+    #stub-para {
+        font-size: 30px;
+        width: 400px;
+    }
+
+    #one-img {
+        width: 100%;
+        height: auto;
+    }
     
 }
 
 /*Medium Screen*/
-@media screen and (max-width: 1215px) and (min-width: 782px){
+@media screen and (max-width: 768px) and (min-width: 425px){
 
 
     body{
@@ -1751,11 +1768,16 @@ font-size: 20px;
         top: 40px;
     }
 
+    #one-img {
+        width: 80%;
+        height: auto;
+     }
+
 }
 
 
  /*Small Screen*/
-@media screen and ( max-width: 782px ){
+@media screen and ( max-width: 425px ) and (min-width: 375px){
     
     .top-header {
         display: none;
@@ -2020,9 +2042,9 @@ font-size: 20px;
     }
 
     #one-img {
-        width: 95%;
-        height: 500px;
-    }
+        width: 50%;
+        height: auto;
+     }
 
     .info-txt-div, .reddit-div, .red-txt, .simpson, 
     .latest-div1,.wacom, .latest-div2, .latest-div3, 
