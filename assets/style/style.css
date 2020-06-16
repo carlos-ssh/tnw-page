@@ -1410,7 +1410,7 @@ font-size: 25px;
 /*Media Queries*/
 
 /*Medium Screen*/
-@media screen and (max-width: 1215px) and (min-width: 782px){
+@media screen and (max-width: 1024px) and (min-width: 782px){
 
 
     body{
@@ -1988,7 +1988,7 @@ padding: 25px;
 }
 
 /*Big Screen*/
-@media ( min-width: 1216px ) and (max-width: 1620px) {
+@media ( min-width: 1025px ) and (max-width: 1620px) {
 .small-header {
     display: none;
 }
