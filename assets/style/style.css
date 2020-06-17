@@ -9,6 +9,7 @@ body{
     width: 100vw;
     font-family: Arial, Helvetica, sans-serif;
     overflow-x: hidden;
+    height:fit-content;
 }
 
 
@@ -400,6 +401,7 @@ font-size: 20px;
     font-size: 40px;
     margin: 50px 0 0 20px;
     position: relative;
+    top: 50px;
 }
 
 .img-clue a{
@@ -1306,38 +1308,8 @@ font-size: 20px;
 
 
 
-                 /*Media Queries*/
+   
 
-/*Big Screen*/
-@media (max-width: 1440px) and (min-width: 1024px) {
-    
-    body{
-        font-size: 12px;
-    }
-    .white-nav{
-        font-size: 10px;
-    }
-    .small-header {
-        display: none;
-    }
-    
-    .eight-grids {
-        width: 100%;
-        margin: 70px 0 40px 0;
-        position: relative;
-    }
- 
-    #stub-para {
-        font-size: 30px;
-        width: 400px;
-     }
-    
-    #one-img {
-        width: 100%;
-        height: auto;
-     }
-    
-}
     
 /*Big Screen*/
 @media screen and (max-width: 1024px) and (min-width: 768px){
@@ -1364,8 +1336,15 @@ font-size: 20px;
     
 }
 
+@media screen and (min-width: 1025px ) {
+
+    .small-header {
+        display: none;
+    }
+}
+
 /*Medium Screen*/
-@media screen and (max-width: 768px) and (min-width: 425px){
+@media screen and (max-width: 767px) and (min-width: 426px){
 
 
     body{
@@ -1422,7 +1401,7 @@ font-size: 20px;
 
     .bio-tnw{
         display: grid;
-        width: 100%;
+        width: 90%;
         grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
         padding-left: 10px;
         position: relative;
@@ -1544,8 +1523,8 @@ font-size: 20px;
         text-align: right;
         height: 5px;
         position: relative;
-        top: 500px;
-        right: 300px;
+        top: 30px;
+        right: 50px;
         z-index: 0;
     }
 
@@ -1615,20 +1594,31 @@ font-size: 20px;
 
     .eight-grids{
         position: relative;
-        margin: 170px 0 210px 205px;
+        margin: 100px 0 0 30px;
+    }
+    #sec-4-eight {
+        margin-top: 0;
+        bottom: 150px;
     }
 
     .top-img-div {
         display: grid;
         grid-template-columns: repeat(2, auto);
         gap: 5px;
-        top: 5px;
+        top: 10px;
         position: relative;
+        right: 50px;
+    }
+
+    .news-latest {
+        top: 50px;
+        margin-left: 0;
+        right: 60px;
     }
 
     .micro-grav, .red {
         width: 350px;
-        height: 310px;
+        height: 500px;
     }
 
     .top-img-div img {
@@ -1647,14 +1637,18 @@ font-size: 20px;
     }
 
     .apps-h1 h1{
-        font-size: 55px;
+        font-size: 40px;
         position: relative;
-        bottom: 30px;
+        bottom: 0;
         width: 500px;
+        right: 40px;
+        top: 30px;
     }
 
     #apps-h1 h1{
-        font-size: 55px;
+        font-size: 40px;
+        position: relative;
+        right: 40px;
     }
 
     .apps-anch a {
@@ -1680,21 +1674,29 @@ font-size: 20px;
 
     .funding {
         position: relative;
-        bottom: 60px;
+        bottom: 130px;
     }
+.funding-nav {
+  position: relative;
+  bottom: 40px;
+  top: 60px;
 
-    #fund-round {
+}
+   
+#fund-round {
         padding: 5px;
         font-size: 30px;
-        margin-left: 80px;
-    }
+        margin-left: 40px;
+        position: relative;
+        top: 80px;
+}
 
     .funding-img-cont {
         position: relative;
         bottom: 80px;
     }
 
-    .get-mail {
+   .get-mail {
         border-left: none;
         border-right: none;
     }
@@ -1703,14 +1705,27 @@ font-size: 20px;
         margin-left: 0;
     }
 
-    .funding-img-cont, .apps {
+    .funding-img-cont {
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
         margin: 0;
         overflow-x: hidden;
         padding: 0 20px 0 20px;
+        bottom: 100px;
+        position: relative;
 
+    }
+
+    .apps {
+       display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin: 0;
+        overflow-x: hidden;
+        padding: 0 20px 0 20px;
+        bottom: 200px;
+        position: relative;
     }
 
     .footer-down-div {
@@ -1737,9 +1752,21 @@ font-size: 20px;
     .info-txt-div, .reddit-div, .red-txt, .simpson, 
     .latest-div1,.wacom, .latest-div2, .latest-div3, 
     .creative-div, .launch-div, .deals-cont, .div-4-eigh{
-        width: 100%;
-        margin-top: 40px;
+        width: 98%;
+        margin-top: 0;
     }
+
+    .latest-div3 {
+        width: 100%;
+    }
+
+.div-extra a {
+    bottom: 20px;
+   }
+
+.reddit-div h1 {
+width: 500px;
+}
 
     .div-4-eight {
         padding-right: 50px;
@@ -1747,6 +1774,7 @@ font-size: 20px;
 
     .fb-class h2, .fb-class h1, #apps-h1 h1 {
         width: 500px;
+        top: 30px;
     }
 
     .deals-cont {
@@ -1764,20 +1792,26 @@ font-size: 20px;
 
     #latest-d  {
         position: relative;
-        margin-left: 75px;
-        top: 40px;
+        margin-left: 0;
+        top: 60px;
+        right: 60px;
     }
 
     #one-img {
-        width: 80%;
+        width: 98%;
         height: auto;
+        padding-bottom: 20px;
+     }
+
+     .footer-up-div {
+         height: 200px;
      }
 
 }
 
 
  /*Small Screen*/
-@media screen and ( max-width: 425px ) and (min-width: 375px){
+@media screen and ( max-width: 425px ){
     
     .top-header {
         display: none;
@@ -1793,23 +1827,26 @@ font-size: 20px;
 
     .small-top-bar {
         display: grid;
-    }
+       grid-template-columns: 1fr 1fr;
+       height: 80px;
+     }
+ 
+    .harmbug-menu { display: grid;
+     grid-template-columns: 1fr 1fr;
+     }
 
     .div-4-eight {
         right: 0px;
         padding-left: 20px;
         left: 0px
     }
-    .cont-main {
-        overflow-x: hidden;
-    }
-
-    .right-art-top, .right-art-bottom, .left-art {
+   
+   .right-art-bottom, .left-art {
         width: 100%;
         padding: 0px;
         margin: 5px 0 5px 0;
-        height: 500px;
-        font-size: 40px;
+        height: 300px;
+        font-size: 30px;
     }
 
     .left-art h1,
@@ -1819,6 +1856,12 @@ font-size: 20px;
     }
     .left-art h4 {
         margin-left: 70px;
+    }
+
+    .cont-main {
+        width: 100%;
+        height: auto;
+        overflow-x: hidden;
     }
 
     .funding-img-cont {
@@ -1837,6 +1880,7 @@ font-size: 20px;
         justify-items: start;
         height: 120px;
         width: 360px;
+        font-size: 14px;
     }
 
 
@@ -1853,12 +1897,12 @@ font-size: 20px;
     .latest-div6, .latest-div7 {
         grid-template-columns: repeat(2, auto);
         justify-content: space-between;
-        width: 100%;
-        height: 100px;
+        width: 75%;
+        height: 75%;
         }
 
     .fas.fa-search.fa-3x, .fas.fa-bars.fa-3x {
-        padding: 25px;
+        padding: 14px;
         border-left: 1px solid #3f3c3c
     }
 
@@ -1868,14 +1912,17 @@ font-size: 20px;
 
     .yellow-bar {
         background-color: #ffdd33;
-        height: 125px;
+        height: 100px;
     }
 
     .yellow-bar h4 {
         text-align: center;
         font-size: 20px;
-        margin-top: 10px;
         padding: 25px;
+    }
+
+    .small-top-bar img {
+        width: 80px;
     }
 
     .bio-tnw {
@@ -1913,37 +1960,54 @@ font-size: 20px;
         margin-left: 70px;
     }
 
-    .funding-img-cont {
-        margin: 0 10px 0 10px;   
+    .left-art p {
+        right: 250px;
     }
 
-    .right-art-top a, .right-art-bottom a {
+    .funding-img-cont {
+        margin: 0;
+        position: relative;
+        bottom: 100px;
+    }
+
+    .right-art-top a {
         padding: 30px;
         margin-top: 50px;
         top: 150px;
         display: block;
-        font-size: 50px;
-        line-height: 50px;
+        font-size: 30px;
+        width: 300px;
+        line-height: 30px;
+        left: 0;
+        margin-left:15px ;
+    }
+
+    .right-art-bottom a {
+        width: 350px;
+        padding: 0;
+        margin-top: 150px;
+        font-size: 30px;
+        line-height: 30px;
+        left: 0;
+        margin-left:25px;
+        top: 0;
     }
 
     .latest-div4, .latest-div5, 
     .latest-div6, .latest-div7 {
-        width: 100%;
+        width: 70%;
     }
 
     .micro-grav2 h4 {
-        font-size: 20px;
-        width: 200px;
+        font-size: 14px;
+        width: 140px;
     }
 
     .info-txt-div {
         padding-right: 0;
     }
 
-    .right-art-bottom a {
-        top: 50px;
-        width: 500px
-    }
+    
 
     .apps {
         margin: 0 10px 0 10px;
@@ -1964,14 +2028,18 @@ font-size: 20px;
 
     .micro-grav2 {
         padding-left: 20px;
-        width: 100%;
-        font-size: 15px;
+       font-size: 15px;
         font-weight: 200;
     }
 
     .top-img-div img{
-        height: 300px;
-        width: 350px;
+        height: 180px;
+        width: 170px;
+    }
+
+    .red {
+    width: 300px;
+    height: 200px;
     }
 
     .funding {
@@ -1979,6 +2047,12 @@ font-size: 20px;
         flex-direction: column;
         flex-wrap: nowrap;
     }
+.news-latest{
+    margin-left: 0px;
+    margin-top: 0px;
+    top: 50px;
+    right: 10px;
+}
 
     .funding-list {
         display: grid;
@@ -1998,8 +2072,17 @@ font-size: 20px;
     #fund-round {
         padding: 5px;
         font-size: 30px;
-        margin-left: 80px;
+        margin-left: 25px;
+        width: 550px;
+        font-size: 17px;
     }
+
+   
+.funding-nav {
+    position: relative;
+    bottom: 70px;
+    margin-left: 0;
+}
 
     .get-mail {
         border-left: none;
@@ -2016,11 +2099,56 @@ font-size: 20px;
         flex-wrap: nowrap;
     }
 
-    .apps h1, .apps-anch {
-        width: 500px;
+    
+   .apps h1, .apps-anch {
+        width: 300px;
     }
 
-    .apps-anch a {
+    #apps-h1 h1 {
+        position: relative;
+        top: 50px;
+        right: 50px;
+    }
+#latest-d {
+    margin-left: 0px;
+    position: relative;
+    top: 70px;
+    right: 10px;
+}
+
+.latest-div7 img {
+    height: 150px;
+}
+
+.apps-h1 h1  {
+    position: relative;
+    top: 50px;
+    width: 200px;
+    right: 50px;
+ }
+
+ .left-art img {
+    width: 250px;
+    padding: 5px;  
+    left: 0px;
+    padding-left: 30px;  
+ }
+#stub-para {
+    width: 350px;
+    top: 50px;
+    font-size: 30px;
+    left: 0px;
+}
+
+.left-art-down h1 {
+    width: 350px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.div-callum {font-size: 20px;}
+   
+.apps-anch a {
         font-size: 25px;
         line-height: 25px;
     }
@@ -2032,36 +2160,46 @@ font-size: 20px;
     }
 
     .tnw-small {
-        width: 100px;
+        width: 60px;
     }
 
+    
     .footer-down-div span {
-        font-size: 30px;
+        font-size: 20px;
         background-color: black;
         width: 100vw;
     }
 
     #one-img {
-        width: 50%;
+        width: 68%;
         height: auto;
+        padding: 10px;
      }
 
     .info-txt-div, .reddit-div, .red-txt, .simpson, 
     .latest-div1,.wacom, .latest-div2, .latest-div3, 
     .creative-div, .launch-div, .deals-cont, .div-4-eigh{
-        width: 100%;
+        width: 75%;
+    }
+
+    .div-extra {
+        width: 150px;
+        margin: 10px 0 0 10px;
+
+    }
+
+    .latest-img {
+        margin-left: 65px;
     }
 
     .deals-cont h4 {
+        position: relative;
         font-size: 20px;
-        width: 200px;
+        width: 120px;
+        right: 60px;
     }
 
-    #latest-d {
-        margin-left: 40px;
-    }
-
-    .eight-grids{
+ .eight-grids{
         margin: 0;
     }
 }
