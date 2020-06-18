@@ -389,9 +389,6 @@ a {
 
 .news-latest {
   font-size: 40px;
-  margin: 50px 0 0 20px;
-  position: relative;
-  top: 50px;
 }
 
 .img-clue a {
@@ -446,12 +443,8 @@ a {
   display: grid;
   font-size: 16px;
   grid-column: 2;
-  left: 40px;
   line-height: 25px;
   list-style: none;
-  margin-left: 40px;
-  padding: 60px 60px 0 0;
-  position: relative;
   width: 320px;
 }
 
@@ -1177,10 +1170,6 @@ a {
   grid-template-columns: repeat(3, auto);
 }
 
-.funding-list {
-  margin-right: 55px;
-}
-
 .creative-cont {
   display: grid;
   grid-template-columns: repeat(3, auto);
@@ -1373,6 +1362,623 @@ a {
       height: 100vh;
       grid-template-columns: repeat(3, minmax(110px, 1fr));
       grid-template-columns: 100%;
+      width: 97%;
+    }
+
+    .right-art {
+      display: grid;
+      grid-template-rows: repeat(2, auto);
+      position: relative;
+      right: 10px;
+      z-index: 0;
+    }    
+
+    .right-art-top {
+      background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Sprint_image.jpg");
+      background-size: cover;
+      grid-row: 1;
+    }
+
+    .right-art-top::before {
+      content: '';
+      position: absolute;
+      background: linear-gradient( to bottom, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 1) 95% );
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 0;
+    }
+
+    .right-art-top a {
+      color: hsl(0, 0%, 100%);
+      font-size: 1.7em;
+      left: 10px;
+      position: relative;
+      top: 160px;
+      line-height: 30px;
+      text-decoration: none;
+      z-index: 0;
+    }
+
+    .right-art-bottom {
+      background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/bmw-ix3-all-electric-car-suv-sav-shift-evs-796x448.jpg");
+      background-size: cover;
+      grid-row: 2;
+      height: 40.7vh;
+      margin: 0 0 10px 10px;
+      position: relative;
+     width: 100%;
+    }
+
+    .right-art-bottom::before {
+      background: linear-gradient( to bottom, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 1) 95% );
+      bottom: 0;
+      content: '';
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+      z-index: 0;
+    }
+
+    .right-art-bottom a {
+      color: #FFF;
+      display: block;
+      font-size: 1.8em;
+      line-height: 30px;
+      position: relative;
+      text-decoration: none;
+      top: 170px;
+      width: 90%;
+      z-index: 0;
+    }
+
+    .left-art {
+      background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/header-image-apple-own-arm-based-chips-796x417.png");
+      background-size: 100% 100%;
+      background-size: cover;
+      color: #FFFFFF;
+      display: grid;
+      font-family: Georgia, "Times New Roman", Times, serif;
+      grid-template-rows: repeat(2,auto);
+      height: auto;
+      width: 100%;
+      height: 290px;
+      z-index: 0;
+    }
+    
+    .div-callum{
+      position: relative;
+      bottom: 20px;
+    }
+
+    .left-art::before {
+      background: linear-gradient( to bottom, rgba(0, 0, 0, 0.3) 10%, rgb(224, 108, 108) 95% );
+      bottom: 0;
+      content: '';
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+      z-index: 0;
+    }
+
+    .left-art img { 
+      bottom: 20px;
+      height: 200px;
+      padding: 20px;
+      position: relative;
+      width: 60%;
+      z-index: 0;
+    }
+
+    .left-art p {
+      height: 5px;
+      position: relative;
+      right: 50px;
+      text-align: right;
+      top: 30px;
+      z-index: 0;
+    }
+
+    .left-art h4 {
+      font-size: 22px;
+      margin-top: 120px;
+    }
+
+    .div-callum{
+      position: relative;
+      left: 20px;
+    }
+  .left-art a {
+    text-decoration: none;
+    color: #FFF;
+  }
+
+  .left-art-top, 
+  .left-art-down {
+    height: 198px;
+    width: 100%;
+  }
+
+  .right-top-img {
+    height: 198px;
+    width: 100%;
+  }
+
+  .right-bottom-img {
+    height: 198px;
+    width: 100%;
+  }
+
+  .div-extra {
+    justify-self: start;
+    margin-top: 20px;
+    padding-left: 20px;
+    width: 200px;
+  }
+
+  .latest-div1 h4, 
+  .latest-div2 h4 {
+    bottom: 20px;
+    color: #ff0000;
+    padding: 20px 0 10px 0;
+    position: relative;
+  }
+
+
+  .latest-div4, 
+  .latest-div5, 
+  .latest-div6, 
+  .latest-div7 {
+    width: 100%;
+  }
+
+  .latest-div2 a {
+    bottom: 30px;
+    color: #ff0000;
+    position: relative;
+    width: 200px;
+  }
+
+  .funding-title-container {
+    width: 95%;
+    margin: 0 auto 30px auto;
+    color: #f42;
+    line-height: 2em;
+  }
+  
+  .funding-title {
+    font-size: 28px;
+  }
+  
+  .funding-list {
+    font-size: 14px;
+  }
+  
+  .funding-grid-container {
+    display: grid;
+    width: 95%;
+    margin: 0 auto;
+    gap: 20px;
+    grid-template-rows: repeat(4, auto);
+  }
+  
+  .funding-grid-items {
+    position: relative;
+  }
+  
+  .orange p,
+  .lightorange p {
+    padding-left: 100px;
+  }
+  
+  .smartlogo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 70px;
+  }
+  
+  .orange {
+    background-color: #f42;
+    height: 45px;
+  }
+  
+  .orange p {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 11px;
+  }
+  
+  .lightorange {
+    background-color: #ffebe7;
+    height: 59px;
+  }
+  
+  .lightorange p {
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 14px;
+  }
+  
+  .beige1 {
+    background-color: #fffaf8;
+    height: 80px;
+    border-bottom: 1px solid #f42;
+  }
+  
+  .beige1 p,
+  .beige2 p {
+    font-size: 13px;
+    padding-left: 15px;
+    padding-top: 13px;
+  }
+  
+  .beige2 {
+    background-color: #fffaf8;
+    height: 45px;
+  }
+  
+  .funding-grid-item4 {
+    display: none;
+  }
+
+  .funding-list li {
+    display: inline;
+    font-size: 16px;
+    padding: 0 8px;
+  }
+
+  .funding-grid-container {
+    grid-template-columns: repeat(1, auto);
+  }
+
+  #sec-4-eight {
+    bottom: 150px;
+    margin-top: 0;
+  }
+
+  .eight-grids{
+    margin: 300px 0 100px 0;
+    z-index: 0;
+  }
+  .eight-grids1 {
+    margin: -150px 0 0 0;
+    z-index: 0;
+  }
+
+  .top-img-div > .deals-cont img{
+    height: 80px;
+    width: 119px;
+    float: left;
+    margin-right: 17px;
+  }
+
+  .top-img-div > .deals-cont a{
+    color: rgb(75, 75, 75);
+  }
+
+  .top-img-div{
+    display: grid;
+    width: 95%;
+    gap: 14px;
+    margin: 80px auto 60px auto;
+  }
+
+  .top-img-div > .micro-grav img{
+    height: 80px;
+    width: 119px;
+    float: left;
+    margin-right: 17px;
+  }
+
+  .micro-grav, .deals-cont{
+    width: 100%;
+    height: 80px;
+    margin-bottom: 40px;
+  }
+
+  .funding-img-cont  img {
+    height: 80px;
+    width: 80px;
+  }
+
+  .news-latest {
+    color: #FF4422;
+    font-size: 28px;
+    font-weight: 700;
+  }
+ 
+  .red {
+    height: 500px;
+    width: 350px;
+  }
+
+  .top-img-div img {
+    height: 310px;
+    width: 350px;
+  }
+  
+  .funding {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+ 
+  .apps{
+    display: grid;
+    grid-template-rows: repeat(8, minmax(auto, 1fr));
+    width: 98%;
+    margin: 0;
+    gap: 20px;
+  }
+
+  .apps small {
+    font-size: 21px;
+  }
+  
+  .apps-h1 h4 {
+    bottom: 0;
+    font-size: 40px;
+    position: relative;
+    right: 40px;
+    top: 30px;
+    width: 500px;
+  }
+
+  .apps-anch a{
+    font-size: 14px;
+    color: rgb(97, 97, 97);
+  }
+
+  #apps-h1 h4,
+  #apps-h2 h4,
+  #apps-h3 h4, 
+  #apps-h4 h4,
+  #apps-h5 h4 {
+    font-size: 20px;
+    position: relative;
+    right: 40px;
+  }
+
+  .funding-list {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .funding-nav ul {
+    bottom: 40px;
+  }
+
+  .funding-list li{
+    font-size: 30px;
+    padding: 5px;
+  }
+
+  .funding {
+    bottom: 130px;
+    position: relative;
+    height: 80px;
+  }
+
+  .funding-nav ul{
+    color: #FF4422;
+    display: grid;
+    font-size: 12px;
+    line-height: 10px;
+    list-style: none;
+  } 
+  
+  .funding-list a{
+    font-size: 14px;
+  }
+
+    #fund-round {
+      font-size: 30px;
+      margin-left: 40px;
+      padding: 5px;
+      position: relative;
+      top: 80px;
+    }
+
+    .funding-img-cont {
+      bottom: 80px;
+      position: relative;
+    }
+
+
+    .one {
+      margin-left: 0;
+    }
+
+    .funding-img-cont {
+      bottom: 100px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      margin: 0;
+      overflow-x: hidden;
+      width: 97%;
+    }
+
+    .apps {
+      bottom: 200px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      margin-top: 80px;
+      overflow-x: hidden;
+      padding: 0 20px 0 20px;
+      position: relative;
+    }
+
+    .info1{
+      margin: 20px 20px 20px 0;
+      color: #FF4422;
+    }
+
+    .info1 a{
+      color: #FF4422;
+    }
+
+    .info0 a{
+      color: #FF4422;
+      font-size: 25px;
+      font-weight: 700;
+      text-decoration: none;
+      margin-bottom: 20px;
+    }
+    
+    .info0 a:hover {
+      color:  #FF4422;
+      font-size: 25px;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .footer-down-div {
+      display: grid;
+      grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .tnw-small {
+      width: 50px;
+    }
+
+    .footer-down-div span {
+      background-color: black;
+      font-size: 14px;
+    }
+
+    #one-img {
+      height: 500px;
+      padding: 0;
+      width: 100%;
+    }
+
+    .info-txt-div, 
+    .reddit-div, 
+    .red-txt, 
+    .simpson, 
+    .latest-div1,
+    .wacom,
+    .latest-div2, 
+    .latest-div3, 
+    .creative-div, 
+    .launch-div, 
+    .deals-cont, 
+    .div-4-eigh{
+      margin-top: 0;
+      width: 98%;
+    }
+
+    .latest-div3 {
+      width: 100%;
+    }
+
+
+    .reddit-div h4 {
+      width: 500px;
+    }
+
+    .div-4-eight {
+      padding-right: 50px;
+    }
+
+    .fb-class h2,
+    .fb-class h4, 
+    #apps-h1 h4,
+     #apps-h2 h4,
+     #apps-h3 h4,
+     #apps-h4 h4,
+     #apps-h5 h4 {
+      top: 30px;
+      width: 500px;
+    }
+
+    #one-img {
+      width: 98%;
+      height: auto;
+      padding-bottom: 20px;
+    }
+
+    .footer-up-div {
+      height: 100px;
+    }
+    .list-container {
+      display: grid;
+      grid-template-columns: repeat(5, auto);
+
+    }
+}
+
+
+ /*Small Screen*/
+@media screen and ( max-width: 425px  ) and ( min-width: 326px ){
+
+    body {
+      width: 100vw;
+      padding: 0;
+    }
+
+    .top-header {
+      display: none;
+    }
+
+    .small-header {
+      background-color: #FFF;
+      overflow-x: hidden;
+      position: fixed;
+      width: 100vw;
+      z-index: 1;
+    }
+
+    .small-header {
+      display: grid;
+      grid-template-rows: repeat(2, auto);
+    }
+
+    .small-top-bar {
+      display: grid;
+      grid-template-columns: repeat(2, auto);
+      height: 100px;
+      justify-content: space-between;
+      width: 100%;
+    }
+
+    .fas.fa-search.fa-3x, 
+    .fas.fa-bars.fa-3x {
+      border-left: 1px solid #3f3c3c;
+      padding: 25px;
+    }
+    
+    .fas, .fa-bars, .fa-3x {
+      color: #dd1111;
+    }
+    
+    .yellow-bar {
+      background-color: #ffdd33;
+      height: 40px;
+    }
+
+    .yellow-bar h4 {
+      font-size: 11px;
+      padding-top: 15px;  
+      text-align: center;
+    }
+
+    .tnwlog, .left-art-top {
+      display: none;
+    }
+
+    .bio-tnw {
+      display: grid;
+      height: 100vh;
+      grid-template-columns: repeat(3, minmax(110px, 1fr));
+      grid-template-columns: 100%;
       width: 100%;
     }
 
@@ -1383,6 +1989,12 @@ a {
       right: 10px;
       z-index: 0;
     }    
+
+    .right-art-top h4{
+      font-size: 1em;
+      margin: 120px 2px 0 0px;
+      padding: 0 45px 0 5px;
+    }
 
     .right-art-top {
       background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Sprint_image.jpg");
@@ -1494,8 +2106,9 @@ a {
     }
 
     .left-art h4 {
-      font-size: 22px;
-      margin-top: 120px;
+      font-size: 1em;
+      margin: 120px 20px 0 0px;
+      padding: 0 45px 0 5px;
     }
 
     .div-callum{
@@ -1940,440 +2553,6 @@ a {
       grid-template-columns: repeat(5, auto);
 
     }
-}
-
-
- /*Small Screen*/
-
-@media screen and ( max-width: 425px ){
-    
-    .top-header {
-      display: none;
-    }
-
-    .small-header{
-      background-color: #FFF;
-      grid-template-rows: repeat(2, auto);
-      position: fixed;
-      width: 100%;
-      z-index: 1;
-    }
-
-    .small-top-bar {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      height: 80px;
-     }
- 
-    .harmbug-menu { 
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-    }
-
-    .div-4-eight {
-      left: 0px;
-      padding-left: 20px;
-      right: 0px;
-    }
-   
-   .right-art-bottom, 
-   .left-art {
-      font-size: 30px;
-      height: 300px;
-      margin: 5px 0 5px 0;
-      padding: 0px;
-      width: 100%;
-    }
-
-    .left-art h4,
-    .right-art-top a {
-      font-size: 30px;
-      margin-left: 50px;
-    }
-
-    .left-art h4 {
-      margin-left: 70px;
-    }
-
-    .cont-main {
-      width: 100%;
-      height: auto;
-      overflow-x: hidden;
-    }
-
-    .funding-img-cont {
-      margin: 0 10px 0 10px;   
-    }
-
-    .red-txt, 
-    .latest-div1,
-    .latest-div2,
-    .latest-div3, 
-    .latest-div4,
-    .latest-div5,
-    .latest-div6, 
-    .latest-div7 {
-      background-color: rgb(252, 213, 210);
-      color: #ff0000;
-      display: grid;
-      font-size: 14px;
-      grid-template-columns: 1fr 1fr;
-      height: 120px;
-      justify-items: end;
-      justify-items: start;
-      width: 360px;
-    }
-    
-    .right-art-top a, .right-art-bottom a {
-      padding: 30px;
-      margin-top: 50px;
-      top: 150px;
-      display: block;
-      font-size: 50px;
-      line-height: 50px;
-    }
-
-    .latest-div4, 
-    .latest-div5, 
-    .latest-div6, 
-    .latest-div7 {
-      grid-template-columns: repeat(2, auto);
-      justify-content: space-between;
-      width: 75%;
-      height: 75%;
-    }
-
-    .fas.fa-search.fa-3x, 
-    .fas.fa-bars.fa-3x {
-      padding: 14px;
-      border-left: 1px solid #3f3c3c;
-    }
-
-    .fas.fa-bars.fa-3x {
-      color: #ff0000;
-    }
-
-    .yellow-bar {
-      background-color: #ffdd33;
-      height: 100px;
-    }
-
-    .yellow-bar h4 {
-      font-size: 20px;
-      padding: 25px;
-      text-align: center;
-    }
-
-    .small-top-bar img {
-      width: 80px;
-    }
-
-    .bio-tnw {
-      display: grid;
-      grid-template-columns: 1fr;
-      margin-top: 190px;
-      top:10px;
-      z-index: 0;
-    }
-
-    .div-4-eight {
-      left: 0px;
-      padding-left: 20px;
-      right: 0px;
-    }
-    
-    .cont-main {
-      overflow-x: hidden;
-    }
-
-    .right-art-top,
-    .right-art-bottom, 
-    .left-art {
-      width: 100%;
-      padding: 0px;
-      margin: 5px 0 5px 0;
-      height: 500px;
-      font-size: 40px;
-    }
-
-    .left-art h1,
-    .right-art-top a {
-      font-size: 30px;
-      margin-left: 50px;
-    }
-
-    .left-art h4 {
-      margin-left: 70px;
-    }
-
-    .left-art p {
-      right: 250px;
-    }
-
-    .funding-img-cont {
-      bottom: 100px;
-      margin: 0;
-      position: relative;
-    }
-
-    .right-art-top a {
-      display: block;
-      font-size: 30px;
-      left: 0;
-      line-height: 30px;
-      margin-left:15px ;
-      margin-top: 50px;
-      padding: 30px;
-      top: 150px;
-      width: 300px;
-    }
-
-    .right-art-bottom a {
-      font-size: 30px;
-      left: 0;
-      line-height: 30px;
-      margin-left:25px;
-      margin-top: 150px;
-      padding: 0;
-      top: 0;
-      width: 350px;
-    }
-
-    .latest-div4, 
-    .latest-div5, 
-    .latest-div6, 
-    .latest-div7 {
-      width: 70%;
-    }
-
-    .micro-grav2 h4 {
-      font-size: 14px;
-      width: 140px;
-    }
-
-    .info-txt-div {
-      padding-right: 0;
-    }
-    
-    .apps {
-      margin: 0 10px 0 10px;
-    }
-
-    .top-img-div {
-      display: grid;
-      gap: 20px;
-      grid-template-columns: 1fr;
-      width: 750px;
-    }
-
-    .micro-grav, 
-    .red, 
-    .deals-cont {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-    }
-
-    .micro-grav2 {
-      font-size: 15px;
-      font-weight: 200;
-      padding-left: 20px;
-    }
-
-    .top-img-div img {
-      height: 180px;
-      width: 170px;
-    }
-
-    .red {
-      height: 200px;
-      width: 300px;
-    }
-
-    .funding {
-      display: flex;
-      flex-direction: column;
-      flex-wrap: nowrap;
-    }
-   
-    .news-latest{
-      margin-left: 0px;
-      margin-top: 0px;
-      right: 10px;
-      top: 50px;
-    }
-
-    .funding-list {
-      display: grid;
-      grid-template-columns: 1fr;
-      left: 80px;
-    }
-
-    .funding-nav ul {
-      bottom: 40px;
-    }
-
-    .funding-list li,
-     #fund-round {
-      padding: 5px;
-      font-size: 30px;
-    }
-
-    #fund-round {
-      font-size: 17px;
-      font-size: 30px;
-      margin-left: 25px;
-      padding: 5px;
-      width: 550px;
-    }
-
-    .funding-nav {
-      bottom: 70px;
-      margin-left: 0;
-      position: relative;
-    }
-
-
-    .one {
-      margin-left: 0;
-    }
-
-    .funding-img-cont, 
-    .apps {
-      display: flex;
-      flex-direction: column;
-      flex-wrap: nowrap;
-    }
-    
-    .apps h1, .apps-anch {
-      width: 300px;
-      padding: 15px 40px 0 0;
-    }
-
-   .red-txt{
-    background-color: rgb(252, 213, 210);
-    color: red;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: 120px;
-    justify-content: space-between;
-    justify-items: end;
-   }
-   .div-extra h4{
-     margin-bottom: 8px;
-   }
-
-    #apps-h1 h4, 
-    #apps-h2 h4, 
-    #apps-h3 h4,
-     #apps-h4 h4,
-    #apps-h5 h4 {
-      position: relative;
-      right: 50px;
-      top: 50px;
-    }
-    
-    #latest-d {
-      margin-left: 0px;
-      position: relative;
-      right: 10px;
-      top: 70px;
-    }
-    
-    .latest-div7 img {
-      height: 150px;
-    }
-    
-    .apps-h1 h4  {
-      position: relative;
-      right: 50px;
-      top: 50px;
-      width: 200px;
-    }
-    
-    .left-art img {
-      left: 0px;
-      padding-left: 30px;  
-      padding: 5px;  
-      width: 250px;
-    }
-    
-    #stub-para {
-      font-size: 30px;
-      left: 0px;
-      top: 50px;
-      width: 350px;
-    }
-    
-    .left-art-down h4 {
-      font-size: 20px;
-      margin-left: 30px;
-      width: 350px;
-    }
-    
-    .div-callum {
-      font-size: 20px;
-    }
-    
-    .apps-anch a {
-      font-size: 25px;
-      line-height: 25px;
-    }
-
-    .footer-down-div {
-      display: grid;
-      grid-template-rows: 1fr 1fr 1fr;
-      width: 100vw;
-    }
-    
-    .tnw-small {
-      width: 60px;
-    }
-    
-    .footer-down-div span {
-      background-color: black;
-      font-size: 20px;
-      width: 100vw;
-    }
-    
-    #one-img {
-      height: auto;
-      padding: 10px;
-      width: 68%;
-    }
-    
-    .info-txt-div,
-     .reddit-div, 
-     .red-txt, 
-     .simpson, 
-    .latest-div1,
-    .wacom, 
-    .latest-div2, 
-    .latest-div3, 
-    .creative-div, 
-    .launch-div, 
-    .deals-cont, 
-    .div-4-eigh{
-      width: 75%;
-    }
-    
-    .div-extra {
-      width: 150px;
-      margin: 10px 0 0 10px;
-    }
-
-    .latest-img {
-      margin-left: 65px;
-    }
-
-    .deals-cont h4 {
-      position: relative;
-      font-size: 20px;
-      width: 120px;
-      right: 60px;
-    }
-    
-    .eight-grids {
-      margin: 0;
-    }
-}
-
+}   
+  
+  
