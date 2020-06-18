@@ -1979,7 +1979,7 @@ a {
       height: 100vh;
       grid-template-columns: repeat(3, minmax(110px, 1fr));
       grid-template-columns: 100%;
-      width: 100%;
+      width: 80%;
     }
 
     .right-art {
@@ -2001,7 +2001,6 @@ a {
       background-size: cover;
       grid-row: 1;
       height: 217px;
-      width:  100vw;
     }
 
     .right-art-top::before {
@@ -2017,7 +2016,7 @@ a {
 
     .right-art-top a {
       color: #FFFFFF;
-      font-size: 20px;
+      font-size: 1.3em;
       left: 10px;
       position: relative;
       top: 130px;
@@ -2029,10 +2028,10 @@ a {
       background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/bmw-ix3-all-electric-car-suv-sav-shift-evs-796x448.jpg");
       background-size: cover;
       grid-row: 2;
-      height: 40.7vh;
+      height: 217px;
       margin: 0 0 10px 10px;
       position: relative;
-     width: 100%;
+      width: 100%;
     }
 
     .right-art-bottom::before {
@@ -2053,7 +2052,7 @@ a {
       line-height: 25px;
       position: relative;
       text-decoration: none;
-      top: 170px;
+      top: 150px;
       width: 95%;
       z-index: 0;
     }
@@ -2266,12 +2265,14 @@ a {
   }
 
   .eight-grids{
-    margin: 300px 0 100px 0;
+    margin: 160px 0 100px 0;
     z-index: 0;
+    width: 80%;
   }
   .eight-grids1 {
     margin: -150px 0 0 0;
     z-index: 0;
+    width: 80%;
   }
 
   .top-img-div > .deals-cont img{
@@ -2289,23 +2290,34 @@ a {
     display: grid;
     width: 95%;
     gap: 14px;
-    margin: 80px auto 60px auto;
+    margin: 30px auto 60px auto;
+  }
+
+  .micro-grav > .micro-grav2 h4{
+    font-size: 0.8em;
+  }
+
+  .micro-grav > .micro-grav2 > .cosmic-op{
+    font-size: 0.6em;
+  }
+
+  .micro-grav > .micro-grav2 > #hours-3{
+    font-size: 0.6em;
   }
 
   .top-img-div > .micro-grav img{
     height: 80px;
     width: 119px;
     float: left;
-    margin-right: 17px;
+    margin-right: 10px;
   }
 
   .micro-grav, .deals-cont{
     width: 100%;
     height: 80px;
-    margin-bottom: 40px;
   }
 
-  .funding-img-cont  img {
+  .funding-img-cont  img{
     height: 80px;
     width: 80px;
   }
@@ -2326,10 +2338,6 @@ a {
     width: 350px;
   }
  
-  .info{
-    position: relative;
-    bottom: 120px;
-  }
   
   .funding {
     display: flex;
@@ -2395,27 +2403,22 @@ a {
     height: 80px;
   }
 
-    .funding-nav {
-      bottom: 80px;
-      right: 67px;
-      position: relative;
-    }
 
   .funding-nav ul{
     color: #FF4422;
     display: grid;
     font-size: 12px;
-    left: 40px;
     line-height: 10px;
     list-style: none;
-    padding: 60px 60px 0 0;
-    position: relative;
   } 
   
   .funding-list a{
     font-size: 14px;
   }
 
+  .funding-list{
+    margin-left: 0;
+  }
     #fund-round {
       font-size: 30px;
       margin-left: 40px;
@@ -2442,6 +2445,7 @@ a {
       margin: 0;
       overflow-x: hidden;
       position: relative;
+      width: 82%;
     }
 
     .apps {
@@ -2453,6 +2457,7 @@ a {
       overflow-x: hidden;
       padding: 0 20px 0 20px;
       position: relative;
+      width: 78%;
     }
 
     .info1{
@@ -2521,7 +2526,19 @@ a {
 
 
     .reddit-div h4 {
-      width: 500px;
+      width: 90%;
+    }
+
+    .simpson h4 {
+      width: 90%;
+    }
+
+    .insight h4{
+      width: 90%;
+    }
+
+    .launch-div >  h4{
+
     }
 
     .div-4-eight {
@@ -2536,7 +2553,7 @@ a {
      #apps-h4 h4,
      #apps-h5 h4 {
       top: 30px;
-      width: 500px;
+      font-size: 1em;
     }
 
     #one-img {
@@ -2552,6 +2569,9 @@ a {
       display: grid;
       grid-template-columns: repeat(5, auto);
 
+    }
+    .icon-cont li {
+      padding: 7px;
     }
 }   
   
