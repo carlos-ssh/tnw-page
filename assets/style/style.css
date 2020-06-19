@@ -1,14 +1,11 @@
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
 body {
   font-family: Arial, Helvetica, sans-serif;
   height: fit-content;
   overflow-x: hidden;
   width: 100vw;
+  margin: 0;
+  padding: 0;
 }
 
 .top-header {
@@ -41,13 +38,13 @@ a {
   text-decoration-line: none;
 }
 
-#news {
+.news {
   color: #fff;
   margin-left: 10px;
 }
 
 .white-cont {
-  position: sticky;
+  position: fixed;
   z-index: -1;
 }
 
@@ -109,7 +106,7 @@ a {
   width: 20.5vw;
 }
 
-#date {
+.date {
   color: #e04141;
   font-size: 2em;
   font-weight: 700;
@@ -135,7 +132,7 @@ a {
   height: 40px;
 }
 
-#latest {
+.latest {
   margin-left: 10px;
 }
 
@@ -1208,12 +1205,12 @@ a {
     height: 45px;
   }
 
-  #stub-para {
+  .stub-para {
     font-size: 1.5em;
     width: 30vw;
   }
 
-  #one-img {
+  .one-img {
     width: 100%;
     height: auto;
   }
@@ -1243,20 +1240,6 @@ a {
   .info0 {
     margin-bottom: 30px;
   }
-
-  /* .info0 a:hover {
-    color: #141414;
-    font-size: 25px;
-    font-weight: 700;
-    text-decoration: none;
-  }
-
-  .info a:hover {
-    color: #383838;
-    font-size: 25px;
-    font-weight: 700;
-    text-decoration: none;
-  } */
 
   .info0 a {
     color: #f42;
@@ -1292,7 +1275,7 @@ a {
     display: none;
   }
 
-  #date {
+  .date {
     display: none;
   }
 
@@ -1476,7 +1459,7 @@ a {
     padding: 5px;
   }
 
-  #sec-4-eight {
+  .sec-4-eight {
     bottom: 150px;
     margin-top: 0;
   }
@@ -1597,7 +1580,7 @@ a {
     font-size: 14px;
   }
 
-  #one-img {
+  .one-img {
     padding: 0;
     width: 98%;
     height: auto;
@@ -1875,7 +1858,7 @@ a {
     display: none;
   }
 
-  #sec-4-eight {
+  .sec-4-eight {
     bottom: 150px;
     margin-top: 0;
   }
@@ -2036,7 +2019,7 @@ a {
     font-size: 14px;
   }
 
-  #one-img {
+  .one-img {
     height: 500px;
     padding: 0;
     width: 100%;
@@ -2173,12 +2156,12 @@ a {
   text-decoration: none;
 }
 
-#latest-d {
+.latest-d {
   margin-left: 10px;
   font-size: 40px;
 }
 
-#latest-d a {
+.latest-d a {
   position: relative;
   margin-top: 50px;
   top: 30px;
