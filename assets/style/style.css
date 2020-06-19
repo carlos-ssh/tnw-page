@@ -1707,8 +1707,6 @@ a {
   }
 }
 
-
-
 /* Small Screen */
 @media screen and (max-width: 728px) and (min-width: 468px) {
   body {
