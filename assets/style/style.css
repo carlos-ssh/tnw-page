@@ -1468,12 +1468,6 @@ a {
     }
   }
 
-@media screen and ( min-width: 1025px ) {
-
-    .small-header {
-      display: none;
-    }
-}
 
 /*Medium Screen*/
 
@@ -1724,6 +1718,20 @@ a {
     margin: 0 auto 30px auto;
     color: #f42;
     line-height: 2em;
+  }
+  .info a{
+    color: #FF4422;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-bottom: 20px;
+  }
+    
+  .info a:hover {
+    color:  #383838;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
   }
   
   .funding-title {
@@ -2281,6 +2289,21 @@ a {
       z-index: 0;
     }
 
+    .info a{
+      color: #FF4422;
+      font-size: 25px;
+      font-weight: 700;
+      text-decoration: none;
+      margin-bottom: 20px;
+    }
+      
+    .info a:hover {
+      color:  #383838;
+      font-size: 25px;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
     .left-art h4 {
       font-size: 1em;
       margin: 120px 20px 0 0px;
@@ -2712,10 +2735,6 @@ a {
 
     .insight h4{
       width: 90%;
-    }
-
-    .launch-div >  h4{
-
     }
 
     .div-4-eight {
