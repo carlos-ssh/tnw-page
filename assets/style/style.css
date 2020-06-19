@@ -1,12 +1,12 @@
 
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  height:fit-content;
+  height: fit-content;
   overflow-x: hidden;
   width: 100vw;
 }
@@ -20,7 +20,7 @@ a {
   text-decoration: none;
 }
 
-.top-div li, 
+.top-div li,
 .top-div a,
 .white-nav li,
 .white-nav a {
@@ -31,7 +31,8 @@ a {
   text-decoration-line: none;
 }
 
-.white-nav li, .white-nav a {
+.white-nav li,
+.white-nav a {
   color: #999595;
   font-size: 13px;
   line-height: 10px;
@@ -45,7 +46,7 @@ a {
   margin-left: 10px;
 }
 
-.white-cont{
+.white-cont {
   position: sticky;
   z-index: -1;
 }
@@ -60,7 +61,7 @@ a {
 .left-list {
   display: grid;
   grid-template-columns: repeat(6, auto);
-  width: 500px;    
+  width: 500px;
 }
 
 .right-list {
@@ -68,24 +69,25 @@ a {
   grid-template-columns: repeat(4, auto);
   width: 300px;
 }
- 
-.event-list, .bizlist {
+
+.event-list,
+.bizlist {
   display: none;
 }
 
-.event-drop:hover > .event-list, 
+.event-drop:hover > .event-list,
 .biz-drop:hover > .bizlist {
   background-color: black;
   display: block;
 }
 
-#neural{
-  margin-right: 80px; 
+#neural {
+  margin-right: 80px;
 }
 
 .event-list a:hover {
   border: 1px solid #918888;
-  color: #ffffff;
+  color: #fff;
 }
 
 .bizlist a:hover {
@@ -93,20 +95,22 @@ a {
   color: #d8cdcd;
 }
 
-.event-list, .bizlist {
+.event-list,
+.bizlist {
   position: absolute;
 }
 
-.white-nav, .right-white-list {
+.white-nav,
+.right-white-list {
   align-items: center;
-  background-color:white;
+  background-color: white;
   display: grid;
   grid-template-columns: repeat(3, auto);
 }
 
 .left-white-list {
   display: grid;
-  grid-template-columns: repeat(6,auto);
+  grid-template-columns: repeat(6, auto);
 }
 
 .white-nav {
@@ -129,7 +133,7 @@ a {
 
 .white-nav-img {
   height: 30px;
-  width: 205px;    
+  width: 205px;
 }
 
 #date {
@@ -139,7 +143,7 @@ a {
 }
 
 .white-nav .button {
-  background-color: #00cccc;
+  background-color: #0cc;
   border-radius: 5px;
   border: 0;
   color: #d6cdcd;
@@ -159,7 +163,7 @@ a {
 }
 
 .white-nav .button:hover {
-  background-color: #500d50; 
+  background-color: #500d50;
 }
 
 .right-white-list {
@@ -191,7 +195,7 @@ a {
 }
 
 .yellow {
-  background-color: #ffdd33;
+  background-color: #fd3;
   height: 30px;
   width: 100%;
 }
@@ -207,10 +211,10 @@ a {
 
 .right-art {
   display: grid;
-  grid-template-rows: repeat(2,auto);
+  grid-template-rows: repeat(2, auto);
 }
 
-.right-art-top{
+.right-art-top {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Sprint_image.jpg");
   background-size: cover;
   grid-row: 1;
@@ -221,7 +225,7 @@ a {
 }
 
 .right-art-top::before {
-  background: linear-gradient( to bottom, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 1) 95%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 1) 95%);
   bottom: 0;
   content: '';
   left: 0;
@@ -232,7 +236,7 @@ a {
 }
 
 .right-art-top a {
-  color: #FFFFFF;
+  color: #fff;
   font-size: 30px;
   left: 15px;
   line-height: 30px;
@@ -253,7 +257,7 @@ a {
 }
 
 .right-art-bottom::before {
-  background: linear-gradient( to bottom, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 1) 95% );
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 1) 95%);
   bottom: 0;
   content: '';
   left: 0;
@@ -264,7 +268,7 @@ a {
 }
 
 .right-art-bottom a {
-  color: #FFFFFF;
+  color: #fff;
   display: block;
   font-size: 32px;
   left: 10px;
@@ -273,14 +277,14 @@ a {
   position: relative;
   text-decoration: none;
   top: 40px;
-  width:300px;
+  width: 300px;
   z-index: 0;
 }
 
 .left-art {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/header-image-apple-own-arm-based-chips-796x417.png");
   background-size: 100% 100%;
-  color: #FFFFFF;
+  color: #fff;
   display: grid;
   font-family: Georgia, "Times New Roman", Times, serif;
   grid-template-rows: repeat(2, auto);
@@ -288,13 +292,13 @@ a {
   margin-top: 5px;
   width: 100%;
   z-index: 0;
- position: relative;
+  position: relative;
 }
 
-.left-art::before{
+.left-art::before {
   content: '';
   position: absolute;
-  background: linear-gradient( to bottom, rgba(0, 0, 0, 0.3) 10%, rgb(224, 108, 108) 95% );
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 10%, rgb(224, 108, 108) 95%);
   top: 0;
   bottom: 0;
   left: 0;
@@ -310,7 +314,7 @@ a {
   width: 60%;
   z-index: 0;
 }
- 
+
 .left-art p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
@@ -329,7 +333,7 @@ a {
   position: relative;
   z-index: 0;
 }
- 
+
 .div-callum {
   bottom: 100px;
   left: 50px;
@@ -338,11 +342,11 @@ a {
 }
 
 .left-art a {
-  color: #FFFFFF;
+  color: #fff;
   text-decoration: none;
 }
 
-.left-art-top, 
+.left-art-top,
 .left-art-down {
   height: 198px;
   width: 100%;
@@ -358,14 +362,13 @@ a {
   height: 198px;
 }
 
-.eight-grids{
+.eight-grids {
   margin: 0 auto;
   max-width: 1200px;
 }
 
-
 .info h4 {
-  color: #FF4422;
+  color: #f42;
   font-size: 25px;
   font-weight: 700;
   text-decoration: none;
@@ -400,7 +403,7 @@ a {
 
 #latest-d {
   font-size: 40px;
-  margin-left: 0px;
+  margin-left: 0;
 }
 
 .top-img-div {
@@ -411,7 +414,7 @@ a {
   width: 270px;
 }
 
-.top-header, 
+.top-header,
 .app-div {
   display: grid;
   grid-template-rows: repeat(4, auto);
@@ -439,7 +442,7 @@ a {
 }
 
 .funding-nav ul {
-  color: #FF4422;
+  color: #f42;
   display: grid;
   font-size: 16px;
   grid-column: 2;
@@ -468,7 +471,6 @@ a {
 .funding-list a {
   color: #f42;
 }
-
 
 .apps {
   display: grid;
@@ -512,7 +514,7 @@ a {
 }
 
 .reddit-div::before {
-  background: linear-gradient( to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 1) 95% );
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 1) 95%);
   bottom: 0;
   content: '';
   left: 0;
@@ -545,25 +547,25 @@ a {
 }
 
 .reddit-div a {
-  color: #FFF;
+  color: #fff;
 }
 
 .reddit-div h2 {
-  color: #FFF;
+  color: #fff;
 }
 
 .reddit-div small {
-  color: #FFFFFF;
+  color: #fff;
 }
 
-  .red-txt, 
-  .latest-div1, 
-  .latest-div2,
-  .latest-div3, 
-  .latest-div4,
-  .latest-div5, 
-  .latest-div6, 
-  .latest-div7 {
+.red-txt,
+.latest-div1,
+.latest-div2,
+.latest-div3,
+.latest-div4,
+.latest-div5,
+.latest-div6,
+.latest-div7 {
   background-color: rgb(252, 213, 210);
   color: red;
   display: grid;
@@ -583,14 +585,14 @@ a {
   color: red;
 }
 
-  .red-txt img,
-  .latest-div1 img,
-  .latest-div2 img, 
-  .latest-div3 img,
-  .latest-div4 img,
-  .latest-div5 img,
-  .latest-div6 img,
-  .latest-div7 img {
+.red-txt img,
+.latest-div1 img,
+.latest-div2 img,
+.latest-div3 img,
+.latest-div4 img,
+.latest-div5 img,
+.latest-div6 img,
+.latest-div7 img {
   width: 120px;
   height: 120px;
 }
@@ -683,6 +685,7 @@ a {
   grid-row: 4;
   line-height: 21px;
 }
+
 .ul-7 li {
   border-bottom: 1px solid grey;
   color: #f42;
@@ -700,24 +703,24 @@ a {
 .ul-8 li {
   align-content: center;
   border-bottom: 1px solid rgba(180, 178, 178, 0.788);
-  color: #FF4422;
+  color: #f42;
   margin: 7px 0 7px 0;
 }
 
 .latest-div1 h4 {
-  color: #FF4422;
+  color: #f42;
   padding: 20px 0 10px 0;
 }
 
 .latest-div1 a {
   bottom: 25px;
-  color: #FF4422;
+  color: #f42;
   position: relative;
   width: 200px;
 }
 
 .latest-div2 a {
-  color: #FF4422;
+  color: #f42;
   position: relative;
   width: 200px;
 }
@@ -728,16 +731,16 @@ a {
 
 .latest-div3 a {
   padding-top: 10px;
-  color: #FF4422;
-  width:200px;
+  color: #f42;
+  width: 200px;
 }
 
 .latest-div3 h4 {
   padding-top: 10px;
-  color: #FF4422;
+  color: #f42;
 }
 
-.apps-anch  a {
+.apps-anch a {
   font-size: 20px;
   line-height: 15px;
 }
@@ -748,45 +751,45 @@ a {
 }
 
 .latest-div4 h4 {
-  color: #FF4422;
+  color: #f42;
   padding-top: 10px;
 }
 
 .latest-div5 a {
-  color: #FF4422;
+  color: #f42;
   padding-top: 10px;
-  width:200px;
+  width: 200px;
 }
 
 .latest-div5 h4 {
-  color: #FF4422;
+  color: #f42;
   padding-top: 10px;
 }
 
 .latest-div6 a {
   bottom: 5px;
-  color: #FF4422;
+  color: #f42;
   font-size: 13px;
   padding-top: 10px;
   position: relative;
-  width:200px;
+  width: 200px;
 }
 
 .latest-div6 h4 {
-  color: #FF4422;
+  color: #f42;
   padding-top: 10px;
 }
 
 .latest-div7 h4 {
   bottom: 5px;
-  color: #FF4422;
+  color: #f42;
   padding: 20px 0 10px 0;
   position: relative;
 }
 
 .latest-div7 a {
   bottom: 20px;
-  color: #FF4422;
+  color: #f42;
   font-size: 13px;
   position: relative;
   width: 240px;
@@ -795,7 +798,7 @@ a {
 .simpson {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/header-image-the-outer-worlds-516x270.png");
   background-size: cover;
-  color: #FFFFFF;
+  color: #fff;
   display: grid;
   grid-column: 2;
   grid-row: 2;
@@ -805,7 +808,7 @@ a {
 }
 
 .simpson::before {
-  background: linear-gradient( to bottom, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 1) 95% );
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 1) 95%);
   bottom: 0;
   content: '';
   left: 0;
@@ -816,7 +819,7 @@ a {
 }
 
 .simpson a {
-  color: #FFFFFF;
+  color: #fff;
   position: relative;
   top: 80px;
   font-size: 14px;
@@ -824,10 +827,11 @@ a {
 }
 
 .simpson small {
-    position: relative;
-    top: 40px;
-    left: 20px;
+  position: relative;
+  top: 40px;
+  left: 20px;
 }
+
 .simpson h2 {
   left: 20px;
   position: relative;
@@ -837,7 +841,7 @@ a {
 .wacom {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/1-5-796x417.jpg");
   background-size: cover;
-  color: #FFFFFF;
+  color: #fff;
   display: grid;
   grid-column: 3;
   grid-row: 2;
@@ -848,7 +852,7 @@ a {
 }
 
 .wacom-div h4 {
-  color: #FFFFFF;
+  color: #fff;
   font-size: 14px;
   left: 20px;
   position: relative;
@@ -856,21 +860,21 @@ a {
 }
 
 .wacom small {
-  color: #FFFFFF;
+  color: #fff;
   left: 20px;
   position: relative;
   top: 170px;
 }
 
 .wacom h2 {
-  color: #FFFFFF;
+  color: #fff;
   left: 20px;
   position: relative;
   top: 120px;
 }
 
 .wacom::before {
-  background: linear-gradient( to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 95% );
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 95%);
   bottom: 0;
   content: '';
   left: 0;
@@ -891,7 +895,7 @@ a {
 }
 
 .creativity::before {
-  background: linear-gradient( to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 95%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 95%);
   bottom: 0;
   content: '';
   left: 0;
@@ -902,21 +906,21 @@ a {
 }
 
 .creativity a {
-  color: #FFFFFF;
+  color: #fff;
   left: 20px;
   position: relative;
   top: 140px;
 }
 
 .creativity h2 {
-  color: #FFFFFF;
+  color: #fff;
   left: 20px;
   position: relative;
   top: 120px;
 }
 
 .creativity small {
-  color: #FFFFFF;
+  color: #fff;
   left: 20px;
   position: relative;
   top: 160px;
@@ -925,13 +929,13 @@ a {
 .hacka {
   background-image: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F08%2Fbitcoin_today-header_bitcoin_today.jpg&signature=b75eca35f42accc83310a4fa4e562088");
   background-size: cover;
-  color: #FFF;
+  color: #fff;
   height: 276px;
   position: relative;
 }
 
 .hacka::before {
-  background: linear-gradient( to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 95%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 95%);
   bottom: 0;
   content: '';
   left: 0;
@@ -942,7 +946,7 @@ a {
 }
 
 .hacka a {
-  color: #FFFFFF;
+  color: #fff;
   left: 20px;
   position: relative;
   top: 140px;
@@ -963,7 +967,7 @@ a {
 .insight {
   background-image: url("https://img-cdn.tnwcdn.com/image?fit=600%2C336&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F06%2Fengineering-manager-gq.png&signature=f82fe12063e6b866a4ed5344df2dbd75");
   background-size: cover;
-  color: #FFF;
+  color: #fff;
   height: 276px;
   position: relative;
   z-index: 0;
@@ -972,7 +976,7 @@ a {
 .insight::before {
   content: '';
   position: absolute;
-  background: linear-gradient( to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 95% );
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 95%);
   top: 0;
   bottom: 0;
   left: 0;
@@ -981,7 +985,7 @@ a {
 }
 
 .insight a {
-  color: #FFF;
+  color: #fff;
   left: 20px;
   position: relative;
   top: 140px;
@@ -992,7 +996,7 @@ a {
   position: relative;
   top: 120px;
 }
- 
+
 .insight small {
   left: 20px;
   position: relative;
@@ -1002,13 +1006,13 @@ a {
 .fb-class {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Facebook-Discover-796x419.jpg");
   background-size: cover;
-  color: #FFF;
+  color: #fff;
   height: 276px;
   position: relative;
 }
 
 .fb-class::before {
-  background: linear-gradient( to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 95% );
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 95%);
   bottom: 0;
   content: '';
   left: 0;
@@ -1019,7 +1023,7 @@ a {
 }
 
 .fb-class a {
-  color: #FFFFFF;
+  color: #fff;
   position: relative;
   top: 120px;
   left: 20px;
@@ -1045,16 +1049,16 @@ a {
   font-size: 18px;
 }
 
-.iwatch{
+.iwatch {
   background-image: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F06%2Fheader-image-apple-watch-band-bands.png&signature=e71f734a54cf45be7afa11767acb60fa");
   background-size: cover;
-  color: #FFF;
+  color: #fff;
   height: 276px;
   position: relative;
 }
 
 .iwatch::before {
-  background: linear-gradient( to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 95% );
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 95%);
   bottom: 0;
   content: '';
   left: 0;
@@ -1071,14 +1075,14 @@ a {
 }
 
 .iwatch a {
-  color: #FFF;
+  color: #fff;
   position: relative;
   top: 120px;
   left: 20px;
 }
 
-.iwatch small { 
-  color: #FFF;
+.iwatch small {
+  color: #fff;
   left: 20px;
   position: relative;
   top: 130px;
@@ -1094,20 +1098,20 @@ a {
 .apps-anch {
   display: grid;
   grid-template-rows: repeat(5, auto);
-  padding: 15px 40px 0 40px; 
+  padding: 15px 40px 0 40px;
 }
 
-  .top-img-div, 
-  .top-img-caps, 
-  .next-img-div, 
-  .next-img-cap {
+.top-img-div,
+.top-img-caps,
+.next-img-div,
+.next-img-cap {
   display: grid;
 }
 
 #latest-d a {
   position: relative;
   margin-top: 50px;
-  top: 30px
+  top: 30px;
 }
 
 .funding-img-cont {
@@ -1115,7 +1119,7 @@ a {
   grid-template-columns: repeat(4, auto);
 }
 
-.funding-img-cont  img {
+.funding-img-cont img {
   height: 80px;
   width: 80px;
 }
@@ -1123,7 +1127,7 @@ a {
 .one {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(4,auto);
+  grid-template-rows: repeat(4, auto);
   margin-left: 10px;
 }
 
@@ -1133,20 +1137,19 @@ a {
 
 .micro-grav {
   padding-right: 20px;
-  width: 270px;  
+  width: 270px;
 }
 
-  .next-img-div img, 
-  .apps-img {
+.next-img-div img,
+.apps-img {
   height: 210px;
-  width:270px;
+  width: 270px;
 }
 
 .top-img-caps,
 .img-clue,
-.next-img-cap, 
+.next-img-cap,
 .img-clue {
-    
   height: 100px;
   width: 240px;
 }
@@ -1164,8 +1167,8 @@ a {
   grid-template-columns: repeat(2, auto);
 }
 
-.funding-list, 
-.launch-cont  {
+.funding-list,
+.launch-cont {
   display: grid;
   grid-template-columns: repeat(3, auto);
 }
@@ -1178,7 +1181,7 @@ a {
   grid-row-gap: 20px;
 }
 
-.creative-div, 
+.creative-div,
 .launch-div {
   width: 360px;
 }
@@ -1204,10 +1207,10 @@ a {
 }
 
 .tnw-small {
-  width:50px   
+  width: 50px;
 }
 
-.footer-up-div *{
+.footer-up-div * {
   list-style-type: none;
   text-decoration-line: none;
   justify-content: center;
@@ -1217,7 +1220,7 @@ a {
   padding: 0 10px 0 10px;
 }
 
-.list-container a, 
+.list-container a,
 .icon-cont a {
   color: #f1ecec;
 }
@@ -1263,411 +1266,420 @@ a {
 }
 
 .footer-down-div b {
-  color:#c20606;
+  color: #c20606;
 }
 
-/*Big Screen*/
+/* Big Screen */
 
-@media screen and ( max-width: 1440px ) and (min-width: 768px ) {
+@media screen and (max-width: 1440px) and (min-width: 768px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
 
-    *{
-      padding: 0;
-      margin: 0;
-    }
+  .small-header {
+    display: none;
+  }
 
-    .small-header {
-      display: none;
-    }
+  .top-nav {
+    width: 100%;
+    z-index: 100;
+  }
 
-    .top-nav{
-      width: 100%;
-      z-index: 100;
-    }
-      
-    /*  GRIDS */
-    .top-img-div {
-     display: grid;
-     grid-template-columns: repeat(4, minmax(auto, 1fr));
-     grid-template-rows: repeat(2, minmax(auto, 1fr));
-     width: 95%;
-    }
+  /*  GRIDS */
+  .top-img-div {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(auto, 1fr));
+    grid-template-rows: repeat(2, minmax(auto, 1fr));
+    width: 95%;
+  }
 
-    .micro-grav2 h4{
-      font-size: 16px;
-      font-weight: 400;
-    }
+  .micro-grav2 h4 {
+    font-size: 16px;
+    font-weight: 400;
+  }
 
-    .eight-grids > article{
-      display: grid;
-    }
+  .eight-grids > article {
+    display: grid;
+  }
 
-    .eight-grids{
-      margin: 100px auto;
-    }
+  .eight-grids {
+    margin: 100px auto;
+  }
 
-    .info a{
-      color: #FF4422;
-      font-size: 25px;
-      font-weight: 700;
-      text-decoration: none;
-      margin-bottom: 20px;
-    }
-      
-    .info a:hover {
-      color:  #383838;
-      font-size: 25px;
-      font-weight: 700;
-      text-decoration: none;
-    }
-    
-    .info{
-      margin: 40px 0 30px 0;
-    }
+  .info a {
+    color: #f42;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-bottom: 20px;
+  }
 
-    .micro-grav img{
-      width: 270px;
-      height: auto;
-    }
-    .top-img-div{
-      margin: 0;
-      display: grid;
-    }
+  .info a:hover {
+    color: #383838;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+  }
 
-    .micro-grav{
-      padding: 0;
-    }
-    .funding-list{
-      padding-top: 50px;
-    }
+  .info {
+    margin: 40px 0 30px 0;
+  }
 
-    .funding-grid-container{
-      display: grid;
-      width: 95%;
-      margin: 0 auto 0 50px;
-      gap: 20px;
-      grid-template-columns: repeat(4, 1fr);
-      grid-template-rows: repeat(2, auto);
-      justify-items: center;
-    }
-    
-    .funding-grid-items {
-      position: relative;
-    }
-    
-    
-    .orange p,
-    .lightorange p {
-      padding-left: 100px;
-    }
-    
-    .smartlogo {
-      position: absolute;
-      top: 10px;
-      left: 10px;
-      height: 10px;
-      width: auto;
-    }
-    
-    .orange {
-      background-color: #f42;
-      height: 45px;
-    }
-    
-    .orange p {
-      color: white;
-      font-size: 18px;
-      font-weight: 700;
-      padding-top: 11px;
-    }
-    
-    .lightorange {
-      background-color: #ffebe7;
-      height: 59px;
-    }
-    
-    .lightorange p {
-      font-size: 18px;
-      font-weight: 700;
-      padding-top: 14px;
-    }
-    
-    .beige1 {
-      background-color: #fffaf8;
-      height: 80px;
-      border-bottom: 1px solid #f42;
-    }
-    
-    .beige1 p,
-    .beige2 p {
-      font-size: 13px;
-      padding-left: 15px;
-      padding-top: 13px;
-    }
-    
-    .beige2 {
-      background-color: #fffaf8;
-      height: 45px;
-    }
-    
-    #stub-para {
-      font-size: 30px;
-      width: 400px;
-    }
-    
-    #one-img {
-      width: 100%;
-      height: auto;
-    }
-    
-    .apps{
-      margin-top: 100px;
-    }
+  .micro-grav img {
+    width: 270px;
+    height: auto;
+  }
 
-    .latest-div1 a{
-      bottom: 0;
-    }
-    
-    .apps-anch a{
-      font-size: 14px;
-    }
-    .eight-grids1{
-      margin: 50px 180px;
-    }
-    .info1{
-      margin: 20px 20px 20px 0;
-      color: #FF4422;
-    }
+  .top-img-div {
+    margin: 0;
+    display: grid;
+  }
 
-    .info1 a{
-      color: #FF4422;
-    }
-    .info0{
-      margin-bottom: 30px;
-    }
-    .info0 a{
-      color: #FF4422;
-      font-size: 25px;
-      font-weight: 700;
-      text-decoration: none;
-      margin-bottom: 20px;
-    }
-    
-    .info0 a:hover {
-      color:  #141414;
-      font-size: 25px;
-      font-weight: 700;
-      text-decoration: none;
-    }
-    .deals-cont img{
-      width: 217px;
-      height: auto;
-    }
+  .micro-grav {
+    padding: 0;
+  }
 
-    .deals-cont{
-      padding: 0;
-    }
+  .funding-list {
+    padding-top: 50px;
+  }
+
+  .funding-grid-container {
+    display: grid;
+    width: 95%;
+    margin: 0 auto 0 50px;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+    justify-items: center;
+  }
+
+  .funding-grid-items {
+    position: relative;
   }
 
 
-/*Medium Screen*/
+  .orange p,
+  .lightorange p {
+    padding-left: 100px;
+  }
 
-@media screen and ( max-width: 767px ) and ( min-width: 426px ){
+  .smartlogo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 10px;
+    width: auto;
+  }
 
-    body {
-      width: 100vw;
-      padding: 0;
-    }
+  .orange {
+    background-color: #f42;
+    height: 45px;
+  }
 
-    .top-header {
-      display: none;
-    }
+  .orange p {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 11px;
+  }
 
-    .small-header {
-      background-color: #FFF;
-      overflow-x: hidden;
-      position: fixed;
-      width: 100vw;
-      z-index: 1;
-    }
+  .lightorange {
+    background-color: #ffebe7;
+    height: 59px;
+  }
 
-    .small-header {
-      display: grid;
-      grid-template-rows: repeat(2, auto);
-    }
+  .lightorange p {
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 14px;
+  }
 
-    .small-top-bar {
-      display: grid;
-      grid-template-columns: repeat(2, auto);
-      height: 100px;
-      justify-content: space-between;
-      width: 100%;
-    }
+  .beige1 {
+    background-color: #fffaf8;
+    height: 80px;
+    border-bottom: 1px solid #f42;
+  }
 
-    .fas.fa-search.fa-3x, 
-    .fas.fa-bars.fa-3x {
-      border-left: 1px solid #3f3c3c;
-      padding: 25px;
-    }
-    
-    .fas, .fa-bars, .fa-3x {
-      color: #dd1111;
-    }
-    
-    .yellow-bar {
-      background-color: #ffdd33;
-      height: 40px;
-    }
+  .beige1 p,
+  .beige2 p {
+    font-size: 13px;
+    padding-left: 15px;
+    padding-top: 13px;
+  }
 
-    .yellow-bar h4 {
-      font-size: 16px;
-      padding-top: 15px;  
-      text-align: center;
-    }
+  .beige2 {
+    background-color: #fffaf8;
+    height: 45px;
+  }
 
-    .tnwlog, .left-art-top {
-      display: none;
-    }
+  #stub-para {
+    font-size: 30px;
+    width: 400px;
+  }
 
-    .bio-tnw {
-      display: grid;
-      height: 100vh;
-      grid-template-columns: repeat(3, minmax(110px, 1fr));
-      grid-template-columns: 100%;
-      width: 97%;
-    }
+  #one-img {
+    width: 100%;
+    height: auto;
+  }
 
-    .right-art {
-      display: grid;
-      grid-template-rows: repeat(2, auto);
-      position: relative;
-      right: 10px;
-      z-index: 0;
-    }    
+  .apps {
+    margin-top: 100px;
+  }
 
-    .right-art-top {
-      background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Sprint_image.jpg");
-      background-size: cover;
-      grid-row: 1;
-    }
+  .latest-div1 a {
+    bottom: 0;
+  }
 
-    .right-art-top::before {
-      content: '';
-      position: absolute;
-      background: linear-gradient( to bottom, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 1) 95% );
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      z-index: 0;
-    }
+  .apps-anch a {
+    font-size: 14px;
+  }
 
-    .right-art-top a {
-      color: hsl(0, 0%, 100%);
-      font-size: 1.7em;
-      left: 10px;
-      position: relative;
-      top: 160px;
-      line-height: 30px;
-      text-decoration: none;
-      z-index: 0;
-    }
+  .eight-grids1 {
+    margin: 50px 180px;
+  }
 
-    .right-art-bottom {
-      background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/bmw-ix3-all-electric-car-suv-sav-shift-evs-796x448.jpg");
-      background-size: cover;
-      grid-row: 2;
-      height: 40.7vh;
-      margin: 0 0 10px 10px;
-      position: relative;
-     width: 100%;
-    }
+  .info1 {
+    margin: 20px 20px 20px 0;
+    color: #f42;
+  }
 
-    .right-art-bottom::before {
-      background: linear-gradient( to bottom, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 1) 95% );
-      bottom: 0;
-      content: '';
-      left: 0;
-      position: absolute;
-      right: 0;
-      top: 0;
-      z-index: 0;
-    }
+  .info1 a {
+    color: #f42;
+  }
 
-    .right-art-bottom a {
-      color: #FFF;
-      display: block;
-      font-size: 1.8em;
-      line-height: 30px;
-      position: relative;
-      text-decoration: none;
-      top: 170px;
-      width: 90%;
-      z-index: 0;
-    }
+  .info0 {
+    margin-bottom: 30px;
+  }
 
-    .left-art {
-      background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/header-image-apple-own-arm-based-chips-796x417.png");
-      background-size: 100% 100%;
-      background-size: cover;
-      color: #FFFFFF;
-      display: grid;
-      font-family: Georgia, "Times New Roman", Times, serif;
-      grid-template-rows: repeat(2,auto);
-      height: auto;
-      width: 100%;
-      height: 290px;
-      z-index: 0;
-    }
-    
-    .div-callum{
-      position: relative;
-      bottom: 20px;
-    }
+  .info0 a {
+    color: #f42;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-bottom: 20px;
+  }
 
-    .left-art::before {
-      background: linear-gradient( to bottom, rgba(0, 0, 0, 0.3) 10%, rgb(224, 108, 108) 95% );
-      bottom: 0;
-      content: '';
-      left: 0;
-      position: absolute;
-      right: 0;
-      top: 0;
-      z-index: 0;
-    }
+  .info0 a:hover {
+    color: #141414;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+  }
 
-    .left-art img { 
-      bottom: 20px;
-      height: 200px;
-      padding: 20px;
-      position: relative;
-      width: 60%;
-      z-index: 0;
-    }
+  .deals-cont img {
+    width: 217px;
+    height: auto;
+  }
 
-    .left-art p {
-      height: 5px;
-      position: relative;
-      right: 50px;
-      text-align: right;
-      top: 30px;
-      z-index: 0;
-    }
+  .deals-cont {
+    padding: 0;
+  }
+}
 
-    .left-art h4 {
-      font-size: 22px;
-      margin-top: 120px;
-    }
 
-    .div-callum{
-      position: relative;
-      left: 20px;
-    }
+/* Medium Screen */
+
+@media screen and (max-width: 767px) and (min-width: 426px) {
+  body {
+    width: 100vw;
+    padding: 0;
+  }
+
+  .top-header {
+    display: none;
+  }
+
+  .small-header {
+    background-color: #fff;
+    overflow-x: hidden;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+  }
+
+  .small-header {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+  }
+
+  .small-top-bar {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    height: 100px;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .fas.fa-search.fa-3x,
+  .fas.fa-bars.fa-3x {
+    border-left: 1px solid #3f3c3c;
+    padding: 25px;
+  }
+
+  .fas,
+  .fa-bars,
+  .fa-3x {
+    color: #d11;
+  }
+
+  .yellow-bar {
+    background-color: #fd3;
+    height: 40px;
+  }
+
+  .yellow-bar h4 {
+    font-size: 16px;
+    padding-top: 15px;
+    text-align: center;
+  }
+
+  .tnwlog,
+  .left-art-top {
+    display: none;
+  }
+
+  .bio-tnw {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(3, minmax(110px, 1fr));
+    grid-template-columns: 100%;
+    width: 97%;
+  }
+
+  .right-art {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    position: relative;
+    right: 10px;
+    z-index: 0;
+  }
+
+  .right-art-top {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Sprint_image.jpg");
+    background-size: cover;
+    grid-row: 1;
+  }
+
+  .right-art-top::before {
+    content: '';
+    position: absolute;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 1) 95%);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+  }
+
+  .right-art-top a {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.7em;
+    left: 10px;
+    position: relative;
+    top: 160px;
+    line-height: 30px;
+    text-decoration: none;
+    z-index: 0;
+  }
+
+  .right-art-bottom {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/bmw-ix3-all-electric-car-suv-sav-shift-evs-796x448.jpg");
+    background-size: cover;
+    grid-row: 2;
+    height: 40.7vh;
+    margin: 0 0 10px 10px;
+    position: relative;
+    width: 100%;
+  }
+
+  .right-art-bottom::before {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 1) 95%);
+    bottom: 0;
+    content: '';
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
+  }
+
+  .right-art-bottom a {
+    color: #fff;
+    display: block;
+    font-size: 1.8em;
+    line-height: 30px;
+    position: relative;
+    text-decoration: none;
+    top: 170px;
+    width: 90%;
+    z-index: 0;
+  }
+
+  .left-art {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/header-image-apple-own-arm-based-chips-796x417.png");
+    background-size: 100% 100%;
+    background-size: cover;
+    color: #fff;
+    display: grid;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    grid-template-rows: repeat(2, auto);
+    height: auto;
+    width: 100%;
+    height: 290px;
+    z-index: 0;
+  }
+
+  .div-callum {
+    position: relative;
+    bottom: 20px;
+  }
+
+  .left-art::before {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 10%, rgb(224, 108, 108) 95%);
+    bottom: 0;
+    content: '';
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
+  }
+
+  .left-art img {
+    bottom: 20px;
+    height: 200px;
+    padding: 20px;
+    position: relative;
+    width: 60%;
+    z-index: 0;
+  }
+
+  .left-art p {
+    height: 5px;
+    position: relative;
+    right: 50px;
+    text-align: right;
+    top: 30px;
+    z-index: 0;
+  }
+
+  .left-art h4 {
+    font-size: 22px;
+    margin-top: 120px;
+  }
+
+  .div-callum {
+    position: relative;
+    left: 20px;
+  }
+
   .left-art a {
     text-decoration: none;
-    color: #FFF;
+    color: #fff;
   }
 
-  .left-art-top, 
+  .left-art-top,
   .left-art-down {
     height: 198px;
     width: 100%;
@@ -1690,25 +1702,24 @@ a {
     width: 200px;
   }
 
-  .latest-div1 h4, 
+  .latest-div1 h4,
   .latest-div2 h4 {
     bottom: 20px;
-    color: #ff0000;
+    color: #f00;
     padding: 20px 0 10px 0;
     position: relative;
   }
 
-
-  .latest-div4, 
-  .latest-div5, 
-  .latest-div6, 
+  .latest-div4,
+  .latest-div5,
+  .latest-div6,
   .latest-div7 {
     width: 100%;
   }
 
   .latest-div2 a {
     bottom: 30px;
-    color: #ff0000;
+    color: #f00;
     position: relative;
     width: 200px;
   }
@@ -1719,29 +1730,30 @@ a {
     color: #f42;
     line-height: 2em;
   }
-  .info a{
-    color: #FF4422;
+
+  .info a {
+    color: #f42;
     font-size: 25px;
     font-weight: 700;
     text-decoration: none;
     margin-bottom: 20px;
   }
-    
+
   .info a:hover {
-    color:  #383838;
+    color: #383838;
     font-size: 25px;
     font-weight: 700;
     text-decoration: none;
   }
-  
+
   .funding-title {
     font-size: 28px;
   }
-  
+
   .funding-list {
     font-size: 14px;
   }
-  
+
   .funding-grid-container {
     display: grid;
     width: 95%;
@@ -1749,64 +1761,64 @@ a {
     gap: 20px;
     grid-template-rows: repeat(4, auto);
   }
-  
+
   .funding-grid-items {
     position: relative;
   }
-  
+
   .orange p,
   .lightorange p {
     padding-left: 100px;
   }
-  
+
   .smartlogo {
     position: absolute;
     top: 10px;
     left: 10px;
     height: 70px;
   }
-  
+
   .orange {
     background-color: #f42;
     height: 45px;
   }
-  
+
   .orange p {
     color: white;
     font-size: 18px;
     font-weight: 700;
     padding-top: 11px;
   }
-  
+
   .lightorange {
     background-color: #ffebe7;
     height: 59px;
   }
-  
+
   .lightorange p {
     font-size: 18px;
     font-weight: 700;
     padding-top: 14px;
   }
-  
+
   .beige1 {
     background-color: #fffaf8;
     height: 80px;
     border-bottom: 1px solid #f42;
   }
-  
+
   .beige1 p,
   .beige2 p {
     font-size: 13px;
     padding-left: 15px;
     padding-top: 13px;
   }
-  
+
   .beige2 {
     background-color: #fffaf8;
     height: 45px;
   }
-  
+
   .funding-grid-item4 {
     display: none;
   }
@@ -1826,57 +1838,59 @@ a {
     margin-top: 0;
   }
 
-  .eight-grids{
+  .eight-grids {
     margin: 300px 0 100px 0;
     z-index: 0;
   }
+
   .eight-grids1 {
     margin: -150px 0 0 0;
     z-index: 0;
   }
 
-  .top-img-div > .deals-cont img{
+  .top-img-div > .deals-cont img {
     height: 80px;
     width: 119px;
     float: left;
     margin-right: 17px;
   }
 
-  .top-img-div > .deals-cont a{
+  .top-img-div > .deals-cont a {
     color: rgb(75, 75, 75);
   }
 
-  .top-img-div{
+  .top-img-div {
     display: grid;
     width: 95%;
     gap: 14px;
     margin: 80px auto 60px auto;
   }
 
-  .top-img-div > .micro-grav img{
+  .top-img-div > .micro-grav img {
     height: 80px;
     width: 119px;
     float: left;
     margin-right: 17px;
   }
 
-  .micro-grav, .deals-cont{
+  .micro-grav,
+  .deals-cont {
     width: 100%;
     height: 80px;
     margin-bottom: 40px;
   }
 
-  .funding-img-cont  img {
+  .funding-img-cont img {
     height: 80px;
     width: 80px;
   }
 
   .news-latest {
-    color: #FF4422;
+    color: #f42;
     font-size: 28px;
     font-weight: 700;
   }
- 
+
   .red {
     height: 500px;
     width: 350px;
@@ -1886,14 +1900,14 @@ a {
     height: 310px;
     width: 350px;
   }
-  
+
   .funding {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
   }
- 
-  .apps{
+
+  .apps {
     display: grid;
     grid-template-rows: repeat(8, minmax(auto, 1fr));
     width: 98%;
@@ -1904,7 +1918,7 @@ a {
   .apps small {
     font-size: 21px;
   }
-  
+
   .apps-h1 h4 {
     bottom: 0;
     font-size: 40px;
@@ -1914,14 +1928,14 @@ a {
     width: 500px;
   }
 
-  .apps-anch a{
+  .apps-anch a {
     font-size: 14px;
     color: rgb(97, 97, 97);
   }
 
   #apps-h1 h4,
   #apps-h2 h4,
-  #apps-h3 h4, 
+  #apps-h3 h4,
   #apps-h4 h4,
   #apps-h5 h4 {
     font-size: 20px;
@@ -1938,7 +1952,7 @@ a {
     bottom: 40px;
   }
 
-  .funding-list li{
+  .funding-list li {
     font-size: 30px;
     padding: 5px;
   }
@@ -1949,377 +1963,378 @@ a {
     height: 80px;
   }
 
-  .funding-nav ul{
-    color: #FF4422;
+  .funding-nav ul {
+    color: #f42;
     display: grid;
     font-size: 12px;
     line-height: 10px;
     list-style: none;
-  } 
-  
-  .funding-list a{
+  }
+
+  .funding-list a {
     font-size: 14px;
   }
 
-    #fund-round {
-      font-size: 30px;
-      margin-left: 40px;
-      padding: 5px;
-      position: relative;
-      top: 80px;
-    }
+  #fund-round {
+    font-size: 30px;
+    margin-left: 40px;
+    padding: 5px;
+    position: relative;
+    top: 80px;
+  }
 
-    .funding-img-cont {
-      bottom: 80px;
-      position: relative;
-    }
+  .funding-img-cont {
+    bottom: 80px;
+    position: relative;
+  }
 
+  .one {
+    margin-left: 0;
+  }
 
-    .one {
-      margin-left: 0;
-    }
+  .funding-img-cont {
+    bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 0;
+    overflow-x: hidden;
+    width: 97%;
+  }
 
-    .funding-img-cont {
-      bottom: 100px;
-      display: flex;
-      flex-direction: column;
-      flex-wrap: nowrap;
-      margin: 0;
-      overflow-x: hidden;
-      width: 97%;
-    }
+  .apps {
+    bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top: 80px;
+    overflow-x: hidden;
+    padding: 0 20px 0 20px;
+    position: relative;
+  }
 
-    .apps {
-      bottom: 200px;
-      display: flex;
-      flex-direction: column;
-      flex-wrap: nowrap;
-      margin-top: 80px;
-      overflow-x: hidden;
-      padding: 0 20px 0 20px;
-      position: relative;
-    }
+  .info1 {
+    margin: 20px 20px 20px 0;
+    color: #f42;
+  }
 
-    .info1{
-      margin: 20px 20px 20px 0;
-      color: #FF4422;
-    }
+  .info1 a {
+    color: #f42;
+  }
 
-    .info1 a{
-      color: #FF4422;
-    }
+  .info0 a {
+    color: #f42;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-bottom: 20px;
+  }
 
-    .info0 a{
-      color: #FF4422;
-      font-size: 25px;
-      font-weight: 700;
-      text-decoration: none;
-      margin-bottom: 20px;
-    }
-    
-    .info0 a:hover {
-      color:  #FF4422;
-      font-size: 25px;
-      font-weight: 700;
-      text-decoration: none;
-    }
+  .info0 a:hover {
+    color: #f42;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+  }
 
-    .footer-down-div {
-      display: grid;
-      grid-template-rows: 1fr 1fr 1fr;
-    }
+  .footer-down-div {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
 
-    .tnw-small {
-      width: 50px;
-    }
+  .tnw-small {
+    width: 50px;
+  }
 
-    .footer-down-div span {
-      background-color: black;
-      font-size: 14px;
-    }
+  .footer-down-div span {
+    background-color: black;
+    font-size: 14px;
+  }
 
-    #one-img {
-      height: 500px;
-      padding: 0;
-      width: 100%;
-    }
+  #one-img {
+    height: 500px;
+    padding: 0;
+    width: 100%;
+  }
 
-    .info-txt-div, 
-    .reddit-div, 
-    .red-txt, 
-    .simpson, 
-    .latest-div1,
-    .wacom,
-    .latest-div2, 
-    .latest-div3, 
-    .creative-div, 
-    .launch-div, 
-    .deals-cont, 
-    .div-4-eigh{
-      margin-top: 0;
-      width: 98%;
-    }
+  .info-txt-div,
+  .reddit-div,
+  .red-txt,
+  .simpson,
+  .latest-div1,
+  .wacom,
+  .latest-div2,
+  .latest-div3,
+  .creative-div,
+  .launch-div,
+  .deals-cont,
+  .div-4-eigh {
+    margin-top: 0;
+    width: 98%;
+  }
 
-    .latest-div3 {
-      width: 100%;
-    }
+  .latest-div3 {
+    width: 100%;
+  }
 
+  .reddit-div h4 {
+    width: 500px;
+  }
 
-    .reddit-div h4 {
-      width: 500px;
-    }
+  .div-4-eight {
+    padding-right: 50px;
+  }
 
-    .div-4-eight {
-      padding-right: 50px;
-    }
+  .fb-class h2,
+  .fb-class h4,
+  #apps-h1 h4,
+  #apps-h2 h4,
+  #apps-h3 h4,
+  #apps-h4 h4,
+  #apps-h5 h4 {
+    top: 30px;
+    width: 500px;
+  }
 
-    .fb-class h2,
-    .fb-class h4, 
-    #apps-h1 h4,
-     #apps-h2 h4,
-     #apps-h3 h4,
-     #apps-h4 h4,
-     #apps-h5 h4 {
-      top: 30px;
-      width: 500px;
-    }
+  #one-img {
+    width: 98%;
+    height: auto;
+    padding-bottom: 20px;
+  }
 
-    #one-img {
-      width: 98%;
-      height: auto;
-      padding-bottom: 20px;
-    }
+  .footer-up-div {
+    height: 100px;
+  }
 
-    .footer-up-div {
-      height: 100px;
-    }
-    .list-container {
-      display: grid;
-      grid-template-columns: repeat(5, auto);
-
-    }
+  .list-container {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+  }
 }
 
 
- /*Small Screen*/
-@media screen and ( max-width: 425px  ) and ( min-width: 326px ){
-
-    body {
-      width: 100vw;
-      padding: 0;
-    }
-
-    .top-header {
-      display: none;
-    }
-
-    .small-header {
-      background-color: #FFF;
-      overflow-x: hidden;
-      position: fixed;
-      width: 100vw;
-      z-index: 1;
-    }
-
-    .small-header {
-      display: grid;
-      grid-template-rows: repeat(2, auto);
-    }
-
-    .small-top-bar {
-      display: grid;
-      grid-template-columns: repeat(2, auto);
-      height: 100px;
-      justify-content: space-between;
-      width: 100%;
-    }
-
-    .fas.fa-search.fa-3x, 
-    .fas.fa-bars.fa-3x {
-      border-left: 1px solid #3f3c3c;
-      padding: 25px;
-    }
-    
-    .fas, .fa-bars, .fa-3x {
-      color: #dd1111;
-    }
-    
-    .yellow-bar {
-      background-color: #ffdd33;
-      height: 40px;
-    }
-
-    .yellow-bar h4 {
-      font-size: 11px;
-      padding-top: 15px;  
-      text-align: center;
-    }
-
-    .tnwlog, .left-art-top {
-      display: none;
-    }
-
-    .bio-tnw {
-      display: grid;
-      height: 100vh;
-      grid-template-columns: repeat(3, minmax(110px, 1fr));
-      grid-template-columns: 100%;
-      width: 80%;
-    }
-
-    .right-art {
-      display: grid;
-      grid-template-rows: repeat(2, auto);
-      position: relative;
-      right: 10px;
-      z-index: 0;
-    }    
-
-    .right-art-top h4{
-      font-size: 1em;
-      margin: 120px 2px 0 0px;
-      padding: 0 45px 0 5px;
-    }
-
-    .right-art-top {
-      background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Sprint_image.jpg");
-      background-size: cover;
-      grid-row: 1;
-      height: 217px;
-    }
-
-    .right-art-top::before {
-      content: '';
-      position: absolute;
-      background: linear-gradient( to bottom, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 1) 95% );
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      z-index: 0;
-    }
-
-    .right-art-top a {
-      color: #FFFFFF;
-      font-size: 1.3em;
-      left: 10px;
-      position: relative;
-      top: 130px;
-      text-decoration: none;
-      z-index: 0;
-    }
-
-    .right-art-bottom {
-      background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/bmw-ix3-all-electric-car-suv-sav-shift-evs-796x448.jpg");
-      background-size: cover;
-      grid-row: 2;
-      height: 217px;
-      margin: 0 0 10px 10px;
-      position: relative;
-      width: 100%;
-    }
-
-    .right-art-bottom::before {
-      background: linear-gradient( to bottom, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 1) 95% );
-      bottom: 0;
-      content: '';
-      left: 0;
-      position: absolute;
-      right: 0;
-      top: 0;
-      z-index: 0;
-    }
-
-    .right-art-bottom a {
-      color: #FFF;
-      display: block;
-      font-size: 20px;
-      line-height: 25px;
-      position: relative;
-      text-decoration: none;
-      top: 150px;
-      width: 95%;
-      z-index: 0;
-    }
-
-    .left-art {
-      background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/header-image-apple-own-arm-based-chips-796x417.png");
-      background-size: 100% 100%;
-      background-size: cover;
-      color: #FFFFFF;
-      display: grid;
-      font-family: Georgia, "Times New Roman", Times, serif;
-      grid-template-rows: repeat(2,auto);
-      height: auto;
-      width: 100%;
-      z-index: 0;
-    }
-    
-    .div-callum{
-      position: relative;
-      bottom: 20px;
-    }
-
-    .left-art::before {
-      background: linear-gradient( to bottom, rgba(0, 0, 0, 0.3) 10%, rgb(224, 108, 108) 95% );
-      bottom: 0;
-      content: '';
-      left: 0;
-      position: absolute;
-      right: 0;
-      top: 0;
-      z-index: 0;
-    }
-
-    .left-art img { 
-      bottom: 20px;
-      height: 200px;
-      padding: 20px;
-      position: relative;
-      width: 60%;
-      z-index: 0;
-    }
-
-    .left-art p {
-      height: 5px;
-      position: relative;
-      right: 50px;
-      text-align: right;
-      top: 30px;
-      z-index: 0;
-    }
-
-    .info a{
-      color: #FF4422;
-      font-size: 25px;
-      font-weight: 700;
-      text-decoration: none;
-      margin-bottom: 20px;
-    }
-      
-    .info a:hover {
-      color:  #383838;
-      font-size: 25px;
-      font-weight: 700;
-      text-decoration: none;
-    }
-
-    .left-art h4 {
-      font-size: 1em;
-      margin: 120px 20px 0 0px;
-      padding: 0 45px 0 5px;
-    }
-
-    .div-callum{
-      position: relative;
-      left: 20px;
-    }
-  .left-art a {
-    text-decoration: none;
-    color: #FFF;
+/* Small Screen */
+@media screen and (max-width: 425px) and (min-width: 326px) {
+  body {
+    width: 100vw;
+    padding: 0;
   }
 
-  .left-art-top, 
+  .top-header {
+    display: none;
+  }
+
+  .small-header {
+    background-color: #fff;
+    overflow-x: hidden;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+  }
+
+  .small-header {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+  }
+
+  .small-top-bar {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    height: 100px;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .fas.fa-search.fa-3x,
+  .fas.fa-bars.fa-3x {
+    border-left: 1px solid #3f3c3c;
+    padding: 25px;
+  }
+
+  .fas,
+  .fa-bars,
+  .fa-3x {
+    color: #d11;
+  }
+
+  .yellow-bar {
+    background-color: #fd3;
+    height: 40px;
+  }
+
+  .yellow-bar h4 {
+    font-size: 11px;
+    padding-top: 15px;
+    text-align: center;
+  }
+
+  .tnwlog,
+  .left-art-top {
+    display: none;
+  }
+
+  .bio-tnw {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(3, minmax(110px, 1fr));
+    grid-template-columns: 100%;
+    width: 80%;
+  }
+
+  .right-art {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    position: relative;
+    right: 10px;
+    z-index: 0;
+  }
+
+  .right-art-top h4 {
+    font-size: 1em;
+    margin: 120px 2px 0 0;
+    padding: 0 45px 0 5px;
+  }
+
+  .right-art-top {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Sprint_image.jpg");
+    background-size: cover;
+    grid-row: 1;
+    height: 217px;
+  }
+
+  .right-art-top::before {
+    content: '';
+    position: absolute;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 1) 95%);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+  }
+
+  .right-art-top a {
+    color: #fff;
+    font-size: 1.3em;
+    left: 10px;
+    position: relative;
+    top: 130px;
+    text-decoration: none;
+    z-index: 0;
+  }
+
+  .right-art-bottom {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/bmw-ix3-all-electric-car-suv-sav-shift-evs-796x448.jpg");
+    background-size: cover;
+    grid-row: 2;
+    height: 217px;
+    margin: 0 0 10px 10px;
+    position: relative;
+    width: 100%;
+  }
+
+  .right-art-bottom::before {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 1) 95%);
+    bottom: 0;
+    content: '';
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
+  }
+
+  .right-art-bottom a {
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    line-height: 25px;
+    position: relative;
+    text-decoration: none;
+    top: 150px;
+    width: 95%;
+    z-index: 0;
+  }
+
+  .left-art {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/header-image-apple-own-arm-based-chips-796x417.png");
+    background-size: 100% 100%;
+    background-size: cover;
+    color: #fff;
+    display: grid;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    grid-template-rows: repeat(2, auto);
+    height: auto;
+    width: 100%;
+    z-index: 0;
+  }
+
+  .div-callum {
+    position: relative;
+    bottom: 20px;
+  }
+
+  .left-art::before {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 10%, rgb(224, 108, 108) 95%);
+    bottom: 0;
+    content: '';
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
+  }
+
+  .left-art img {
+    bottom: 20px;
+    height: 200px;
+    padding: 20px;
+    position: relative;
+    width: 60%;
+    z-index: 0;
+  }
+
+  .left-art p {
+    height: 5px;
+    position: relative;
+    right: 50px;
+    text-align: right;
+    top: 30px;
+    z-index: 0;
+  }
+
+  .info a {
+    color: #f42;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-bottom: 20px;
+  }
+
+  .info a:hover {
+    color: #383838;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .left-art h4 {
+    font-size: 1em;
+    margin: 120px 20px 0 0;
+    padding: 0 45px 0 5px;
+  }
+
+  .div-callum {
+    position: relative;
+    left: 20px;
+  }
+
+  .left-art a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .left-art-top,
   .left-art-down {
     height: 198px;
     width: 100%;
@@ -2342,25 +2357,24 @@ a {
     width: 200px;
   }
 
-  .latest-div1 h4, 
+  .latest-div1 h4,
   .latest-div2 h4 {
     bottom: 20px;
-    color: #ff0000;
+    color: #f00;
     padding: 20px 0 10px 0;
     position: relative;
   }
 
-
-  .latest-div4, 
-  .latest-div5, 
-  .latest-div6, 
+  .latest-div4,
+  .latest-div5,
+  .latest-div6,
   .latest-div7 {
     width: 100%;
   }
 
   .latest-div2 a {
     bottom: 30px;
-    color: #ff0000;
+    color: #f00;
     position: relative;
     width: 200px;
   }
@@ -2371,15 +2385,15 @@ a {
     color: #f42;
     line-height: 2em;
   }
-  
+
   .funding-title {
     font-size: 28px;
   }
-  
+
   .funding-list {
     font-size: 14px;
   }
-  
+
   .funding-grid-container {
     display: grid;
     width: 95%;
@@ -2387,64 +2401,64 @@ a {
     gap: 20px;
     grid-template-rows: repeat(4, auto);
   }
-  
+
   .funding-grid-items {
     position: relative;
   }
-  
+
   .orange p,
   .lightorange p {
     padding-left: 100px;
   }
-  
+
   .smartlogo {
     position: absolute;
     top: 10px;
     left: 10px;
     height: 70px;
   }
-  
+
   .orange {
     background-color: #f42;
     height: 45px;
   }
-  
+
   .orange p {
     color: white;
     font-size: 18px;
     font-weight: 700;
     padding-top: 11px;
   }
-  
+
   .lightorange {
     background-color: #ffebe7;
     height: 59px;
   }
-  
+
   .lightorange p {
     font-size: 18px;
     font-weight: 700;
     padding-top: 14px;
   }
-  
+
   .beige1 {
     background-color: #fffaf8;
     height: 80px;
     border-bottom: 1px solid #f42;
   }
-  
+
   .beige1 p,
   .beige2 p {
     font-size: 13px;
     padding-left: 15px;
     padding-top: 13px;
   }
-  
+
   .beige2 {
     background-color: #fffaf8;
     height: 45px;
   }
-  
+
   .funding-grid-item4 {
     display: none;
   }
@@ -2464,70 +2478,72 @@ a {
     margin-top: 0;
   }
 
-  .eight-grids{
+  .eight-grids {
     margin: 160px 0 100px 0;
     z-index: 0;
     width: 80%;
   }
+
   .eight-grids1 {
     margin: -150px 0 0 0;
     z-index: 0;
     width: 80%;
   }
 
-  .top-img-div > .deals-cont img{
+  .top-img-div > .deals-cont img {
     height: 80px;
     width: 119px;
     float: left;
     margin-right: 17px;
   }
 
-  .top-img-div > .deals-cont a{
+  .top-img-div > .deals-cont a {
     color: rgb(75, 75, 75);
   }
 
-  .top-img-div{
+  .top-img-div {
     display: grid;
     width: 95%;
     gap: 14px;
     margin: 30px auto 60px auto;
   }
 
-  .micro-grav > .micro-grav2 h4{
+  .micro-grav > .micro-grav2 h4 {
     font-size: 0.8em;
   }
 
-  .micro-grav > .micro-grav2 > .cosmic-op{
+  .micro-grav > .micro-grav2 > .cosmic-op {
     font-size: 0.6em;
   }
 
-  .micro-grav > .micro-grav2 > .hours-3{
+  .micro-grav > .micro-grav2 > .hours-3 {
     font-size: 0.6em;
   }
 
-  .top-img-div > .micro-grav img{
+  .top-img-div > .micro-grav img {
     height: 80px;
     width: 119px;
     float: left;
     margin-right: 10px;
   }
 
-  .micro-grav, .deals-cont{
+  .micro-grav,
+  .deals-cont {
     width: 100%;
     height: 80px;
   }
 
-  .funding-img-cont  img{
+  .funding-img-cont img {
     height: 80px;
     width: 80px;
   }
 
   .news-latest {
-    color: #FF4422;
+    color: #f42;
     font-size: 28px;
     font-weight: 700;
   }
- 
+
   .red {
     height: 500px;
     width: 350px;
@@ -2537,15 +2553,15 @@ a {
     height: 310px;
     width: 350px;
   }
- 
-  
+
+
   .funding {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
   }
- 
-  .apps{
+
+  .apps {
     display: grid;
     grid-template-rows: repeat(8, minmax(auto, 1fr));
     width: 98%;
@@ -2556,7 +2572,7 @@ a {
   .apps small {
     font-size: 21px;
   }
-  
+
   .apps-h1 h4 {
     bottom: 0;
     font-size: 40px;
@@ -2566,14 +2582,14 @@ a {
     width: 500px;
   }
 
-  .apps-anch a{
+  .apps-anch a {
     font-size: 14px;
     color: rgb(97, 97, 97);
   }
 
   #apps-h1 h4,
   #apps-h2 h4,
-  #apps-h3 h4, 
+  #apps-h3 h4,
   #apps-h4 h4,
   #apps-h5 h4 {
     font-size: 20px;
@@ -2592,7 +2608,7 @@ a {
     bottom: 40px;
   }
 
-  .funding-list li{
+  .funding-list li {
     font-size: 30px;
     padding: 5px;
   }
@@ -2603,172 +2619,170 @@ a {
     height: 80px;
   }
 
-
-  .funding-nav ul{
-    color: #FF4422;
+  .funding-nav ul {
+    color: #f42;
     display: grid;
     font-size: 12px;
     line-height: 10px;
     list-style: none;
-  } 
-  
-  .funding-list a{
+  }
+
+  .funding-list a {
     font-size: 14px;
   }
 
-  .funding-list{
+  .funding-list {
     margin-left: 0;
   }
-    #fund-round {
-      font-size: 30px;
-      margin-left: 40px;
-      padding: 5px;
-      position: relative;
-      top: 80px;
-    }
 
-    .funding-img-cont {
-      bottom: 80px;
-      position: relative;
-    }
+  #fund-round {
+    font-size: 30px;
+    margin-left: 40px;
+    padding: 5px;
+    position: relative;
+    top: 80px;
+  }
 
+  .funding-img-cont {
+    bottom: 80px;
+    position: relative;
+  }
 
-    .one {
-      margin-left: 0;
-    }
+  .one {
+    margin-left: 0;
+  }
 
-    .funding-img-cont {
-      bottom: 100px;
-      display: flex;
-      flex-direction: column;
-      flex-wrap: nowrap;
-      margin: 0;
-      overflow-x: hidden;
-      position: relative;
-      width: 82%;
-    }
+  .funding-img-cont {
+    bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 0;
+    overflow-x: hidden;
+    position: relative;
+    width: 82%;
+  }
 
-    .apps {
-      bottom: 200px;
-      display: flex;
-      flex-direction: column;
-      flex-wrap: nowrap;
-      margin-top: 80px;
-      overflow-x: hidden;
-      padding: 0 20px 0 20px;
-      position: relative;
-      width: 78%;
-    }
+  .apps {
+    bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top: 80px;
+    overflow-x: hidden;
+    padding: 0 20px 0 20px;
+    position: relative;
+    width: 78%;
+  }
 
-    .info1{
-      margin: 20px 20px 20px 0;
-      color: #FF4422;
-    }
+  .info1 {
+    margin: 20px 20px 20px 0;
+    color: #f42;
+  }
 
-    .info1 a{
-      color: #FF4422;
-    }
+  .info1 a {
+    color: #f42;
+  }
 
-    .info0 a{
-      color: #FF4422;
-      font-size: 25px;
-      font-weight: 700;
-      text-decoration: none;
-      margin-bottom: 20px;
-    }
-    
-    .info0 a:hover {
-      color:  #FF4422;
-      font-size: 25px;
-      font-weight: 700;
-      text-decoration: none;
-    }
+  .info0 a {
+    color: #f42;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-bottom: 20px;
+  }
 
-    .footer-down-div {
-      display: grid;
-      grid-template-rows: 1fr 1fr 1fr;
-    }
+  .info0 a:hover {
+    color: #f42;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+  }
 
-    .tnw-small {
-      width: 50px;
-    }
+  .footer-down-div {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
 
-    .footer-down-div span {
-      background-color: black;
-      font-size: 14px;
-    }
+  .tnw-small {
+    width: 50px;
+  }
 
-    #one-img {
-      height: 500px;
-      padding: 0;
-      width: 100%;
-    }
+  .footer-down-div span {
+    background-color: black;
+    font-size: 14px;
+  }
 
-    .info-txt-div, 
-    .reddit-div, 
-    .red-txt, 
-    .simpson, 
-    .latest-div1,
-    .wacom,
-    .latest-div2, 
-    .latest-div3, 
-    .creative-div, 
-    .launch-div, 
-    .deals-cont, 
-    .div-4-eigh{
-      margin-top: 0;
-      width: 98%;
-    }
+  #one-img {
+    height: 500px;
+    padding: 0;
+    width: 100%;
+  }
 
-    .latest-div3 {
-      width: 100%;
-    }
+  .info-txt-div,
+  .reddit-div,
+  .red-txt,
+  .simpson,
+  .latest-div1,
+  .wacom,
+  .latest-div2,
+  .latest-div3,
+  .creative-div,
+  .launch-div,
+  .deals-cont,
+  .div-4-eigh {
+    margin-top: 0;
+    width: 98%;
+  }
 
+  .latest-div3 {
+    width: 100%;
+  }
 
-    .reddit-div h4 {
-      width: 90%;
-    }
+  .reddit-div h4 {
+    width: 90%;
+  }
 
-    .simpson h4 {
-      width: 90%;
-    }
+  .simpson h4 {
+    width: 90%;
+  }
 
-    .insight h4{
-      width: 90%;
-    }
+  .insight h4 {
+    width: 90%;
+  }
 
-    .div-4-eight {
-      padding-right: 50px;
-    }
+  .div-4-eight {
+    padding-right: 50px;
+  }
 
-    .fb-class h2,
-    .fb-class h4, 
-    #apps-h1 h4,
-     #apps-h2 h4,
-     #apps-h3 h4,
-     #apps-h4 h4,
-     #apps-h5 h4 {
-      top: 30px;
-      font-size: 1em;
-    }
+  .fb-class h2,
+  .fb-class h4,
+  #apps-h1 h4,
+  #apps-h2 h4,
+  #apps-h3 h4,
+  #apps-h4 h4,
+  #apps-h5 h4 {
+    top: 30px;
+    font-size: 1em;
+  }
 
-    #one-img {
-      width: 98%;
-      height: auto;
-      padding-bottom: 20px;
-    }
+  #one-img {
+    width: 98%;
+    height: auto;
+    padding-bottom: 20px;
+  }
 
-    .footer-up-div {
-      height: 100px;
-    }
-    .list-container {
-      display: grid;
-      grid-template-columns: repeat(5, auto);
+  .footer-up-div {
+    height: 100px;
+  }
 
-    }
-    .icon-cont li {
-      padding: 7px;
-    }
-}   
-  
-  
+  .list-container {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+  }
+
+  .icon-cont li {
+    padding: 7px;
+  }
+}
+
