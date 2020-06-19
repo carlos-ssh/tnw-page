@@ -17,7 +17,7 @@ This is a The Next Web clone page by Carlos &amp; Adesoji.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/carlos-ssh/tnw-page/5f6e1e3ea2a31c988141a178b7d60a4d030e1344/index.html)
+[Live Demo Link](https://rawcdn.githack.com/carlos-ssh/tnw-page/60cef2c452a92f920f31a069bb86ef981f81a077/index.html)
 
 
 
