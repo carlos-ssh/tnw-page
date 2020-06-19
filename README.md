@@ -25,9 +25,9 @@ This is a The Next Web clone page by Carlos &amp; Adesoji.
 
 👤 **Carlos Robles**
 
-- Github: [@githubhandle](https://github.com/carlos-ssh)
-- Twitter: [@twitterhandle](https://twitter.com/AomRobles)
-- Linkedin: [linkedin](https://linkedin.com/carlosfloresrobles)
+- Github: [@Carlos-SSH](https://github.com/carlos-ssh)
+- Twitter: [@Aom-Robles](https://twitter.com/AomRobles)
+- Linkedin: [@Carlos-Robles](https://linkedin.com/carlosfloresrobles)
 
 👤 **Adesoji Adewumi**
 
