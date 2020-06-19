@@ -1,8 +1,14 @@
 # TNW-Page
-This is a The Next Web clone page by Carlos &amp; Adesoji. 
+This is a The Next Web clone page by Carlos &amp; Adesoji.
 
-![screenshot](./assets/font/img/the-tnw-screenshot.png)
+## Big Screens 
+![screenshot](./big.png)
 
+## Middle Screens 
+![screenshot](./middle.png)
+
+## Small Screens 
+![screenshot](./small.png)
 
 ## Built With
 
