@@ -40,7 +40,8 @@ a {
   text-decoration-line: none;
 }
 
-#news {
+#news, 
+.news {
   color: #fff;
   margin-left: 10px;
 }
@@ -80,7 +81,8 @@ a {
   display: block;
 }
 
-#neural {
+#neural, 
+.neural {
   margin-right: 80px;
 }
 
@@ -172,9 +174,10 @@ a {
   height: 40px;
 }
 
-#latest {
+#latest, .latest {
   margin-left: 10px;
 }
+
 
 .funding-img-cont {
   gap: 25px;
@@ -360,7 +363,7 @@ a {
 
 .cosmic-op, .hours-3 {
   font-size: 12px;
-  color: #dad2d2;
+  color: #635e5e;
 }
 
 .left-art a {
@@ -1304,6 +1307,9 @@ a {
     padding: 0;
     margin: 0;
   }
+.reddit-div h4 {
+  width: 340px;
+}
 
   .news-latest {
     position: relative;
@@ -1364,8 +1370,6 @@ a {
     width: 270px;
   }
 
- 
-
   .micro-grav {
     padding: 0;
   }
@@ -1390,8 +1394,7 @@ a {
   .funding-grid-items {
     position: relative;
   }
-
-
+ 
   .orange p,
   .lightorange p {
     padding-left: 100px;
@@ -1548,7 +1551,7 @@ width: 310px;
 }
 
 .info0 b {
-  margin-left: 600px;
+  margin-left: 900px;
   font-size: 20px;
 }
 
@@ -1761,7 +1764,6 @@ width: 310px;
   width: 300px;
 }
 
-
 .orange p,
 .lightorange p {
   padding-left: 100px;
@@ -1847,7 +1849,6 @@ width: 310px;
   font-size: 40px
 }
 
-
 .apps-anch {
   padding: 15px 0 0 0;
   width: 450px;
@@ -1866,7 +1867,8 @@ width: 310px;
   margin-top: 15px;
 }
 
-.reddit-div h4, .simpson h4 {
+.reddit-div h4, 
+.simpson h4 {
   width: 460px;
 }
 
@@ -1897,23 +1899,23 @@ width: 310px;
 
 .wacom h4, 
 .insight a {
-  top: 270px;
   font-size: 21px;
   position: relative;
+  top: 270px;
 }
 
 .wacom small,
 .fb-class small,
 .iwatch small {
-  top: 280px;
   font-size: 18px;
+  top: 280px;
 }
 
 .creativity h2, 
 .iwatch h2 {
-  top: 255px;
-  position: relative;
   font-size: 17px;
+  position: relative;
+  top: 255px;
 }
 
 .creativity h4,
@@ -1925,17 +1927,17 @@ width: 310px;
 
 .fb-class h4,
 .iwatch h4 {
+  position: relative;
   top: 140px;
   width: 440px;
-  position: relative;
 }
 
 .creativity small, 
 .hacka small,
 .insight small {
-  top: 290px;
-  position: relative;
   font-size: 18px;
+  position: relative;
+  top: 290px;
 }
 
 .info-txt-div {
@@ -2061,9 +2063,9 @@ width: 310px;
 
   .x-t {
   background-color: #1f1b1b;
-  position: relative;
-  height: 30px;
   bottom: 10px;
+  height: 30px;
+  position: relative;
 }
 
   .x-t b {
