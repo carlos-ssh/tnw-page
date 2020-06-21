@@ -95,12 +95,12 @@ a {
   border: 1px solid #8b8080;
   color: #d8cdcd;
 }
-
 .event-list,
-.bizlist {
-  position: absolute;
+.bizlist
+{
+	display: none;
+	position: absolute;
 }
-
 .white-nav,
 .right-white-list {
   align-items: center;
@@ -596,26 +596,26 @@ a {
 .latest-div4,
 .latest-div5,
 .latest-div6,
-.latest-div7 {
-  background-color: rgb(252, 213, 210);
-  color: red;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  height: 120px;
-  justify-content: space-between;
-  justify-items: end;
-  width: 360px;
+.latest-div7
+{
+	background-color: rgb(252, 213, 210);
+	color: red;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	height: 120px;
+	justify-content: space-between;
+	justify-items: end;
+	width: 360px;
 }
-
-.red-txt a {
-  color: #f42;
-  width: 200px;
+.red-txt a
+{
+	color: #f42;
+	width: 200px;
 }
-
-.latest-div4 a {
-  color: red;
+.latest-div4 a
+{
+	color: red;
 }
-
 .red-txt img,
 .latest-div1 img,
 .latest-div2 img,
@@ -623,634 +623,611 @@ a {
 .latest-div4 img,
 .latest-div5 img,
 .latest-div6 img,
-.latest-div7 img {
-  width: 120px;
-  height: 120px;
-}
-
-.ul-1 {
-  display: grid;
-  font-size: 12px;
-  grid-column: 1;
-  grid-row: 4;
-  line-height: 21px;
-}
-
-.ul-1 li {
-  align-content: center;
-  border-bottom: 1px solid rgba(180, 178, 178, 0.788);
-  color: #f42;
-  margin: 5px 0 5px 0;
-}
-
-.ul-2 {
-  display: grid;
-  font-size: 12px;
-  grid-column: 2;
-  grid-row: 4;
-  line-height: 21px;
-}
-
-.ul-2 li {
-  color: #f42;
-  border-bottom: 1px solid grey;
-  margin: 7px 0 7px 0;
-}
-
-.ul-3 li {
-  border-bottom: 1px solid grey;
-  color: #f42;
-  line-height: 20px;
-  padding-bottom: 5px;
-  padding-top: 15px;
-}
-
-.ul-4 {
-  display: grid;
-  font-size: 14px;
-  grid-column: 1;
-  grid-row: 8;
-}
-
-.ul-4 li {
-  border-bottom: 1px solid rgba(128, 128, 128, 0.657);
-  color: #f42;
-  line-height: 20px;
-  padding-bottom: 5px;
-  padding-top: 15px;
-}
-
-.ul-5 {
-  display: grid;
-  font-size: 14px;
-  grid-column: 1;
-  grid-row: 8;
-}
-
-.ul-5 li {
-  border-bottom: 1px solid rgba(128, 128, 128, 0.657);
-  color: #f42;
-  line-height: 20px;
-  padding-bottom: 5px;
-  padding-top: 15px;
-}
-
-.ul-6 {
-  display: grid;
-  font-size: 14px;
-  grid-column: 1;
-  grid-row: 12;
-}
-
-.ul-6 li {
-  color: #f42;
-  border-bottom: 1px solid rgba(128, 128, 128, 0.657);
-  line-height: 20px;
-  padding: 15px 0 5px 0;
-}
-
-.ul-7 {
-  display: grid;
-  font-size: 12px;
-  grid-column: 2;
-  grid-row: 4;
-  line-height: 21px;
-}
-
-.ul-7 li {
-  border-bottom: 1px solid grey;
-  color: #f42;
-  margin: 7px 0 7px 0;
-}
-
-.ul-8 {
-  display: grid;
-  font-size: 12px;
-  grid-column: 1;
-  grid-row: 4;
-  line-height: 21px;
-}
-
-.ul-8 li {
-  align-content: center;
-  border-bottom: 1px solid rgba(180, 178, 178, 0.788);
-  color: #f42;
-  margin: 7px 0 7px 0;
-}
-
-.latest-div1 h4 {
-  color: #f42;
-  padding: 20px 0 10px 0;
-}
-
-.latest-div1 a {
-  bottom: 25px;
-  color: #f42;
-  position: relative;
-  width: 200px;
-}
-
-.latest-div2 a {
-  color: #f42;
-  position: relative;
-  width: 200px;
-}
-
-.latest-div2 h4 {
-  padding-top: 20px;
-}
-
-.latest-div3 a {
-  padding-top: 10px;
-  color: #f42;
-  width: 200px;
-}
-
-.latest-div3 h4 {
-  padding-top: 10px;
-  color: #f42;
-}
-
-.apps-anch a {
-  font-size: 20px;
-  line-height: 15px;
-}
-
-.micro-grav2 h4 {
-  font-size: 20px;
-  color: #000;
-}
-
-.latest-div4 h4 {
-  color: #f42;
-  padding-top: 10px;
-}
-
-.latest-div5 a {
-  color: #f42;
-  padding-top: 10px;
-  width: 200px;
-}
-
-.latest-div5 h4 {
-  color: #f42;
-  padding-top: 10px;
-}
-
-.latest-div6 a {
-  bottom: 5px;
-  color: #f42;
-  font-size: 13px;
-  padding-top: 10px;
-  position: relative;
-  width: 200px;
-}
-
-.latest-div6 h4 {
-  color: #f42;
-  padding-top: 10px;
-}
-
-.latest-div7 h4 {
-  bottom: 5px;
-  color: #f42;
-  padding: 20px 0 10px 0;
-  position: relative;
-}
-
-.latest-div7 a {
-  bottom: 20px;
-  color: #f42;
-  font-size: 13px;
-  position: relative;
-  width: 240px;
-}
-
-.simpson {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/header-image-the-outer-worlds-516x270.png");
-  background-size: cover;
-  color: #fff;
-  display: grid;
-  grid-column: 2;
-  grid-row: 2;
-  height: 276px;
-  position: relative;
-  width: 360px;
-}
-
-.simpson::before {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 1) 95%);
-  bottom: 0;
-  content: '';
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: 0;
-}
-
-.simpson a {
-  color: #fff;
-  position: relative;
-  top: 80px;
-  font-size: 14px;
-  left: 20px;
-}
-
-.simpson small {
-  position: relative;
-  top: 40px;
-  left: 20px;
-}
-
-.simpson h2 {
-  left: 20px;
-  position: relative;
-  top: 120px;
-}
-
-.wacom {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/1-5-796x417.jpg");
-  background-size: cover;
-  color: #fff;
-  display: grid;
-  grid-column: 3;
-  grid-row: 2;
-  height: 276px;
-  position: relative;
-  width: 360px;
-  z-index: 0;
-}
-
-.wacom-div h4 {
-  color: #fff;
-  font-size: 14px;
-  left: 20px;
-  position: relative;
-  top: 145px;
-}
-
-.wacom small {
-  color: #fff;
-  left: 20px;
-  position: relative;
-  top: 170px;
-}
-
-.wacom h2 {
-  color: #fff;
-  left: 20px;
-  position: relative;
-  top: 120px;
-}
-
-.wacom::before {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 95%);
-  bottom: 0;
-  content: '';
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: 0;
-}
-
-.creativity {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/12/2017-07-30-07-28-00-1000x667-405x270.jpg");
-  background-size: cover;
-  display: grid;
-  grid-column: 1;
-  grid-row: 2;
-  height: 276px;
-  position: relative;
-}
-
-.creativity::before {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 95%);
-  bottom: 0;
-  content: '';
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: 0;
-}
-
-.creativity a {
-  color: #fff;
-  left: 20px;
-  position: relative;
-  top: 140px;
-}
-
-.creativity h2 {
-  color: #fff;
-  left: 20px;
-  position: relative;
-  top: 120px;
-}
-
-.creativity small {
-  color: #fff;
-  left: 20px;
-  position: relative;
-  top: 160px;
-}
-
-.hacka {
-  background-image: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F08%2Fbitcoin_today-header_bitcoin_today.jpg&signature=b75eca35f42accc83310a4fa4e562088");
-  background-size: cover;
-  color: #fff;
-  height: 276px;
-  position: relative;
-}
-
-.hacka::before {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 95%);
-  bottom: 0;
-  content: '';
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: 0;
-}
-
-.hacka a {
-  color: #fff;
-  left: 20px;
-  position: relative;
-  top: 140px;
-}
-
-.hacka h2 {
-  left: 20px;
-  position: relative;
-  top: 120px;
-}
-
-.hacka small {
-  left: 20px;
-  position: relative;
-  top: 160px;
-}
-
-.insight {
-  background-image: url("https://img-cdn.tnwcdn.com/image?fit=600%2C336&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F06%2Fengineering-manager-gq.png&signature=f82fe12063e6b866a4ed5344df2dbd75");
-  background-size: cover;
-  color: #fff;
-  height: 276px;
-  position: relative;
-  z-index: 0;
-}
-
-.insight::before {
-  content: '';
-  position: absolute;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 95%);
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 0;
-}
-
-.insight a {
-  color: #fff;
-  left: 20px;
-  position: relative;
-  top: 140px;
-}
-
-.insight h2 {
-  left: 20px;
-  position: relative;
-  top: 120px;
-}
-
-.insight small {
-  left: 20px;
-  position: relative;
-  top: 160px;
-}
-
-.fb-class {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Facebook-Discover-796x419.jpg");
-  background-size: cover;
-  color: #fff;
-  height: 276px;
-  position: relative;
-}
-
-.fb-class::before {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 95%);
-  bottom: 0;
-  content: '';
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: 0;
-}
-
-.fb-class a {
-  color: #fff;
-  position: relative;
-  top: 120px;
-  left: 20px;
-}
-
-.fb-class h2 {
-  left: 20px;
-  position: relative;
-  top: 100px;
-}
-
-.fb-class small {
-  left: 20px;
-  position: relative;
-  top: 130px;
-}
-
-.fb-class h4 {
-  font-size: 20px;
-}
-
-.iwatch h4 {
-  font-size: 18px;
-}
-
-.iwatch {
-  background-image: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F06%2Fheader-image-apple-watch-band-bands.png&signature=e71f734a54cf45be7afa11767acb60fa");
-  background-size: cover;
-  color: #fff;
-  height: 276px;
-  position: relative;
-}
-
-.iwatch::before {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 95%);
-  bottom: 0;
-  content: '';
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: 0;
-}
-
-.iwatch h2 {
-  left: 20px;
-  position: relative;
-  top: 100px;
-}
-
-.iwatch a {
-  color: #fff;
-  position: relative;
-  top: 120px;
-  left: 20px;
-}
-
-.iwatch small {
-  color: #fff;
-  left: 20px;
-  position: relative;
-  top: 130px;
-}
-
-.div-4-eight {
-  bottom: 30px;
-  display: grid;
-  grid-template-rows: repeat(5, auto);
-  position: relative;
-}
-
-.apps-anch {
-  display: grid;
-  grid-template-rows: repeat(5, auto);
-  padding: 15px 40px 0 40px;
-}
-
+.latest-div7 img
+{
+	height: 120px;
+	width: 120px;
+}
+.ul-1
+{
+	display: grid;
+	font-size: 12px;
+	grid-column: 1;
+	grid-row: 4;
+	line-height: 21px;
+}
+.ul-1 li
+{
+	align-content: center;
+	border-bottom: 1px solid rgba(180, 178, 178, 0.788);
+	color: #f42;
+	margin: 5px 0 5px 0;
+}
+.ul-2
+{
+	display: grid;
+	font-size: 12px;
+	grid-column: 2;
+	grid-row: 4;
+	line-height: 21px;
+}
+.ul-2 li
+{
+	border-bottom: 1px solid grey;
+	color: #f42;
+	margin: 7px 0 7px 0;
+}
+.ul-3 li
+{
+	border-bottom: 1px solid grey;
+	color: #f42;
+	line-height: 20px;
+	padding-bottom: 5px;
+	padding-top: 15px;
+}
+.ul-4
+{
+	display: grid;
+	font-size: 14px;
+	grid-column: 1;
+	grid-row: 8;
+}
+.ul-4 li
+{
+	border-bottom: 1px solid rgba(128, 128, 128, 0.657);
+	color: #f42;
+	line-height: 20px;
+	padding-bottom: 5px;
+	padding-top: 15px;
+}
+.ul-5
+{
+	display: grid;
+	font-size: 14px;
+	grid-column: 1;
+	grid-row: 8;
+}
+.ul-5 li
+{
+	border-bottom: 1px solid rgba(128, 128, 128, 0.657);
+	color: #f42;
+	line-height: 20px;
+	padding-bottom: 5px;
+	padding-top: 15px;
+}
+.ul-6
+{
+	display: grid;
+	font-size: 14px;
+	grid-column: 1;
+	grid-row: 12;
+}
+.ul-6 li
+{
+	border-bottom: 1px solid rgba(128, 128, 128, 0.657);
+	color: #f42;
+	line-height: 20px;
+	padding: 15px 0 5px 0;
+}
+.ul-7
+{
+	display: grid;
+	font-size: 12px;
+	grid-column: 2;
+	grid-row: 4;
+	line-height: 21px;
+}
+.ul-7 li
+{
+	border-bottom: 1px solid grey;
+	color: #f42;
+	margin: 7px 0 7px 0;
+}
+.ul-8
+{
+	display: grid;
+	font-size: 12px;
+	grid-column: 1;
+	grid-row: 4;
+	line-height: 21px;
+}
+.ul-8 li
+{
+	align-content: center;
+	border-bottom: 1px solid rgba(180, 178, 178, 0.788);
+	color: #f42;
+	margin: 7px 0 7px 0;
+}
+.latest-div1 h4
+{
+	color: #f42;
+	padding: 20px 0 10px 0;
+}
+.latest-div1 a
+{
+	bottom: 25px;
+	color: #f42;
+	position: relative;
+	width: 200px;
+}
+.latest-div2 a
+{
+	color: #f42;
+	position: relative;
+	width: 200px;
+}
+.latest-div2 h4
+{
+	padding-top: 20px;
+}
+.latest-div3 a
+{
+	color: #f42;
+	padding-top: 10px;
+	width: 200px;
+}
+.latest-div3 h4
+{
+	color: #f42;
+	padding-top: 10px;
+}
+.apps-anch a
+{
+	font-size: 20px;
+	line-height: 15px;
+}
+.micro-grav2 h4
+{
+	color: #000;
+	font-size: 1em;
+}
+.latest-div4 h4
+{
+	color: #f42;
+	padding-top: 10px;
+}
+.latest-div5 a
+{
+	color: #f42;
+	padding-top: 10px;
+	width: 200px;
+}
+.latest-div5 h4
+{
+	color: #f42;
+	padding-top: 10px;
+}
+.latest-div6 a
+{
+	bottom: 5px;
+	color: #f42;
+	font-size: 13px;
+	padding-top: 10px;
+	position: relative;
+	width: 200px;
+}
+.latest-div6 h4
+{
+	color: #f42;
+	padding-top: 10px;
+}
+.latest-div7 h4
+{
+	bottom: 5px;
+	color: #f42;
+	padding: 20px 0 10px 0;
+	position: relative;
+}
+.latest-div7 a
+{
+	bottom: 20px;
+	color: #f42;
+	font-size: 13px;
+	position: relative;
+	width: 240px;
+}
+.simpson
+{
+	background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/header-image-the-outer-worlds-516x270.png");
+	background-size: cover;
+	color: #fff;
+	display: grid;
+	grid-column: 2;
+	grid-row: 2;
+	height: 276px;
+	position: relative;
+	width: 360px;
+}
+.simpson a
+{
+	color: #fff;
+	font-size: 14px;
+	left: 20px;
+	position: relative;
+	top: 80px;
+}
+.simpson small
+{
+	left: 20px;
+	position: relative;
+	top: 40px;
+}
+.simpson h2
+{
+	left: 20px;
+	position: relative;
+	top: 120px;
+}
+.wacom
+{
+	background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/1-5-796x417.jpg");
+	background-size: cover;
+	color: #fff;
+	display: grid;
+	grid-column: 3;
+	grid-row: 2;
+	height: 276px;
+	position: relative;
+	width: 360px;
+	z-index: 0;
+}
+.wacom-div h4
+{
+	color: #fff;
+	font-size: 14px;
+	left: 20px;
+	position: relative;
+	top: 145px;
+}
+.wacom small
+{
+	color: #fff;
+	left: 20px;
+	position: relative;
+	top: 170px;
+}
+.wacom h2
+{
+	color: #fff;
+	left: 20px;
+	position: relative;
+	top: 120px;
+}
+.wacom::before
+{
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 95%);
+	bottom: 0;
+	content: '';
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 0;
+}
+.creativity
+{
+	background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/12/2017-07-30-07-28-00-1000x667-405x270.jpg");
+	background-size: cover;
+	display: grid;
+	grid-column: 1;
+	grid-row: 2;
+	height: 276px;
+	position: relative;
+}
+.creativity::before
+{
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 95%);
+	bottom: 0;
+	content: '';
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 0;
+}
+.creativity a
+{
+	color: #fff;
+	left: 20px;
+	position: relative;
+	top: 140px;
+}
+.creativity h2
+{
+	color: #fff;
+	left: 20px;
+	position: relative;
+	top: 120px;
+}
+.creativity small
+{
+	color: #fff;
+	left: 20px;
+	position: relative;
+	top: 160px;
+}
+.hacka
+{
+	background-image: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F08%2Fbitcoin_today-header_bitcoin_today.jpg&signature=b75eca35f42accc83310a4fa4e562088");
+	background-size: cover;
+	color: #fff;
+	height: 276px;
+	position: relative;
+}
+.hacka::before
+{
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 95%);
+	bottom: 0;
+	content: '';
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 0;
+}
+.hacka a
+{
+	color: #fff;
+	left: 20px;
+	position: relative;
+	top: 140px;
+}
+.hacka h2
+{
+	left: 20px;
+	position: relative;
+	top: 120px;
+}
+.hacka small
+{
+	left: 20px;
+	position: relative;
+	top: 160px;
+}
+.insight
+{
+	background-image: url("https://img-cdn.tnwcdn.com/image?fit=600%2C336&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F06%2Fengineering-manager-gq.png&signature=f82fe12063e6b866a4ed5344df2dbd75");
+	background-size: cover;
+	color: #fff;
+	height: 276px;
+	position: relative;
+	z-index: 0;
+}
+.insight::before
+{
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 95%);
+	bottom: 0;
+	content: '';
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 0;
+}
+.insight a
+{
+	color: #fff;
+	left: 20px;
+	position: relative;
+	top: 140px;
+}
+.insight h2
+{
+	left: 20px;
+	position: relative;
+	top: 120px;
+}
+.insight small
+{
+	left: 20px;
+	position: relative;
+	top: 160px;
+}
+.fb-class
+{
+	background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Facebook-Discover-796x419.jpg");
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+	height: 276px;
+	position: relative;
+}
+.fb-class::before
+{
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 95%);
+	bottom: 0;
+	content: '';
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 0;
+}
+.fb-class a
+{
+	color: #fff;
+	left: 20px;
+	position: relative;
+	top: 120px;
+}
+.fb-class h2
+{
+	left: 20px;
+	position: relative;
+	top: 100px;
+}
+.fb-class small
+{
+	left: 20px;
+	position: relative;
+	top: 130px;
+}
+.fb-class h4
+{
+	font-size: 20px;
+}
+.iwatch h4
+{
+	font-size: 18px;
+}
+.iwatch
+{
+	background-image: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F06%2Fheader-image-apple-watch-band-bands.png&signature=e71f734a54cf45be7afa11767acb60fa");
+	background-size: cover;
+	color: #fff;
+	height: 276px;
+	position: relative;
+}
+.iwatch::before
+{
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 95%);
+	bottom: 0;
+	content: '';
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 0;
+}
+.iwatch h2
+{
+	left: 20px;
+	position: relative;
+	top: 100px;
+}
+.iwatch a
+{
+	color: #fff;
+	left: 20px;
+	position: relative;
+	top: 120px;
+}
+.iwatch small
+{
+	color: #fff;
+	left: 20px;
+	position: relative;
+	top: 130px;
+}
+.div-4-eight
+{
+	bottom: 30px;
+	display: grid;
+	grid-template-rows: repeat(5, auto);
+	position: relative;
+}
+.apps-anch
+{
+	display: grid;
+	grid-template-rows: repeat(5, auto);
+	padding: 15px 40px 0 40px;
+}
 .top-img-div,
 .top-img-caps,
 .next-img-div,
-.next-img-cap {
-  display: grid;
+.next-img-cap
+{
+	display: grid;
 }
-
-#latest-d a {
-  position: relative;
-  margin-top: 50px;
-  top: 30px;
+.funding-img-cont img
+{
+	height: 80px;
+	width: 80px;
 }
-
-.funding-img-cont {
-  display: grid;
-  grid-template-columns: repeat(4, auto);
+.one
+{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(4, auto);
+	margin-left: 10px;
 }
-
-.funding-img-cont img {
-  height: 80px;
-  width: 80px;
+.one img
+{
+	width: 100%;
 }
-
-.one {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(4, auto);
-  margin-left: 10px;
+.micro-grav
+{
+	padding-right: 20px;
+	width: 270px;
 }
-
-.one img {
-  width: 100%;
-}
-
-.micro-grav {
-  padding-right: 20px;
-  width: 270px;
-}
-
 .next-img-div img,
-.apps-img {
-  height: 210px;
-  width: 270px;
+.apps-img
+{
+	height: 210px;
+	width: 270px;
 }
-
 .top-img-caps,
-.img-clue,
 .next-img-cap,
-.img-clue {
-  height: 100px;
-  width: 240px;
+.img-clue
+{
+	height: 100px;
+	width: 240px;
 }
-
-.cont-main {
-  display: grid;
-  grid-template-rows: repeat(9, auto);
-  overflow-x: hidden;
-  width: 100%;
+.cont-main
+{
+	display: grid;
+	grid-template-rows: repeat(9, auto);
+	width: 100%;
 }
-
 .funding-up,
-.latest-div {
-  display: grid;
-  grid-template-columns: repeat(2, auto);
+.latest-div
+{
+	display: grid;
+	grid-template-columns: repeat(2, auto);
 }
-
 .funding-list,
-.launch-cont {
-  display: grid;
-  grid-template-columns: repeat(3, auto);
+.launch-cont
+{
+	display: grid;
+	grid-template-columns: repeat(3, auto);
 }
-
-.creative-cont {
-  display: grid;
-  grid-template-columns: repeat(3, auto);
-  grid-template-rows: repeat(2, auto);
-  grid-column-gap: 15px;
-  grid-row-gap: 20px;
+.creative-cont
+{
+	display: grid;
+	grid-column-gap: 15px;
+	grid-row-gap: 20px;
+	grid-template-columns: repeat(3, auto);
+	grid-template-rows: repeat(2, auto);
 }
-
 .creative-div,
-.launch-div {
-  width: 360px;
+.launch-div
+{
+	width: 360px;
 }
-
-.latest-img {
-  height: 90px;
-  width: 30px;
+.latest-img
+{
+	height: 90px;
+	width: 30px;
 }
-
-.icon-cont {
-  display: grid;
-  grid-template-columns: repeat(7, auto);
-  position: relative;
-  bottom: 10px;
-  width: 100vw;
+.icon-cont
+{
+	bottom: 10px;
+	display: grid;
+	grid-template-columns: repeat(7, auto);
+	position: relative;
+	width: 100vw;
 }
-
-.list-container {
-  display: grid;
-  grid-template-columns: repeat(5, auto);
-  position: relative;
-  bottom: 20px;
+.list-container
+{
+	bottom: 20px;
+	display: grid;
+	grid-template-columns: repeat(5, auto);
+	position: relative;
 }
-
-.tnw-small {
-  width: 50px;
+.tnw-small
+{
+	width: 50px;
 }
-
-.footer-up-div * {
-  list-style-type: none;
-  text-decoration-line: none;
-  justify-content: center;
+.footer-up-div *
+{
+	justify-content: center;
+	list-style-type: none;
+	text-decoration: none;
 }
-
-.list-container li {
-  padding: 0 10px 0 10px;
+.list-container li
+{
+	padding: 0 10px 0 10px;
 }
-
 .list-container a,
 .icon-cont a {
   color: #f1ecec;
