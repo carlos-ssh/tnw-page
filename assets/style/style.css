@@ -2324,11 +2324,11 @@ width: 310px;
   }
 
   .left-art h4 {
-    width: 90vw;
     bottom: 120px;
+    font-size: 18px !important;
     margin: 120px 20px 0 0;
     padding: 0 45px 0 5px;
-    font-size: 18px !important;
+    width: 90vw;
   }
 
   .div-callum {
@@ -2938,7 +2938,6 @@ color: #afaaaa;
   .left-art-top {
     display: none;
   }
-
 }
 
 
