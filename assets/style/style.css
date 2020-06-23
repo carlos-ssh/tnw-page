@@ -1686,7 +1686,7 @@ width: 290px !important;
 
   .bio-tnw {
     top: 95px;
-    width:92.2%;
+    width:100%;
   }
 
 .div-callum {
@@ -2135,7 +2135,8 @@ width: 310px;
 
   .small-header {
     display: grid;
-    grid-template-rows: repeat(2, auto);
+    grid-template-columns: 1fr;
+    width: 100%;
   }
 
   .small-top-bar {
@@ -2156,7 +2157,7 @@ width: 310px;
   color: #ff0000;
 }
   .span-search, .span-buger {
-    padding: 20px;
+    padding: 20px 20px 15px 20px;
     border-left: 1px solid #4d4646;
   }
 
@@ -2178,9 +2179,9 @@ width: 310px;
 
   .bio-tnw {
     display: grid;
-    grid-template-columns: repeat(3, minmax(110px, 1fr));
-    grid-template-columns: 100%;
-    width: 97%;
+    grid-template-columns: 1fr;
+    width: 100%;
+    margin-left: 10px;
   }
 
   .right-art {
@@ -2310,8 +2311,9 @@ width: 310px;
     font-weight: 700;
     text-decoration: none;
     margin:0 0 20px 20px ;
-    top: 15px;
+    top: 0;
     left: 15px;
+    
   }
 
   .info a:hover {
@@ -2325,8 +2327,7 @@ width: 310px;
     bottom: 120px;
     margin: 120px 20px 0 0;
     padding: 0 45px 0 5px;
-    width: 80vw !important;
-    font-size: 20px !important;
+    font-size: 25px !important;
   }
 
   .div-callum {
@@ -2851,14 +2852,6 @@ color: #afaaaa;
     display: none;
   }
 
-  .small-header {
-    background-color: #fff;
-    overflow-x: hidden;
-    position: fixed;
-    width: 100vw;
-    z-index: 1;
-  }
-
   .tnw-annex-img b {
   color: #fff;
   }
@@ -2889,7 +2882,12 @@ color: #afaaaa;
 
   .small-header {
     display: grid;
-    grid-template-rows: repeat(2, auto);
+    grid-template-columns: 1fr;
+    background-color: #fff;
+    overflow-x: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
   }
 
   .small-top-bar {
@@ -2938,6 +2936,11 @@ color: #afaaaa;
   .tnwlog,
   .left-art-top {
     display: none;
+  }
+
+  .harmbug-menu {
+    position: relative;
+    right: 50px;
   }
 }
 
