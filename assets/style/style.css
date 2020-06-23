@@ -2324,10 +2324,11 @@ width: 310px;
   }
 
   .left-art h4 {
+    width: 90vw;
     bottom: 120px;
     margin: 120px 20px 0 0;
     padding: 0 45px 0 5px;
-    font-size: 25px !important;
+    font-size: 18px !important;
   }
 
   .div-callum {
@@ -2907,7 +2908,7 @@ color: #afaaaa;
   margin-right: 25px;
   color: #ff0000;
   position: relative;
-    left: 20px;
+    left: 40px;
 }
  
 .span-search, .span-buger {
@@ -2938,10 +2939,6 @@ color: #afaaaa;
     display: none;
   }
 
-  .harmbug-menu {
-    position: relative;
-    right: 50px;
-  }
 }
 
 
