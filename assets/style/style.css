@@ -1,5 +1,4 @@
 
-
 * {
   margin: 0;
   padding: 0;
@@ -1396,7 +1395,6 @@ a {
     position: relative;
   }
 
-
   .orange p,
   .lightorange p {
     padding-left: 100px;
@@ -1576,7 +1574,6 @@ width: 230px;
 }
 
 
-
 @media screen and (min-width: 1008px) and (max-width: 1222px) {
   .white-nav img, #date, .white-nav .button {
     display: none;
@@ -1619,7 +1616,6 @@ width: 290px !important;
     width: 100vw;
     padding: 0;
   }
-
 
   .top-header {
     display: none;
@@ -1687,7 +1683,6 @@ width: 290px !important;
     font-size: 12px;
     color: #272525;
   }
-
 
   .bio-tnw {
     top: 95px;
@@ -1799,12 +1794,10 @@ width: 290px !important;
   display: none;
 }
 
-
 .funding-grid-items {
   position: relative;
   width: 300px;
 }
-
 
 .orange p,
 .lightorange p {
@@ -1890,7 +1883,6 @@ width: 290px !important;
   color: red;
   font-size: 40px
 }
-
 
 .apps-anch {
   padding: 15px 0 0 0;
@@ -2460,7 +2452,6 @@ width: 310px;
   color: #5c5959;
 }
 
-
   .smartlogo {
     position: absolute;
     top: 10px;
@@ -2851,7 +2842,6 @@ color: #afaaaa;
 }
 
 
-
 @media screen and (min-width: 640px) and (max-width: 938px) {
   .top-header {
     display: none;
@@ -2949,9 +2939,7 @@ color: #afaaaa;
   .left-art-top {
     display: none;
   }
-  
-  
-  
 }
+
 
 
