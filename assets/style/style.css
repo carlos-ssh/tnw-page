@@ -79,10 +79,11 @@ a {
 
 .info0 a {
 	color: #f42;
-	font-size: 25px;
+	font-size: 20px;
 	font-weight: 700;
 	margin-bottom: 20px;
 	position: relative;
+	right: 5px;
 	text-decoration: none;
 }
 
