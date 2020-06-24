@@ -1,7 +1,7 @@
 {
   "name": "tnw-page",
   "version": "1.0.0",
-  "description": "This is a The Next Web clone page by Carlos &amp; Adesoji.",
+  "description": "Responsive design",
   "main": "stylelint.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,14 +11,18 @@
     "url": "git+https://github.com/carlos-ssh/tnw-page.git"
   },
   "keywords": [
-    "The",
-    "tnw",
-    "page"
+    "Reaponsive",
+    "web",
+    "design"
   ],
-  "author": "Adesoji and Carlos.",
+  "author": "Adesoji and Carlos",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/carlos-ssh/tnw-page/issues"
   },
-  "homepage": "https://github.com/carlos-ssh/tnw-page#readme"
+  "homepage": "https://github.com/carlos-ssh/tnw-page#readme",
+  "devDependencies": {
+    "stylelint": "^13.6.1",
+    "stylelint-config-recommended": "^3.0.0"
+  }
 }
