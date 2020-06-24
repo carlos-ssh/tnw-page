@@ -134,14 +134,15 @@ a {
 }
 
 .latest-div4 a {
-  bottom: 30px;
-  color: red;
+  bottom: 0;
+  color: #f00;
   position: relative;
+  left: 10px;
 }
 
 .red-txt a {
   color: #f42;
-  font-size: 15px;
+  font-size: 12px;
   width: 200px;
 }
 
@@ -150,7 +151,9 @@ a {
   color: #f42;
   position: relative;
   width: 200px;
+  font-size: 12px;
 }
+
 
 .latest-div2 a {
   bottom: 20px;
@@ -162,17 +165,19 @@ a {
 }
 
 .latest-div3 a {
-  bottom: 30px;
+  bottom: 0;
   color: #f42;
-  font-size: 17px;
+  font-size: 12px;
   padding-top: 10px;
   position: relative;
   width: 200px;
+  left: 10px;
 }
 
 .apps-anch a {
-  font-size: 20px;
+  font-size: 15px;
   line-height: 15px;
+  color: #797373;
 }
 
 .latest-div5 a {
@@ -180,22 +185,26 @@ a {
   padding-top: 10px;
   width: 200px;
   position: relative;
-  bottom: 30px;
+  bottom: 0;
+  font-size: 12px;
+  left: 10px;
 }
 
 .latest-div6 a {
-  bottom: 35px;
+  bottom: 10px;
   color: #f42;
-  font-size: 13px;
+  font-size: 11px;
+  left: 10px;
   padding-top: 10px;
   position: relative;
   width: 200px;
+  top: 10px;
 }
 
 .latest-div7 a {
-  bottom: 30px;
+  bottom: 0;
   color: #f42;
-  font-size: 13px;
+  font-size: 11px;
   position: relative;
   width: 240px;
 }
@@ -718,7 +727,7 @@ a {
 .latest-div5 img,
 .latest-div6 img,
 .latest-div7 img {
-  right: 20px;
+  right: 0;
   height: 120px;
   position: relative;
   width: 120px;
@@ -837,17 +846,20 @@ a {
 .latest-div1 h4 {
   color: #f42;
   padding: 20px 0 10px 0;
+  position: relative;
+  bottom: 15px;
 }
 
 .latest-div2 h4 {
-  padding-top: 20px;
+  padding-top: 0;
 }
 
 .latest-div3 h4 {
-  bottom: 30px;
+  bottom: 0;
   color: #f42;
   padding-top: 10px;
   position: relative;
+  left: 10px;
 }
 
 .micro-grav2 h4 {
@@ -856,15 +868,17 @@ a {
 }
 
 .latest-div4 h4 {
-  bottom: 30px;
+  bottom: 0;
   color: #f42;
   padding-top: 10px;
   position: relative;
+  left: 10px;
 }
 
 .latest-div5 h4 {
-  bottom: 30px;
+  bottom: 0;
   color: #f42;
+  left: 10px;
   padding-top: 10px;
   position: relative;
 }
@@ -873,14 +887,22 @@ a {
   color: #f42;
   padding-top: 10px;
   position: relative;
-  bottom: 30px;
+  bottom: 10px;
+  left: 10px;
+  top: 10px;
 }
 
 .latest-div7 h4 {
-  bottom: 10px;
+  bottom: 0;
   color: #f42;
+  left: 10px;
   padding: 20px 0 10px 0;
   position: relative;
+}
+.div-extra {
+  left: 20px;
+  position: relative;
+  top: 20px;
 }
 
 .simpson {
@@ -1147,7 +1169,7 @@ a {
 .apps-anch {
   display: grid;
   grid-template-rows: repeat(5, auto);
-  padding: 15px 40px 0 40px;
+  padding: 10px 10px 0 20px;
 }
 
 .top-img-div,
@@ -1378,7 +1400,7 @@ a {
   }
 
   .latest-div2 a {
-    bottom: 30px;
+    bottom: 0;
     color: #f00;
     position: relative;
     width: 200px;
@@ -1995,7 +2017,7 @@ a {
   }
 
 .apps-anch a {
-  color: #3d3a3a;
+  color: #636060;
   font-size: 15px;
   line-height: 17px;
 }
@@ -2454,6 +2476,32 @@ a {
 
 .micro-grav2 {
   width: 70vw;
+}
+
+.div-extra {
+  top: 0;
+  width: 100%;
+  top: 10px;
+}
+
+.div-extra a {
+  bottom: 40px;
+  font-size: 13px;
+}
+
+.latest-div6 a {
+  top: 0;
+  font-size: 11px;
+  line-height: 5px;
+}
+
+.latest-div6 h4 {
+  padding: 0;
+  top: 0;
+}
+
+.div-extra h4 { 
+  bottom: 30px;
 }
 
 .micro-grav2 h4 {
