@@ -1623,7 +1623,7 @@ a {
 }
 
 /* Medium Screen */
-@media screen and (max-width: 1007px) and (min-width: 641px) {
+@media screen and (max-width: 1007px) and (min-width: 768px) {
   body {
     padding: 0;
     width: 100vw;
@@ -1697,12 +1697,12 @@ a {
   }
 
   .bio-tnw {
-    top: 95px;
-    width: 100%;
+    width: 100vw;
+    height: auto;
   }
 
   .div-callum {
-    bottom: 20px;
+    bottom: -50px;
     left: 20px;
   }
 
@@ -1719,23 +1719,35 @@ a {
     font-size: 21px;
     font-weight: 300;
     line-height: 20px;
-    top: 10px;
+    top: 100px;
   }
 
   .left-art {
-    height: 82.9vh;
+    height: 51.5vh;
+    width: 64vw;
+  }
+
+  .right-art-top, .right-art-bottom{
+    width: 33vw;
+    height: 25vh;
+  }
+
+  .left-art-down{
+    position: relative;
+    top: 170px;
   }
 
   .right-art-bottom a {
     font-size: 22px;
     font-weight: 500;
     line-height: 18px;
-    top: 0;
+    top: 120px;
     width: 29vw;
   }
 
   .eight-grids {
-    margin-top: 80px;
+    margin-top: 140px;
+    margin-left: 5%;
   }
 
   .top-img-div {
@@ -1746,7 +1758,6 @@ a {
   }
 
   .micro-grav {
-    margin: 0 40px 0 0;
     padding: 0;
   }
 
@@ -1755,7 +1766,7 @@ a {
   }
 
   .micro-grav2 h4 {
-    font-size: inherit;
+    font-size: 1em;
   }
 
   .micro-grav img {
@@ -1763,17 +1774,20 @@ a {
     width: 320px;
   }
 
+  .info{
+    margin-bottom: 30px;
+  }
+
   .info a {
     color: #f00;
+    margin: -80px;
     font-size: 30px;
     font-weight: 600;
-    left: 0;
-    margin-left: 10px;
-    top: 5px;
   }
 
   .news-latest {
     font-size: 35px;
+    margin-left: -40px;
   }
 
   .cosmic-op,
@@ -1887,7 +1901,9 @@ a {
 
   .info1 h2 {
     color: #f00;
-    font-size: 20px;
+    font-size: 2em;
+    margin: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 
   .apps-anch {
@@ -2008,8 +2024,8 @@ a {
   }
 
   .eight-grids img {
-    height: 210px;
-    width: 300px;
+    height: 15vh;
+    width: 25vw;
   }
 
   .info0 a {
@@ -2020,8 +2036,8 @@ a {
 
   .eight-grids h4 {
     color: #141414;
-    font-size: 13px;
-    width: 310px;
+    font-size: 0.8em;
+    width: 240px;
   }
 
   .eight-grids b {
@@ -2087,7 +2103,7 @@ a {
 
 /* Small Screen */
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 764px) {
   body {
     padding: 0;
     width: 100vw;
@@ -2130,8 +2146,8 @@ a {
   }
 
   .tnw-annex-img img {
-    width: 80px;
-    height: 40px;
+    width: 50px;
+    height: 45px;
   }
 
   .tnw-annex-img {
@@ -2183,7 +2199,7 @@ a {
   .bio-tnw {
     display: grid;
     grid-template-columns: 1fr;
-    margin-left: 10px;
+    margin-right: 10px;
     width: 100%;
   }
 
@@ -2202,94 +2218,62 @@ a {
   }
 
   .right-art-top {
-    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Sprint_image.jpg");
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 1) 95%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Sprint_image.jpg");
     background-size: cover;
     grid-row: 1;
-    height: 100px;
-  }
-
-  .right-art-top::before {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 1) 95%);
-    bottom: 0;
-    content: '';
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: 0;
+    height: 28vh;
+    width: 100vw;
   }
 
   .right-art-top a {
     color: #fff;
-    font-size: 25px;
-    left: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5em;
     position: relative;
     text-decoration: none;
-    top: 0;
+    top: 140px;
     z-index: 0;
   }
 
   .right-art-bottom {
-    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/bmw-ix3-all-electric-car-suv-sav-shift-evs-796x448.jpg");
+    background-image:  linear-gradient ( to bottom, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 1) 95% ), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/bmw-ix3-all-electric-car-suv-sav-shift-evs-796x448.jpg");
     background-size: cover;
     grid-row: 2;
-    height: 100px;
+    height: 28vh;
     margin: 0 0 10px 10px;
     position: relative;
-    width: 100%;
-  }
-
-  .right-art-bottom::before {
-    background: linear-gradient ( to bottom, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 1) 95% );
-    bottom: 0;
-    content: '';
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: 0;
+    width: 100vw;
   }
 
   .right-art-bottom a {
     color: #fff;
     display: block;
-    font-size: 18px;
-    line-height: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5em;
     position: relative;
     text-decoration: none;
-    top: 15px;
+    top: 150px;
     width: 90vw !important;
     z-index: 0;
   }
 
   .left-art {
-    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/header-image-apple-own-arm-based-chips-796x417.png");
+    background-image:  linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 10%, rgb(224, 108, 108) 95%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/header-image-apple-own-arm-based-chips-796x417.png");
     background-size: 100% 100%;
     background-size: cover;
     color: #fff;
     display: grid;
     font-family: Georgia, "Times New Roman", Times, serif;
     grid-template-rows: repeat(2, auto);
-    height: 100px;
-    width: 100%;
+    height: auto;
+    width: 100vw;
     z-index: 0;
   }
 
   .div-callum {
-    bottom: 120px;
-    left: 10px;
+    bottom: 20px;
+    left: 20px;
     position: relative;
-  }
-
-  .left-art::before {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 10%, rgb(224, 108, 108) 95%);
-    bottom: 0;
-    content: '';
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: 0;
   }
 
   .left-art img {
@@ -2321,7 +2305,6 @@ a {
   }
 
   .latest-div1 a {
-    bottom: 50px;
     font-size: 17px;
   }
 
@@ -2352,22 +2335,20 @@ a {
   }
 
   .left-art h4 {
-    bottom: 120px;
-    font-size: 18px !important;
+    font-size: 1.5em !important;
     margin: 120px 20px 0 0;
-    padding: 0 45px 0 5px;
-    width: 90vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
   #stub-para {
     width: 90vw !important;
   }
 
-  .left-art-top,
+  /*left-art-top,
   .left-art-down {
     height: 198px;
     width: 100%;
-  }
+  }*/
 
   .right-top-img {
     height: 198px;
@@ -2450,9 +2431,14 @@ a {
     width: 90px;
   }
 
+  .micro-grav img{
+    width: 72px;
+    height: 72px;
+  }
+
   .micro-grav {
     display: grid;
-    gap: 20px;
+    gap: 10px;
     grid-template-columns: repeat(2, auto);
   }
 
@@ -2470,8 +2456,8 @@ a {
   }
 
   .micro-grav2 h4 {
-    font-size: 12px;
-    width: 50vw;
+    font-size: 1em;
+    width: 80vw;
   }
 
   .cosmic-op,
@@ -2785,7 +2771,7 @@ a {
   .deals-cont,
   .div-4-eigh {
     margin-top: 0;
-    width: 98%;
+    width: 99vw;
   }
 
   .latest-div3 {
@@ -2823,22 +2809,9 @@ a {
     color: #fff;
   }
 
-  .x-t {
-    background-color: #1f1b1b;
-    bottom: 10px;
-    height: 30px;
-    position: relative;
-  }
-
-  .x-t b {
-    margin-left: 10px;
-    position: relative;
-    top: 5px;
-  }
-
   .tnw-annex-img img {
-    height: 40px;
-    width: 80px;
+    height: 45px;
+    width: 55px;
   }
 
   .tnw-annex-img {
@@ -2879,16 +2852,19 @@ a {
     position: relative;
   }
 
-  .span-search,
+  .span-search {
+    border-left: 1px solid #7772729b;
+  }
+
   .span-buger {
-    border-left: 1px solid #4d4646;
-    padding: 20px 20px 20px 0;
+    border-left: 1px solid #7772729b;
+    width: 1vw;
   }
 
   .yellow-bar {
     background-color: #fd3;
     bottom: 0;
-    height: 55px;
+    height: 40px;
   }
 
   .yellow-bar h4 {
