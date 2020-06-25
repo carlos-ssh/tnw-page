@@ -2544,9 +2544,11 @@ a {
   }
 
   .eight-grids {
+    bottom: 50px;
     margin: 160px 0 100px 0;
-    z-index: 0;
+    position: relative;
     width: 80%;
+    z-index: 0;
   }
 
   .eight-grids1 {
@@ -2649,11 +2651,12 @@ a {
   }
 
   .funding {
-    bottom: 100px;
+    bottom: 120px;
     display: grid;
     height: 80px;
     margin-left: 10px;
     position: relative;
+    right: 15px;
   }
 
   .funding-nav ul {
