@@ -419,7 +419,7 @@ a {
 }
 
 .right-art-bottom {
-  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 1) 95%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/bmw-ix3-all-electric-car-suv-sav-shift-evs-796x448.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 1) 95%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/bmw-ix3-all-electric-car-suv-sav-shift-evs-796x448.jpg");
   background-size: cover;
   grid-row: 2;
   height: 40vh;
@@ -428,7 +428,7 @@ a {
 }
 
 .left-art {
-  background-image:  linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 10%, rgb(224, 108, 108) 95%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/header-image-apple-own-arm-based-chips-796x417.png");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 10%, rgb(224, 108, 108) 95%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/header-image-apple-own-arm-based-chips-796x417.png");
   background-size: 100% 100%;
   color: #fff;
   display: grid;
@@ -862,7 +862,7 @@ a {
 }
 
 .simpson {
-  background:  linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 1) 95%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/header-image-the-outer-worlds-516x270.png");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 1) 95%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/header-image-the-outer-worlds-516x270.png");
   background-size: cover;
   color: #fff;
   display: grid;
@@ -952,7 +952,6 @@ a {
   position: relative;
 }
 
-
 .hacka h2 {
   left: 20px;
   position: relative;
@@ -966,7 +965,7 @@ a {
 }
 
 .insight {
-  background:  linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 95%), url("https://img-cdn.tnwcdn.com/image?fit=600%2C336&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F06%2Fengineering-manager-gq.png&signature=f82fe12063e6b866a4ed5344df2dbd75");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 95%), url("https://img-cdn.tnwcdn.com/image?fit=600%2C336&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F06%2Fengineering-manager-gq.png&signature=f82fe12063e6b866a4ed5344df2dbd75");
   background-size: cover;
   color: #fff;
   height: 276px;
@@ -1512,11 +1511,9 @@ a {
     width: 100vw;
   }
 
-  article{
+  article {
     margin-left: 30px;
   }
-
-
 
   .top-header {
     display: none;
@@ -1533,19 +1530,19 @@ a {
     white-space: nowrap;
   }
 
-  .left-white-list a{
+  .left-white-list a {
     font-size: 12px;
   }
 
-  .div-extra h4{
+  .div-extra h4 {
     font-size: 14px;
   }
 
-  .div-extra a{
+  .div-extra a {
     font-size: 12px;
   }
 
-  .funding-nav{
+  .funding-nav {
     height: 40px;
   }
 
@@ -1599,8 +1596,6 @@ a {
     grid-template-columns: repeat(2, auto);
   }
 
-  
-
   .medium-top img {
     width: 60px;
   }
@@ -1652,7 +1647,7 @@ a {
     margin: 0 0 0 10px;
   }
 
-  .left-art-down{
+  .left-art-down {
     position: relative;
     top: 170px;
   }
@@ -1696,8 +1691,8 @@ a {
     width: 320px;
   }
 
-  .info{
-    margin-bottom: 0px;
+  .info {
+    margin-bottom: 0;
     text-align: left;
     margin-left: -30px;
   }
@@ -1846,14 +1841,13 @@ a {
     margin-bottom: 15px;
   }
 
-  .reddit-div h4{
+  .reddit-div h4 {
     width: 270px;
     font-size: 14px;
     bottom: 75px;
     position: relative;
   }
 
- 
   .simpson h2,
   .hacka h2,
   .insight h2,
@@ -1862,22 +1856,22 @@ a {
     top: 150px;
   }
 
-  .reddit-div h2{
+  .reddit-div h2 {
     font-size: 17px;
     top: 150px;
   }
 
-  .simpson h2{
+  .simpson h2 {
     font-size: 17px;
     top: 150px;
   }
 
-  .reddit-div a{
+  .reddit-div a {
     font-size: 22px;
     top: 160px;
   }
 
-  .simpson a{
+  .simpson a {
     font-size: 14px;
     top: 90px;
     position: relative;
@@ -1891,7 +1885,7 @@ a {
     font-size: 14px;
   }
 
-  .insight h4{
+  .insight h4 {
     font-size: 14px;
     width: 260px;
   }
@@ -1922,13 +1916,13 @@ a {
     top: 150px;
   }
 
-  .creativity h2{
+  .creativity h2 {
     font-size: 17px;
     position: relative;
     top: 150px;
   }
 
-  .creativity h4{
+  .creativity h4 {
     font-size: 14px;
     position: relative;
     top: 30px;
@@ -1940,7 +1934,6 @@ a {
     top: 30px;
   }
 
-  
   .iwatch h4 {
     position: relative;
     top: 40px;
@@ -1948,21 +1941,21 @@ a {
     font-size: 14px;
   }
 
-  .fb-class h4{
+  .fb-class h4 {
     position: relative;
     top: 40px;
     width: 282px;
     font-size: 14px;
   }
 
-  
   .hacka small,
   .insight small {
     font-size: 14px;
     position: relative;
     top: 190px;
   }
-  .creativity small{
+
+  .creativity small {
     font-size: 14px;
     position: relative;
     top: 190px;
@@ -1976,7 +1969,6 @@ a {
   .div-extra {
     position: relative;
     top: 3px;
-
   }
 
   .reddit-div,
@@ -1989,7 +1981,6 @@ a {
   .fb-class {
     height: 276px;
     width: 329px;
-
   }
 
   .apps-anch a {
@@ -2023,7 +2014,7 @@ a {
     color: #615e5e;
   }
 
-  .div-4-eight1{
+  .div-4-eight1 {
     margin-left: 10px;
   }
 
@@ -2032,15 +2023,12 @@ a {
     grid-template-columns: repeat(3, auto);
     grid-template-rows: repeat(3, auto);
     row-gap: 10px;
+    margin: 20px;
+    width: 90vw;
   }
 
   .micro-grav1 {
     width: 239px;
-  }
-
-  .div-4-eight1 {
-    margin: 20px;
-    width: 90vw;
   }
 
   .micro-grav1 img {
@@ -2086,7 +2074,7 @@ a {
 
 /* Small Screen */
 
-@media screen and (max-width: 765px) and (min-width: 320px)  {
+@media screen and (max-width: 765px) and (min-width: 320px) {
   body {
     padding: 0;
     width: 100vw;
@@ -2152,7 +2140,6 @@ a {
     color: #999898;
     margin-top: 15px;
     margin-left: 10px;
-    
   }
 
   .fas.fa-bars {
@@ -2213,7 +2200,6 @@ a {
     grid-row: 1;
     height: 35vh;
     width: 96vw;
-
   }
 
   .right-art-top a {
@@ -2226,7 +2212,7 @@ a {
   }
 
   .right-art-bottom {
-    background-image:  linear-gradient ( to bottom, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 1) 95% ), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/bmw-ix3-all-electric-car-suv-sav-shift-evs-796x448.jpg");
+    background-image: linear-gradient ( to bottom, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 1) 95% ), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/bmw-ix3-all-electric-car-suv-sav-shift-evs-796x448.jpg");
     background-size: cover;
     grid-row: 2;
     height: 35vh;
@@ -2246,7 +2232,7 @@ a {
   }
 
   .left-art {
-    background-image:  linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 10%, rgb(224, 108, 108) 95%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/header-image-apple-own-arm-based-chips-796x417.png");
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 10%, rgb(224, 108, 108) 95%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/header-image-apple-own-arm-based-chips-796x417.png");
     background-size: 100% 100%;
     background-size: cover;
     color: #fff;
@@ -2314,13 +2300,6 @@ a {
     font-size: 11px;
     line-height: 5px;
     top: 0;
-  }
-
-  .info a:hover {
-    color: #383838;
-    font-size: 25px;
-    font-weight: 700;
-    text-decoration: none;
   }
 
   .left-art h4 {
@@ -2409,7 +2388,7 @@ a {
     width: 90px;
   }
 
-  .micro-grav img{
+  .micro-grav img {
     width: 72px;
     height: 72px;
   }
@@ -2516,7 +2495,7 @@ a {
   }
 
   .eight-grids1 {
-    margin: 0px 0 0 20px;
+    margin: 0 0 0 20px;
     z-index: 0;
   }
 
@@ -2692,27 +2671,8 @@ a {
     grid-template-columns: 1fr;
   }
 
-  .info0 {
-    display: grid;
-    justify-content: space-between;
-    width: 40vw;
-  }
-
   .micro-grav1 span {
     color: #afaaaa;
-  }
-
-  .info0 a {
-    color: #f00;
-    font-size: 20px;
-    margin-left: 15px !important;
-  }
-
-  .info0 a:hover {
-    color: #f42;
-    font-size: 25px;
-    font-weight: 700;
-    text-decoration: none;
   }
 
   .footer-down-div {
@@ -2769,95 +2729,37 @@ a {
     padding: 0 5px 0 5px;
   }
 
-  .list-container li{
+  .list-container li {
     padding: 0 5px 0 5px;
   }
 
   .icon-cont li {
     padding: 7px;
   }
-}
 
-/*@media screen and (min-width: 640px) and (max-width: 938px) {
-  .top-header {
-    display: none;
-  }
-
-  .medium-header {
-    display: none;
-  }
-
-  .tnw-annex-img b {
-    color: #fff;
-  }
-
-  .tnw-annex-img img {
-    height: 45px;
-    width: 55px;
-  }
-
-  .tnw-annex-img {
+  .info0 {
     display: grid;
-    grid-template-rows: repeat(2, auto);
-    z-index: 3;
-  }
-
-  .small-header {
-    background-color: #fff;
-    display: grid;
-    grid-template-columns: 1fr;
-    overflow-x: hidden;
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-  }
-
-  .small-top-bar {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    height: 45px;
     justify-content: space-between;
-    width: 100%;
+    width: 40vw;
   }
 
-  .fas.fa-search {
-    color: #999898;
-    left: 0;
-    margin-top: 15px;
-    position: relative;
-  }
-
-  .fas.fa-bars {
+  .info0 a {
     color: #f00;
-    left: 20px;
-    margin-right: 25px;
-    position: relative;
+    font-size: 20px;
+    margin-left: 15px !important;
   }
 
-  .span-search {
-    border-left: 1px solid #7772729b;
+  .info0 a:hover {
+    color: #f42;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
   }
 
-  .span-buger {
-    border-left: 1px solid #7772729b;
-    width: 1vw;
-  }
-
-  .yellow-bar {
-    background-color: #fd3;
-    bottom: 0;
-    height: 40px;
-  }
-
-  .yellow-bar h4 {
-    font-size: 11px;
-    padding-top: 15px;
-    text-align: center;
-  }
-
-  .tnwlog,
-  .left-art-top {
-    display: none;
+  .info a:hover {
+    color: #383838;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
   }
 }
-*/
