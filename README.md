@@ -8,9 +8,9 @@ This is a The Next Web clone page by Carlos &amp; Adesoji.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/carlos-ssh/tnw-page/2816a803b7ba4374a09b8c8d417a53d30b8b9935/index.html)
+[Live Demo Link](https://rawcdn.githack.com/carlos-ssh/tnw-page/d6869adb73120c51f02d8c7759247140eaa1d79c/index.html)
 
-[Screenshot](./assets/font/img/tnw-screenshot.png)
+[Screenshot](./assets/font/tnw-page-screensho.png)
 
 
 ## Authors
