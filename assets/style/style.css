@@ -104,12 +104,12 @@ a {
 
 .right-art-top a {
   color: #fff;
-  font-size: 30px;
+  font-size: 25px;
   left: 15px;
   line-height: 30px;
   position: relative;
   text-decoration: none;
-  top: 70px;
+  top: 20px;
   z-index: 0;
 }
 
@@ -263,12 +263,11 @@ a {
   color: #fff;
   font-size: 25px;
   left: 10px;
-  line-height: 35px;
-  margin-left: 15px;
+  line-height: 25px;
+  margin-left: 0;
   position: relative;
   text-decoration: none;
-  top: 40px;
-  width: 300px;
+  top: 25px;
   z-index: 0;
 }
 
@@ -350,7 +349,7 @@ a {
   font-size: 12px;
   font-weight: 700;
   height: 15px;
-  padding: 10px;
+  padding: 10px 10px 5px 10px;
   width: 145px;
 }
 
@@ -376,10 +375,12 @@ a {
 }
 
 .funding-img-cont {
+  bottom: 150px;
   display: grid;
   gap: 25px;
   grid-template-columns: repeat(4, auto);
   margin: 0 50px 0 10px !important;
+  position: relative;
   width: 100vw !important;
 }
 
@@ -412,7 +413,6 @@ a {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 1) 95%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Sprint_image.jpg");
   background-size: cover;
   grid-row: 1;
-  height: 40vh;
   margin: 5px 5px 10px 10px;
   position: relative;
   width: 33vw;
@@ -422,7 +422,6 @@ a {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 1) 95%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/bmw-ix3-all-electric-car-suv-sav-shift-evs-796x448.jpg");
   background-size: cover;
   grid-row: 2;
-  height: 40vh;
   margin: 0 10px;
   width: 33vw;
 }
@@ -434,7 +433,6 @@ a {
   display: grid;
   font-family: Georgia, "Times New Roman", Times, serif;
   grid-template-rows: repeat(2, auto);
-  height: 81.8vh;
   margin-top: 5px;
   width: 65vw;
   z-index: 0;
@@ -444,7 +442,7 @@ a {
 .left-art img {
   bottom: 20px;
   height: 200px;
-  padding: 20px;
+  padding-left: 20px;
   position: relative;
   width: 60%;
   z-index: 0;
@@ -462,16 +460,16 @@ a {
 }
 
 .left-art h4 {
-  bottom: 30px;
-  font-size: 35px;
-  padding: 20px;
+  bottom: 10px;
+  font-size: 45px;
   position: relative;
+  width: 40vw;
   z-index: 0;
 }
 
 .div-callum {
-  bottom: 100px;
-  left: 20px;
+  bottom: 50px;
+  left: 50px;
   position: relative;
   width: 500px;
 }
@@ -494,9 +492,9 @@ a {
 }
 
 .left-art-down {
-  height: 198px;
-  width: 100%;
-  margin-top: 70px;
+  width: 50vw;
+  position: relative;
+  bottom: 60px;
 }
 
 .right-top-img {
@@ -510,8 +508,10 @@ a {
 }
 
 .eight-grids {
-  width: 90vw !important;
+  bottom: 50px;
   margin: 100px 0 0 0;
+  position: relative;
+  width: 100vw !important;
 }
 
 .info h4 {
@@ -572,10 +572,12 @@ a {
 }
 
 .funding {
+  bottom: 150px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding-bottom: 20px;
+  position: relative;
   width: 100vw !important;
 }
 
@@ -609,7 +611,10 @@ a {
   grid-template-columns: repeat(3, auto);
   grid-template-rows: repeat(3, auto);
   justify-content: center;
-  margin: 0 20px 0 20px;
+  margin: 0 20px 0 20px !important;
+  position: relative;
+  right: 20px;
+  bottom: 80px;
 }
 
 .apps-txt {
@@ -896,6 +901,7 @@ a {
   position: relative;
   width: 360px;
   z-index: 0;
+  left: 0;
 }
 
 .wacom-div h4 {
@@ -1109,7 +1115,7 @@ a {
 
 .cont-main {
   display: grid;
-  grid-template-rows: repeat(9, auto);
+  grid-template-rows: repeat(10, auto);
   overflow-x: hidden;
   width: 100vw;
 }
@@ -1194,6 +1200,13 @@ a {
   width: 30px;
 }
 
+.eight-grids1 {
+  bottom: 60px !important;
+  position: relative;
+  right: 0 !important;
+  width: 100vw;
+}
+
 .footer-down-div {
   background-color: #070707;
   height: 80px;
@@ -1230,20 +1243,28 @@ a {
   .medium-header {
     display: none;
   }
-
+  
   .top-nav {
     width: 100%;
     z-index: 100;
   }
 
   /*  GRIDS */
-
   .top-img-div {
     bottom: 60px;
     display: grid;
     grid-template-columns: repeat(4, minmax(auto, 1fr));
     grid-template-rows: repeat(2, minmax(auto, 1fr));
     width: 95%;
+  }
+
+  .stub-para {
+    font-weight: 700;
+    width: 30vw;
+  }
+  
+  .right-art-bottom h4 {
+    width: 30vw;
   }
 
   .micro-grav2 h4 {
@@ -1254,19 +1275,20 @@ a {
   .eight-grids > article {
     display: grid;
   }
-
+  
   .info a {
     color: #f42;
     font-size: 25px;
     font-weight: 700;
-    margin-bottom: 20px;
     left: 40px;
+    margin-bottom: 20px;
     text-decoration: none;
   }
 
   .left-art a {
     text-decoration: none;
     color: #fff;
+    left: 50px;
   }
 
   .latest-div2 a {
@@ -1277,7 +1299,7 @@ a {
   }
 
   .info0 a {
-    font-size: 17px;
+    font-size: 20px;
     left: 5px;
     position: relative;
     right: 0;
@@ -1306,14 +1328,14 @@ a {
   .micro-grav {
     padding: 0;
   }
-
+  
   .funding-list {
     margin-right: 70px;
     padding-top: 50px;
     position: relative;
     top: 45px;
   }
-
+  
   .funding-grid-container {
     display: grid;
     gap: 20px;
@@ -1404,10 +1426,15 @@ a {
   }
 
   .info0 {
+    bottom: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: space-between;
+    left: 0;
     margin: 0;
+    position: relative;
+    width: 99vw;
+    right: 0;
   }
 }
 
@@ -1420,27 +1447,23 @@ a {
   grid-template-columns: repeat(4, auto);
   grid-template-rows: repeat(2, auto);
   justify-content: center;
-  left: 40px;
+  left: 20px;
   position: relative;
   row-gap: 20px;
-  width: 90vw;
-}
-
-.div-4-eight1 {
-  margin: 20px;
-}
-
-.micro-grav1 {
-  margin-right: 20px;
+  width: 98.4vw;
 }
 
 .micro-grav1 img {
-  width: 230px;
+  width: 285px;
   height: 210px;
 }
 
 .micro-dw {
-  width: 230px;
+  width: 285px;
+}
+
+.micro-grav1 {
+  margin-right: 20px;
 }
 
 .micro-dw h4 {
@@ -1455,17 +1478,11 @@ a {
   color: #7c7878;
 }
 
-.eight-grids1 {
-  position: relative;
-  right: 0 !important;
-  width: 100vw;
-}
-
 .info0 b {
   color: #f00;
   font-size: 20px;
   position: relative;
-  left: 365px;
+  text-align: right;
   top: 10px;
 }
 
@@ -1486,21 +1503,29 @@ a {
     left: 0;
   }
 
+  .info0 a {
+    font-size: 20px;
+    position: relative;
+    left: 40px;
+    top: 10px;
+  }
+
   .info0 b {
     color: #f00;
     font-size: 20px;
-    left: 470px !important;
     position: relative;
+    right: 30px;
+    text-align: right;
     top: 10px;
   }
 
   .micro-grav1 img {
-    width: 290px !important;
+    width: 290px;
     height: 210px;
   }
 
   .micro-dw {
-    width: 290px !important;
+    width: 290px;
   }
 }
 
@@ -1512,7 +1537,9 @@ a {
   }
 
   article {
-    margin-left: 30px;
+    left: 8px;
+    margin-left: 0;
+    position: relative;
   }
 
   .top-header {
@@ -1535,11 +1562,20 @@ a {
   }
 
   .div-extra h4 {
+    bottom: 0;
     font-size: 14px;
+    margin-top: 10px;
+    padding: 0;
+    top: 15px;
+  }
+
+  #stup-case {
+    position: relative;
   }
 
   .div-extra a {
     font-size: 12px;
+    top: 15px;
   }
 
   .funding-nav {
@@ -1559,8 +1595,7 @@ a {
     padding-top: 15px;
   }
 
-  .tnwlog,
-  .left-art-top {
+  .tnwlog {
     display: none;
   }
 
@@ -1611,17 +1646,19 @@ a {
   }
 
   .div-callum {
-    bottom: -20px;
     left: 20px;
+    top: 10px;
   }
 
   .left-art h4 {
-    bottom: 0;
-    font-size: 20px;
+    bottom: 150px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    left: 20px;
     margin-top: 20px;
+    width: 60vw;
   }
-
+  
   #stub-para {
     width: 30vw;
   }
@@ -1631,18 +1668,25 @@ a {
     line-height: 20px;
   }
 
+  .stub-para {
+    bottom: 15px;
+    position: relative;
+    width: 30vw;
+  }
+
   .left-art {
     height: 51.5vh;
-    width: 64vw;
+    top: 5px;
+    width: 65.5vw;
   }
 
   .right-art-top {
-    width: 33vw;
+    width: 32.5vw;
     height: 25vh;
   }
 
   .right-art-bottom {
-    width: 33vw;
+    width: 32.5vw;
     height: 25vh;
     margin: 0 0 0 10px;
   }
@@ -1656,9 +1700,13 @@ a {
     font-size: 18px;
     font-weight: 500;
     line-height: 18px;
-    top: 80px;
+    top: 5px;
     padding: 0;
     width: 29vw;
+  }
+
+  .right-art-bottom h4 {
+    width: 30vw;
   }
 
   .eight-grids {
@@ -1675,7 +1723,7 @@ a {
 
   .micro-grav {
     padding: 0;
-    width: 245px;
+    width: 310px;
   }
 
   .micro-grav2 {
@@ -1715,9 +1763,16 @@ a {
   }
 
   .funding {
+    bottom: 30px;
     display: grid;
     grid-template-rows: 1fr 1fr;
-    margin: 10px 0 0 10px;
+    left: 60px;
+    margin: 0;
+  }
+
+  .funding-list {
+    position: relative;
+    right: 30px;
   }
 
   .funding-grid-container {
@@ -1794,6 +1849,7 @@ a {
 
   .funding-img-cont {
     bottom: 50px;
+    left: 20px;
     margin: 0 0 0 40px;
     position: relative;
   }
@@ -1806,27 +1862,28 @@ a {
   .latest-div1,
   .red-txt,
   .latest-div7 {
-    width: 329px;
+    width: 380px;
   }
 
   .apps {
     display: grid;
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(4, auto);
-    width: 100vw;
+    width: 96vw;
+    bottom: 50px;
   }
 
   .info1 h2 {
     color: #f00;
-    font-size: 2em;
-    margin: 20px;
+    font-size: 1.6em;
+    margin: 20px 20px 10px 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 
   .apps-anch {
     margin-left: 20px;
     padding: 15px 0 0 0;
-    width: 310px;
+    width: 360px;
   }
 
   .latest-div1 h4 {
@@ -1834,11 +1891,12 @@ a {
   }
 
   .latest-div1 a {
-    bottom: 10px;
+    bottom: 0;
+    top: 15px;
   }
 
   .red-txt h4 {
-    margin-bottom: 15px;
+    margin-top: 15px;
   }
 
   .reddit-div h4 {
@@ -1873,8 +1931,9 @@ a {
 
   .simpson a {
     font-size: 14px;
-    top: 90px;
     position: relative;
+    top: 90px;
+    width: 35vw;
   }
 
   .reddit-div small,
@@ -1962,8 +2021,8 @@ a {
   }
 
   .info-txt-div {
-    width: 329px;
-    height: 857px;
+    width: 380px;
+    height: auto;
   }
 
   .div-extra {
@@ -1980,7 +2039,7 @@ a {
   .iwatch,
   .fb-class {
     height: 276px;
-    width: 329px;
+    width: 380px;
   }
 
   .apps-anch a {
@@ -1994,14 +2053,17 @@ a {
   }
 
   .eight-grids img {
-    height: 120px;
-    width: 239px;
+    height: 150px;
+    width: 310px;
   }
 
   .info0 a {
     color: #f00;
-    font-size: 30px;
-    margin-left: 10px !important;
+    font-size: 20px;
+    left: 15px;
+    margin-bottom: 10px;
+    margin-left: 0;
+    right: 0;
   }
 
   .eight-grids h4 {
@@ -2023,21 +2085,20 @@ a {
     grid-template-columns: repeat(3, auto);
     grid-template-rows: repeat(3, auto);
     row-gap: 10px;
-    margin: 20px;
-    width: 90vw;
+    width: 94vw;
   }
 
   .micro-grav1 {
-    width: 239px;
+    width: 310px;
   }
 
   .micro-grav1 img {
-    width: 239px;
+    width: 310px;
     height: 178px;
   }
 
   .micro-dw {
-    width: 210px;
+    width: 300px;
   }
 
   .micro-dw h4 {
@@ -2060,21 +2121,24 @@ a {
   .info0 b {
     color: #f00;
     font-size: 20px;
-    left: 230px !important;
+    left: 230px;
     position: relative;
-    top: 10px;
+    top: 0;
   }
 
   .info0 {
+    bottom: 50px;
     display: grid;
     grid-template-columns: repeat(2, auto);
     justify-content: space-between;
+    position: relative;
+    width: 75vw;
   }
 }
 
 /* Small Screen */
 
-@media screen and (max-width: 765px) and (min-width: 320px) {
+@media screen and (max-width: 765px) {
   body {
     padding: 0;
     width: 100vw;
@@ -2195,20 +2259,18 @@ a {
   }
 
   .right-art-top {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 1) 95%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Sprint_image.jpg");
-    background-size: cover;
-    grid-row: 1;
     height: 35vh;
-    width: 96vw;
+    width: 97.4vw;
   }
 
   .right-art-top a {
     color: #fff;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.5em;
-    margin-top: 20px;
+    margin-top: 10px;
     text-decoration: none;
     z-index: 0;
+    top: 10px;
   }
 
   .right-art-bottom {
@@ -2216,7 +2278,7 @@ a {
     background-size: cover;
     grid-row: 2;
     height: 35vh;
-    width: 96vw;
+    width: 97.4vw;
   }
 
   .right-art-bottom a {
@@ -2224,7 +2286,7 @@ a {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
     position: relative;
-    top: 110px;
+    top: 10px;
     margin-left: 0;
     text-decoration: none;
     width: 90vw !important;
@@ -2232,21 +2294,13 @@ a {
   }
 
   .left-art {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 10%, rgb(224, 108, 108) 95%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/header-image-apple-own-arm-based-chips-796x417.png");
-    background-size: 100% 100%;
-    background-size: cover;
-    color: #fff;
-    display: grid;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    grid-template-rows: repeat(2, auto);
-    height: auto;
-    width: 96vw;
-    margin: 0 1px 0 10px;
-    z-index: 0;
+    width: 97.4vw;
+    height: 35vh;
+    margin: 0 0 5px 10px;
   }
 
   .div-callum {
-    bottom: 20px;
+    bottom: 50px;
     left: 20px;
     position: relative;
   }
@@ -2303,14 +2357,16 @@ a {
   }
 
   .left-art h4 {
-    font-size: 5vw;
-    margin: 60px 130px 0 0;
-    width: auto;
+    bottom: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3vw;
+    left: 20px;
+    margin: 70px 0 0 0;
+    width: 100vw;
   }
-
+  
   .stub-para {
-    width: 80vw !important;
+    width: 90vw !important;
   }
 
   .right-top-img {
@@ -2556,7 +2612,11 @@ a {
   .simpson h4 {
     width: 90%;
   }
-
+  
+  .hacka h4 {
+    width: 95vw;
+  }
+  
   .apps-h1 h4 {
     bottom: 0;
     font-size: 40px;
@@ -2589,7 +2649,7 @@ a {
   }
 
   .funding {
-    bottom: 120px;
+    bottom: 140px;
     display: grid;
     height: 80px;
     margin-left: 10px;
@@ -2626,8 +2686,7 @@ a {
   }
 
   .funding-img-cont {
-    bottom: 50px;
-    bottom: 80px;
+    bottom: 120px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -2650,7 +2709,7 @@ a {
 
   .info1 {
     color: #f42;
-    margin: 20px 20px 20px 0;
+    margin: 20px 20px 20px 10px;
   }
 
   .micro-grav1 img {
@@ -2695,6 +2754,16 @@ a {
     width: 100%;
   }
 
+  #sims,
+  #Huawei-news,
+  #red-resign,
+  #bad-logo,
+  #should-we,
+  #face-posts,
+  #library {
+    left: 0;
+  }
+
   .info-txt-div,
   .reddit-div,
   .red-txt,
@@ -2707,8 +2776,10 @@ a {
   .launch-div,
   .deals-cont,
   .div-4-eigh {
-    margin-top: 0;
-    width: 99vw;
+    left: 10px;
+    margin: 0;
+    position: relative;
+    width: 97.5vw;
   }
 
   .latest-div3 {
@@ -2736,7 +2807,7 @@ a {
   .icon-cont li {
     padding: 7px;
   }
-
+  
   .info0 {
     display: grid;
     justify-content: space-between;
@@ -2763,3 +2834,4 @@ a {
     text-decoration: none;
   }
 }
+
