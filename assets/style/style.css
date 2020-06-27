@@ -1235,7 +1235,7 @@ a {
     left: 20px;
     top: 20px;
   }
-  
+
   .small-header {
     display: none;
   }
@@ -1243,7 +1243,7 @@ a {
   .medium-header {
     display: none;
   }
-  
+
   .top-nav {
     width: 100%;
     z-index: 100;
@@ -1262,7 +1262,7 @@ a {
     font-weight: 700;
     width: 30vw;
   }
-  
+
   .right-art-bottom h4 {
     width: 30vw;
   }
@@ -1275,7 +1275,7 @@ a {
   .eight-grids > article {
     display: grid;
   }
-  
+
   .info a {
     color: #f42;
     font-size: 25px;
@@ -1328,14 +1328,14 @@ a {
   .micro-grav {
     padding: 0;
   }
-  
+
   .funding-list {
     margin-right: 70px;
     padding-top: 50px;
     position: relative;
     top: 45px;
   }
-  
+
   .funding-grid-container {
     display: grid;
     gap: 20px;
@@ -1345,7 +1345,7 @@ a {
     margin: 0 auto 0 50px;
     width: 95%;
   }
-  
+
   .funding-grid-items {
     position: relative;
   }
@@ -1658,7 +1658,7 @@ a {
     margin-top: 20px;
     width: 60vw;
   }
-  
+
   #stub-para {
     width: 30vw;
   }
@@ -2364,7 +2364,7 @@ a {
     margin: 70px 0 0 0;
     width: 100vw;
   }
-  
+
   .stub-para {
     width: 90vw !important;
   }
@@ -2463,7 +2463,7 @@ a {
     padding: 0;
     top: 0;
   }
-  
+
   .div-extra h4 {
     bottom: 30px;
   }
@@ -2612,11 +2612,11 @@ a {
   .simpson h4 {
     width: 90%;
   }
-  
+
   .hacka h4 {
     width: 95vw;
   }
-  
+
   .apps-h1 h4 {
     bottom: 0;
     font-size: 40px;
@@ -2807,7 +2807,7 @@ a {
   .icon-cont li {
     padding: 7px;
   }
-  
+
   .info0 {
     display: grid;
     justify-content: space-between;
@@ -2834,4 +2834,3 @@ a {
     text-decoration: none;
   }
 }
-
