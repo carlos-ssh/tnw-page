@@ -1507,7 +1507,7 @@ a {
   .info0 a {
     font-size: 20px;
     position: relative;
-    left: 70px;
+    left: 40px;
     top: 10px;
   }
 
@@ -1515,7 +1515,7 @@ a {
     color: #f00;
     font-size: 20px;
     position: relative;
-    right: 60px;
+    right: 30px;
     text-align: right;
     top: 10px;
   }
