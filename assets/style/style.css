@@ -2936,6 +2936,11 @@ a {
 }
 
 @media screen and (max-width: 350px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
   .left-art-down h4 {
     font-size: 15px;
     width: 80vw;

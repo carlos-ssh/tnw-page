@@ -8,7 +8,7 @@ This is a The Next Web clone page by Carlos &amp; Adesoji.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/carlos-ssh/tnw-page/d6869adb73120c51f02d8c7759247140eaa1d79c/index.html)
+[Live Demo Link](https://rawcdn.githack.com/carlos-ssh/tnw-page/ce42e312475710dec7b0e0bc8f25b508869042e9/index.html)
 
 [Screenshot](./assets/font/tnw-page-screensho.png)
 
