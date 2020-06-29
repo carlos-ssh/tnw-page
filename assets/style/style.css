@@ -259,6 +259,12 @@ a {
   color: #e9e3e3;
 }
 
+.icon-sec {
+  width: 45px;
+  height: 45px;
+  background-color: black;
+}
+
 .right-art-bottom a {
   color: #fff;
   font-size: 25px;
@@ -322,6 +328,12 @@ a {
   font-size: 40px;
   margin-left: 10px;
 }
+
+html,
+body {
+    overflow-x: hidden;
+    width: 100%;
+  }
 
 .left-white-list #latest-d {
   margin: 0;
@@ -448,7 +460,7 @@ a {
   z-index: 0;
 }
 
-.left-art p {
+.left-art h2 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   height: 5px;
@@ -459,7 +471,7 @@ a {
   z-index: 0;
 }
 
-.left-art h4 {
+.left-art h1 {
   bottom: 10px;
   font-size: 45px;
   position: relative;
@@ -564,7 +576,7 @@ a {
 }
 
 .footer-up-div {
-  background-color: #1f1d1d;
+  background-color: #0f0e0e;
   display: grid;
   grid-template-rows: repeat(2, auto);
   height: 100px;
@@ -1154,7 +1166,7 @@ a {
   grid-template-columns: repeat(7, auto);
   position: relative;
   bottom: 10px;
-  width: 100vw;
+  width:  99.5vw;
 }
 
 .list-container {
@@ -1186,7 +1198,7 @@ a {
 
 .icon-cont li {
   color: white;
-  padding: 0 20px 0 20px;
+  padding: 0 5px 0 5px;
 }
 
 .icon-div {
@@ -1268,7 +1280,7 @@ a {
     width: 30vw;
   }
 
-  .right-art-bottom h4 {
+  .right-art-bottom h2 {
     width: 30vw;
   }
 
@@ -1497,6 +1509,14 @@ a {
   .svg-inline--fa.fa-search.fa-w-16 {
     left: 200px;
   }
+
+  .left-art h1 {
+    bottom: 150px;
+  }
+
+  .div-callum {
+    bottom: 200px;
+  }
 }
 
 @media screen and (min-width: 1223px) {
@@ -1643,7 +1663,7 @@ a {
   }
 
   .bio-tnw {
-    width: 100vw;
+    width: 93.5vw;
     height: auto;
   }
 
@@ -1652,44 +1672,41 @@ a {
     top: 10px;
   }
 
-  .left-art h4 {
+  .left-art h1 {
     bottom: 150px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 20px;
+    font-size: 40px;
     left: 20px;
     margin-top: 20px;
     width: 60vw;
   }
-
-  #stub-para {
-    width: 30vw;
-  }
-
+  
   .right-art-top a {
     font-size: 18px;
     line-height: 20px;
   }
 
   .stub-para {
-    bottom: 15px;
+    bottom: 20px;
     position: relative;
-    width: 30vw;
+    width: 25vw;
   }
 
   .left-art {
-    height: 53.6vh;
+    height: 80vh;
+    left: 0;
     top: 5px;
-    width: 65.5vw;
+    width: 64.5vw;
   }
 
   .right-art-top {
-    width: 32.5vw;
-    height: 25vh;
+    width: 31.5vw;
+    height: 38vh;
   }
 
   .right-art-bottom {
-    width: 32.5vw;
-    height: 25vh;
+    width: 31.5vw;
+    height: 38vh;
     margin: 0 0 0 10px;
   }
 
@@ -1700,15 +1717,13 @@ a {
 
   .right-art-bottom a {
     font-size: 18px;
-    font-weight: 500;
     line-height: 18px;
-    top: 5px;
+    top: 0;
     padding: 0;
-    width: 29vw;
   }
 
-  .right-art-bottom h4 {
-    width: 30vw;
+  .right-art-bottom h2 {
+    width: 25vw;
   }
 
   .eight-grids {
@@ -2260,10 +2275,16 @@ a {
     z-index: 0;
   }
 
-  .right-art-top h4 {
+  .right-art-top h2 {
     font-size: 1em;
-    margin: 120px 2px 0 0;
+    margin: 0 2px 0 0;
     padding: 0 45px 0 5px;
+  }
+
+  .right-art-bottom {
+    left: 10px;
+    position: relative;
+    width: 70px;
   }
 
   .right-art-top {
@@ -2287,6 +2308,7 @@ a {
     grid-row: 2;
     height: 35vh;
     width: 97.4vw;
+    margin: 0;
   }
 
   .right-art-bottom a {
@@ -2308,9 +2330,11 @@ a {
   }
 
   .div-callum {
-    bottom: 50px;
-    left: 20px;
+    left: 40px;
+    margin-bottom: 10px;
+    margin-left: 10px;
     position: relative;
+    top: 5px;
   }
 
   .left-art img {
@@ -2322,7 +2346,7 @@ a {
     z-index: 0;
   }
 
-  .left-art p {
+  .left-art h1 {
     height: 5px;
     position: relative;
     right: 50px;
@@ -2364,13 +2388,14 @@ a {
     top: 0;
   }
 
-  .left-art h4 {
+  .left-art h1 {
     bottom: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 3vw;
+    font-size: 18px;
     left: 20px;
-    margin: 70px 0 0 0;
-    width: 90vw;
+    margin: 60px 0 0 0;
+    top: 10px;
+    width: 80vw;
   }
 
   .stub-para {
@@ -2946,7 +2971,7 @@ a {
     line-height: 10px;
   }
 
-  .right-art-bottom h4,
+  .right-art-bottom h2,
   .right-art-bottom a {
     font-size: 15px;
     font-weight: inherit;
