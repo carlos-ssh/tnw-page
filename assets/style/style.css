@@ -39,7 +39,7 @@ a {
   text-decoration-line: none;
 }
 
-#news {
+.snew {
   color: #fff;
   margin-left: 10px;
 }
@@ -79,7 +79,7 @@ a {
   background-color: #000;
 }
 
-#neural {
+.natural {
   margin-right: 80px;
 }
 
@@ -298,6 +298,7 @@ a {
 .left-white-list {
   display: grid;
   grid-template-columns: repeat(6, auto);
+  margin: 0;
 }
 
 .white-nav {
@@ -314,33 +315,16 @@ a {
   width: 20px;
 }
 
-#latest-d {
-  font-size: 40px;
-  margin-left: 10px;
-}
-
 html,
 body {
   overflow-x: hidden;
   width: 100%;
 }
 
-.left-white-list #latest-d {
-  margin: 0;
-}
-
 .white-nav-img {
   height: 30px;
   width: 205px;
   margin-bottom: 10px;
-}
-
-#date {
-  color: #e04141;
-  font-size: 20px;
-  font-weight: 700;
-  position: relative;
-  bottom: 5px;
 }
 
 .white-nav .button {
@@ -355,11 +339,6 @@ body {
   width: 145px;
 }
 
-#fund-round {
-  font-size: 30px;
-  margin-left: 60px;
-}
-
 .funding-list li {
   font-size: 17px;
 }
@@ -372,7 +351,7 @@ body {
   height: 40px;
 }
 
-#latest {
+.testla {
   margin-left: 10px;
 }
 
@@ -384,10 +363,6 @@ body {
   margin: 0 50px 0 10px;
   position: relative;
   width: 100vw;
-}
-
-#one-img {
-  width: 100%;
 }
 
 .yellow {
@@ -461,7 +436,7 @@ body {
   z-index: 0;
 }
 
-.left-art h1 {
+.left-art h3 {
   bottom: 10px;
   font-size: 45px;
   position: relative;
@@ -645,8 +620,9 @@ body {
   grid-column: 1;
   grid-row: 2;
   height: 270px;
+  left: 0;
   position: relative;
-  width: 360px;
+  width: 97vw;
   z-index: 0;
 }
 
@@ -1063,22 +1039,9 @@ body {
   display: grid;
 }
 
-#latest-d a {
-  position: relative;
-  margin-top: 50px;
-  top: 30px;
-}
-
 .funding-img-cont img {
   height: 80px;
   width: 80px;
-}
-
-.one {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(4, auto);
-  margin-left: 10px;
 }
 
 .info0 {
@@ -1105,10 +1068,6 @@ body {
   font-size: 16px;
   font-weight: 100;
   color: #f00;
-}
-
-.one img {
-  width: 100%;
 }
 
 .micro-grav {
@@ -1139,6 +1098,14 @@ body {
 .latest-div {
   display: grid;
   grid-template-columns: repeat(2, auto);
+}
+
+#date {
+  color: #e04141;
+  font-size: 20px;
+  font-weight: 700;
+  position: relative;
+  bottom: 5px;
 }
 
 .funding-list,
@@ -1424,15 +1391,6 @@ body {
     height: 45px;
   }
 
-  #stub-para {
-    font-size: 30px;
-    width: 400px;
-  }
-
-  #one-img {
-    width: 100%;
-  }
-
   .info1 {
     margin: 20px 20px 20px 0;
     color: #f42;
@@ -1448,7 +1406,7 @@ body {
     margin: 0;
   }
 
-  .info0 > #tired :hover {
+  .info0 > .tired :hover {
     color: #070707;
   }
 
@@ -1559,7 +1517,7 @@ body {
 
   .info0 h1 {
     position: relative;
-    left: 15px;
+    left: 60px;
   }
 
   .info0 h2 {
@@ -1640,7 +1598,7 @@ body {
     top: 15px;
   }
 
-  #stup-case {
+  .stup-case {
     position: relative;
   }
 
@@ -2144,9 +2102,11 @@ body {
 
   .top-img-div1 {
     display: grid;
+    gap: 15px;
     grid-template-columns: repeat(3, auto);
     grid-template-rows: repeat(3, auto);
-    gap: 15px;
+    justify-content: center;
+    margin-left: 29px;
     width: 94vw;
   }
 
@@ -2181,7 +2141,7 @@ body {
   }
 
   .info0 h1 {
-    left: 5px;
+    left: 55px;
   }
 
   .info0 h2 {
@@ -2356,9 +2316,13 @@ body {
   }
 
   .info0 h2 {
-    top: 10px;
+    top: 5px;
   }
 
+  .tired {
+    position: relative;
+    right: 50px;
+  }
 
   .right-art-top a {
     color: #fff;
@@ -2474,8 +2438,8 @@ body {
     left: 5px;
   }
 
-  #sub-covid-19,
-  #stub-tweaks {
+  .sub-covid-19,
+  .stub-tweaks {
     left: 0;
     top: 10px;
   }
@@ -2646,11 +2610,6 @@ body {
     padding: 5px;
   }
 
-  #sec-4-eight {
-    bottom: 150px;
-    margin-top: 0;
-  }
-
   .eight-grids {
     bottom: 50px;
     margin: 160px 0 100px -30px;
@@ -2712,7 +2671,7 @@ body {
     top: 0;
   }
 
-  #mica-bow {
+  .mica-bow {
     font-size: 13px;
   }
 
@@ -2759,27 +2718,13 @@ body {
     width: 90vw;
   }
 
-  .apps-h1 h4 {
-    bottom: 0;
-    font-size: 40px;
-    position: relative;
-    right: 40px;
-    top: 30px;
-    width: 500px;
-  }
-
-  .fb-class h4,
-  #apps-h1 h4,
-  #apps-h4 h4,
-  #apps-h5 h4,
-  #apps-h2 h4,
-  #apps-h3 h4 {
+  .fb-class h4 {
     font-size: 1em;
     top: 30px;
     width: 90vw;
   }
 
-  #stub-pilots {
+  .stub-pilots {
     left: 0;
     margin-top: 10px;
     top: 0;
@@ -2790,14 +2735,12 @@ body {
     top: 100px;
   }
 
-  #apps-h1 h4,
-  #apps-h4 h4,
-  #apps-h5 h4,
-  #apps-h2 h4,
-  #apps-h3 h4 {
-    font-size: 20px;
-    position: relative;
-    right: 40px;
+  .simpson,
+  .latest-div1,
+  .wacom,
+  .latest-div2,
+  .latest-div3 {
+    left: 0;
   }
 
   .funding {
@@ -2825,18 +2768,6 @@ body {
     padding-left: 0;
   }
 
-  #fund-round {
-    font-size: 30px;
-    margin-left: 40px;
-    padding: 5px;
-    position: relative;
-    top: 80px;
-  }
-
-  .one {
-    margin-left: 0;
-  }
-
   .funding-img-cont {
     bottom: 130px;
     display: flex;
@@ -2848,11 +2779,11 @@ body {
     width: 100%;
   }
 
-  #black-cinema {
+  .black-cinema {
     bottom: 55px;
   }
 
-  #paywell-chan {
+  .paywell-chan {
     bottom: 65px;
   }
 
@@ -2878,7 +2809,7 @@ body {
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(2, auto);
-    margin-left: 50px;
+    margin-left: 5px;
   }
 
   .div-4-eight1 {
@@ -2923,22 +2854,6 @@ body {
     font-size: 14px;
   }
 
-  #one-img {
-    height: 500px;
-    padding: 0;
-    width: 100%;
-  }
-
-  #sims,
-  #Huawei-news,
-  #red-resign,
-  #bad-logo,
-  #should-we,
-  #face-posts,
-  #library {
-    left: 0;
-  }
-
   .info-txt-div,
   .reddit-div,
   .red-txt,
@@ -2954,7 +2869,7 @@ body {
     left: 10px;
     margin: 0;
     position: relative;
-    width: 97.5vw;
+    width: 96.5vw;
   }
 
   .latest-div3 {
@@ -3038,23 +2953,27 @@ body {
     flex-direction: column;
   }
 
-  .info0 h2 {
-    left: 50px;
-    right: 0;
+  .tired {
+    position: relative;
+    right: 50px;
   }
 
-  #signalin {
+  .info0 h2 {
+    left: 0;
+  }
+
+  .signalin {
     display: none;
   }
 
-  #envys {
+  .envys {
     bottom: 50px;
     left: 110px;
     position: relative;
   }
 
-  #jabs,
-  #kontak {
+  .jabs,
+  .kontak {
     position: relative;
     left: 35px;
   }
