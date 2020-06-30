@@ -622,7 +622,7 @@ body {
   height: 270px;
   left: 0;
   position: relative;
-  width: 97vw;
+  width: 100%;
   z-index: 0;
 }
 
@@ -657,7 +657,7 @@ body {
   height: 120px;
   justify-content: space-between;
   justify-items: end;
-  width: 360px;
+  width: 100%;
 }
 
 .red-txt img,
@@ -1293,6 +1293,11 @@ body {
     width: 200px;
   }
 
+  .latest-div1,
+  .latest-div2 {
+    width: 97.5%;
+  }
+
   .info1 a {
     color: #f42;
   }
@@ -1473,7 +1478,7 @@ body {
     left: 200px;
   }
 
-  .left-art h1 {
+  .left-art h3 {
     bottom: 150px;
   }
 
@@ -1679,7 +1684,7 @@ body {
     top: 10px;
   }
 
-  .left-art h1 {
+  .left-art h3 {
     bottom: 150px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 40px;
@@ -2369,7 +2374,7 @@ body {
     z-index: 0;
   }
 
-  .left-art h1 {
+  .left-art h3 {
     bottom: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 18px;
@@ -2873,6 +2878,7 @@ body {
   }
 
   .latest-div3 {
+    left: 0;
     width: 100%;
   }
 
