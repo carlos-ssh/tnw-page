@@ -1407,7 +1407,7 @@ body {
   .info0 > .tired :hover {
     color: #070707;
   }
-  
+
   .info0 h2 {
     right: 170px;
   }
@@ -1447,14 +1447,13 @@ body {
     font-size: 12px;
     color: #7c7878;
   }
-  
+
   .info0 h1 {
     color: #f00;
     font-size: 25px;
     position: relative;
     left: 10px;
   }
-
 }
 
 @media screen and (min-width: 1008px) and (max-width: 1222px) {
@@ -1515,7 +1514,7 @@ body {
   .micro-dw {
     width: 290px;
   }
-  
+
   .info0 h2 {
     right: 170px;
   }
@@ -2139,7 +2138,7 @@ body {
     right: 10px;
   }
 
- .info0 h2 {
+  .info0 h2 {
     right: 110px;
   }
 }
@@ -2900,7 +2899,6 @@ body {
     position: relative;
     left: 55px;
   }
-
 }
 
 @media screen and (max-width: 350px) {
