@@ -5,8 +5,6 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  overflow-x: hidden;
-  width: 100vw;
 }
 
 .top-header {
@@ -14,8 +12,19 @@ body {
   z-index: 1;
 }
 
+html,
+body {
+  margin: 0;
+  width: 100%;
+}
+
 a {
   text-decoration: none;
+}
+
+.footer-wrapp {
+  background-color: #000;
+  width: 98.7vw;
 }
 
 .white-nav a,
@@ -315,12 +324,6 @@ a {
   width: 20px;
 }
 
-html,
-body {
-  overflow-x: hidden;
-  width: 100%;
-}
-
 .white-nav-img {
   height: 30px;
   width: 205px;
@@ -362,13 +365,12 @@ body {
   grid-template-columns: repeat(4, auto);
   margin: 0 50px 0 10px;
   position: relative;
-  width: 100vw;
 }
 
 .yellow {
   background-color: #fd3;
   height: 30px;
-  width: 100%;
+  width: 100vw;
 }
 
 .bio-tnw {
@@ -392,7 +394,7 @@ body {
   grid-row: 1;
   margin: 5px 5px 10px 10px;
   position: relative;
-  width: 33vw;
+  width: 32vw;
 }
 
 .right-art-bottom {
@@ -400,7 +402,7 @@ body {
   background-size: cover;
   grid-row: 2;
   margin: 0 10px;
-  width: 33vw;
+  width: 32vw;
 }
 
 .left-art {
@@ -488,6 +490,7 @@ body {
   bottom: 50px;
   margin: 100px 0 0 0;
   position: relative;
+  width: 98vw;
 }
 
 .info h4 {
@@ -529,13 +532,13 @@ body {
 .app-div {
   display: grid;
   grid-template-rows: repeat(4, auto);
-  width: 100%;
+  width: 100vw;
 }
 
 .footer-cont {
   display: grid;
   grid-template-rows: repeat(2, auto);
-  width: 100vw;
+  width: 98vw;
 }
 
 .footer-up-div {
@@ -543,7 +546,6 @@ body {
   display: grid;
   grid-template-rows: repeat(2, auto);
   height: auto;
-  width: 100vw;
 }
 
 .funding {
@@ -553,7 +555,7 @@ body {
   justify-content: space-between;
   padding-bottom: 20px;
   position: relative;
-  width: 100vw;
+  width: 98vw;
 }
 
 .funding-nav ul {
@@ -582,14 +584,16 @@ body {
 }
 
 .apps {
+  bottom: 100px;
   display: grid;
   grid-template-columns: repeat(3, auto);
   grid-template-rows: repeat(3, auto);
   justify-content: center;
-  margin: 0 40px 0 40px;
+  left: 20px;
+  margin-right: 0;
   position: relative;
-  right: 20px;
-  bottom: 100px;
+  right: 0;
+  width: 97vw;
 }
 
 .apps-txt {
@@ -1052,6 +1056,7 @@ body {
   margin-bottom: 20px 0 20px 0;
   padding: 5px;
   position: relative;
+  width: 97vw;
 }
 
 .info0 h2 {
@@ -1065,7 +1070,7 @@ body {
 
 .micro-grav {
   padding-right: 20px;
-  width: 290px;
+  width: 270px;
 }
 
 .next-img-div img,
@@ -1084,7 +1089,6 @@ body {
 .cont-main {
   display: grid;
   grid-template-rows: repeat(10, auto);
-  width: 100vw;
 }
 
 .funding-up,
@@ -1165,7 +1169,7 @@ body {
 
 .icon-div {
   padding: 30px 0 20px 0;
-  width: 100vw;
+  width: 98vw;
 }
 
 .signal-img {
@@ -1177,12 +1181,14 @@ body {
   bottom: 60px;
   position: relative;
   right: 0;
+  width: 99vw;
 }
 
 .footer-down-div {
   background-color: #070707;
   height: 80px;
   text-align: center;
+  width: 98vw;
 }
 
 .footer-down-div span {
@@ -1197,12 +1203,6 @@ body {
 
 /* Big Screen */
 @media screen and (min-width: 1008px) {
-  html,
-  body {
-    overflow-x: hidden;
-    width: 100%;
-  }
-
   * {
     padding: 0;
     margin: 0;
@@ -1235,7 +1235,6 @@ body {
     grid-template-rows: repeat(2, minmax(auto, 1fr));
     left: 3.5px;
     padding: 10px;
-    width: 98vw;
   }
 
   .stub-para {
@@ -1250,6 +1249,7 @@ body {
   .micro-grav2 h4 {
     font-size: 16px;
     font-weight: 400;
+    width: 280px;
   }
 
   .bio-tnw {
@@ -1288,7 +1288,7 @@ body {
 
   .latest-div1,
   .latest-div2 {
-    width: 97.5%;
+    width: 97.2%;
   }
 
   .info1 a {
@@ -1304,6 +1304,7 @@ body {
 
   .info {
     margin: 70px 0 30px 0;
+    width: 97vw;
   }
 
   .micro-grav img {
@@ -1316,7 +1317,7 @@ body {
   }
 
   .funding-list {
-    margin-right: 70px;
+    margin-right: 25px;
     padding-top: 50px;
     position: relative;
     top: 45px;
@@ -1328,12 +1329,15 @@ body {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, auto);
     justify-items: center;
-    margin: 0 auto 0 50px;
+    left: 45px;
+    margin-left: 0;
+    position: relative;
     width: 95%;
   }
 
   .funding-grid-items {
     position: relative;
+    width: 21.7vw;
   }
 
   .orange p,
@@ -1402,6 +1406,7 @@ body {
     display: grid;
     grid-template-rows: repeat(2, auto);
     margin: 0;
+    width: 98vw;
   }
 
   .info0 > .tired :hover {
@@ -1420,7 +1425,7 @@ body {
     left: 17px;
     position: relative;
     row-gap: 20px;
-    width: 98.4vw;
+    width: 97vw;
   }
 
   .micro-grav1 img {
@@ -1434,6 +1439,7 @@ body {
 
   .micro-grav1 {
     margin-right: 20px;
+    width: 270px;
   }
 
   .micro-dw h4 {
@@ -1461,12 +1467,6 @@ body {
   #date,
   .white-nav .button {
     display: none;
-  }
-
-  html,
-  body {
-    overflow-x: hidden;
-    width: 100%;
   }
 
   .svg-inline--fa.fa-search.fa-w-16 {
@@ -1508,11 +1508,11 @@ body {
 
   .micro-grav1 img {
     height: 210px;
-    width: 290px;
+    width: 270px;
   }
 
   .micro-dw {
-    width: 290px;
+    width: 270px;
   }
 
   .info0 h2 {
@@ -1525,12 +1525,6 @@ body {
     width: 95vw;
     padding: 5px;
     left: 10px;
-  }
-
-  html,
-  body {
-    overflow-x: hidden;
-    width: 100%;
   }
 
   .info a {
@@ -1550,12 +1544,6 @@ body {
 
 /* Medium Screen */
 @media screen and (max-width: 1007px) and (min-width: 768px) {
-  html,
-  body {
-    overflow-x: hidden;
-    width: 100%;
-  }
-
   .div-4-eight1 {
     left: 8px;
     margin-left: 0;
@@ -2149,12 +2137,6 @@ body {
     width: 90vw;
   }
 
-  html,
-  body {
-    overflow-x: hidden;
-    width: 100%;
-  }
-
   .micro-grav2,
   .eight-grids h4 {
     width: 260px;
@@ -2173,12 +2155,6 @@ body {
 /* Small Screen */
 
 @media screen and (max-width: 765px) {
-  html,
-  body {
-    overflow-x: hidden;
-    width: 100%;
-  }
-
   .top-header {
     display: none;
   }
@@ -2192,7 +2168,6 @@ body {
     display: grid;
     gap: 20px;
     grid-template-columns: 1fr;
-    overflow-x: hidden;
     position: fixed;
     width: 100%;
     width: 100vw;
@@ -2768,7 +2743,6 @@ body {
     flex-direction: column;
     flex-wrap: nowrap;
     margin-left: 10px;
-    overflow-x: hidden;
     position: relative;
     width: 100%;
   }
