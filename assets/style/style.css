@@ -1453,7 +1453,7 @@ a {
   }
 
   .bio-tnw {
-    height: 60vh;
+    height: auto;
     width: 100vw;
   }
 
@@ -2414,6 +2414,7 @@ a {
     flex-wrap: nowrap;
     width: 100%;
     margin-bottom: 2em;
+    margin-top: 30px;
   }
 
   .div-4-eight1 {
