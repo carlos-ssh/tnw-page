@@ -1213,6 +1213,7 @@ a {
   .info a {
     color: #f42;
     text-decoration: none;
+    margin-left: 20px;
   }
 
   .left-art a {
