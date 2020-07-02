@@ -1323,7 +1323,8 @@ a {
   grid-template-rows: repeat(2, auto);
   justify-content: center;
   gap: 40px 10px;
-  width: 100%;
+  width: 80%;
+  margin: 0 auto;
   margin-bottom: 20px;
 }
 
