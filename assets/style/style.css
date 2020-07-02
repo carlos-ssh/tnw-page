@@ -151,7 +151,7 @@ a {
 .latest-div2 a {
   bottom: 0;
   color: #f42;
-  font-size: 15px;
+  font-size: 12px;
   position: relative;
   width: 200px;
 }
@@ -194,7 +194,6 @@ a {
 }
 
 .latest-div7 a {
-  bottom: 15px !important;
   color: #f42;
   font-size: 11px;
   position: relative;
@@ -328,13 +327,8 @@ a {
   width: 145px;
 }
 
-#fund-round {
-  font-size: 30px;
-  margin-left: 60px;
-}
-
 .funding-list li {
-  font-size: 17px;
+  font-size: 13px;
 }
 
 .right-white-list {
@@ -347,10 +341,6 @@ a {
 
 .funding-img-cont {
   display: grid;
-  width: 100%;
-}
-
-#one-img {
   width: 100%;
 }
 
@@ -478,10 +468,6 @@ a {
 
 .info-txt-div {
   width: 100%;
-}
-
-.info-txt-div small {
-  font-size: 20px;
 }
 
 .news-latest {
@@ -613,6 +599,7 @@ a {
   z-index: 0;
   color: #fff;
   width: 80%;
+  font-size: 1em;
 }
 
 .red-txt,
@@ -794,25 +781,10 @@ a {
 
 .latest-div6 h4 {
   color: #f42;
-  padding-top: 10px;
-  position: relative;
-  bottom: 10px;
-  left: 10px;
-  top: 10px;
 }
 
 .latest-div7 h4 {
-  bottom: 0;
   color: #f42;
-  left: 0;
-  padding: 20px 0 10px 0;
-  position: relative;
-}
-
-.div-extra {
-  left: 20px;
-  position: relative;
-  top: 20px;
 }
 
 .simpson {
@@ -828,9 +800,6 @@ a {
 }
 
 .simpson small {
-  position: relative;
-  top: 40px;
-  left: 20px;
   width: 80%;
 }
 
@@ -867,7 +836,7 @@ a {
   color: #fff;
   left: 20px;
   position: relative;
-  top: 170px;
+  top: 160px;
   width: 80%;
 }
 
@@ -955,6 +924,7 @@ a {
 
 .reddit-div h4 {
   width: 80%;
+  font-size: 0.8em;
 }
 
 .fb-class {
@@ -980,12 +950,12 @@ a {
 }
 
 .fb-class h4 {
-  font-size: 20px;
+  font-size: 14px;
   width: 80%;
 }
 
 .iwatch h4 {
-  font-size: 18px;
+  font-size: 14px;
   width: 80%;
 }
 
@@ -1166,7 +1136,7 @@ a {
 }
 
 .footer-down-div b {
-  color: #c20606;
+  color: #f42;
 }
 
 /* Big Screen */
@@ -1223,7 +1193,7 @@ a {
 
   .latest-div2 a {
     bottom: 0;
-    color: #f00;
+    color: #f42;
     position: relative;
     width: 200px;
   }
@@ -1390,11 +1360,12 @@ a {
 
 .info0 b {
   text-align: end;
+  color: #f42;
 }
 
 @media screen and (min-width: 1008px) and (max-width: 1222px) {
   .white-nav img,
-  #date,
+  .date,
   .white-nav .button {
     display: none;
   }
@@ -1893,7 +1864,7 @@ a {
     display: grid;
     grid-template-columns: repeat(2, auto);
     justify-content: space-between;
-    width: 80%;
+    width: 92%;
     margin-left: auto;
     margin-right: auto;
   }
