@@ -95,6 +95,12 @@ a {
 }
 
 .right-art-top a {
+  font-family: "Avalon", sans-serif;
+  font-size: 26px;
+  line-height: 1em;
+  position: relative;
+  top: 2em;
+  left: 0.5em;
   color: #fff;
   text-decoration: none;
   z-index: 0;
@@ -254,10 +260,14 @@ a {
 }
 
 .right-art-bottom a {
+  font-family: "Avalon", sans-serif;
   color: #fff;
-  line-height: 1.2em;
-  font-size: 1em;
+  line-height: 1em;
+  font-size: 28px;
   text-decoration: none;
+  position: relative;
+  top: 1em;
+  left: .2em;
   z-index: 0;
 }
 
@@ -353,10 +363,12 @@ a {
 .bio-tnw {
   display: grid;
   grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
-  width: 100%;
-  margin-top: 100px;
+  width: 98%;
+  margin-top: 105px;
   gap: 0;
   height: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .right-art {
@@ -394,30 +406,35 @@ a {
 
 .left-art img {
   height: auto;
-  padding: 20px;
+  margin-left: 10px;
+  position: relative;
+  bottom: 2em;
   width: 30%;
   z-index: 0;
 }
 
 .left-art p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "ARS Maquette Web One", sans-serif;
+  margin-top: 20px;
   font-size: 18px;
   height: 5px;
-  position: relative;
-  right: 50px;
   text-align: right;
-  top: 25px;
+  position: relative;
+  right: 1em;
   z-index: 0;
 }
 
 .left-art h4 {
-  font-size: 35px;
+  margin-top: 180px;
+  margin-left: 15px;
+  font-size: 3em;
   z-index: 0;
-  margin: 0 0 0 30px;
+  font-family: "Avalon", sans-serif;
 }
 
 .div-callum {
-  margin-left: 30px;
+  margin-left: 20px;
+  font-family: "ARS Maquette Web One", sans-serif;
 }
 
 .micro-grav2 h4 {
