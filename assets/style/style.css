@@ -78,9 +78,12 @@ a {
 
 .info0 a,
 .info a {
+  font-family: "Avalon", sans-serif;
   color: #f42;
-  font-size: 1.6em;
+  font-size: 28px;
   font-weight: 700;
+  position: relative;
+  left: 10px;
   margin-bottom: 20px;
   text-decoration: none;
 }
@@ -488,7 +491,9 @@ a {
 }
 
 .news-latest {
-  font-size: 30px;
+  font-size: 27px;
+  font-family: "Avalon", sans-serif;
+  margin-left: 20px;
   bottom: 50px;
 }
 
