@@ -8,6 +8,10 @@ body {
   width: 100vw;
 }
 
+h2{
+  font-family: "Avalon", sans-serif;
+}
+
 .top-header {
   position: fixed;
   z-index: 1;
@@ -26,6 +30,7 @@ a {
   list-style-type: none;
   padding: 5px;
   text-decoration-line: none;
+  
 }
 
 .white-nav a,
@@ -35,6 +40,7 @@ a {
   line-height: 10px;
   list-style-type: none;
   text-decoration-line: none;
+  font-family: "ShentoxW01-UltraLight", sans-serif;
 }
 
 .news {
@@ -271,6 +277,7 @@ a {
   position: relative;
   top: 1em;
   left: .2em;
+  width: 100%;
   z-index: 0;
 }
 
@@ -298,6 +305,7 @@ a {
 .left-white-list {
   display: grid;
   grid-template-columns: repeat(6, auto);
+
 }
 
 .white-nav {
@@ -442,8 +450,10 @@ a {
 
 .micro-grav2 h4 {
   color: #000;
-  font-size: 20px;
+  font-size: 14px;
+  font-family: "helvetica", sans-serif;
   font-weight: 700;
+  width: 100%;
 }
 
 .cosmic-op,
@@ -474,9 +484,7 @@ a {
 }
 
 .eight-grids {
-  width: 100vw;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
 }
 
 .info h4 {
@@ -499,9 +507,9 @@ a {
 
 .top-img-div {
   color: #000;
-  gap: 20px;
-  margin-left: 2rem;
-  margin-right: 2rem;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .top-header,
@@ -1043,7 +1051,9 @@ a {
 }
 
 .micro-grav {
-  width: 100%;
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .next-img-div img,
@@ -1192,12 +1202,6 @@ a {
     margin-right: auto;
   }
 
-  .micro-grav2 h4 {
-    font-size: 16px;
-    font-weight: 400;
-    width: 90%;
-  }
-
   .eight-grids > article {
     display: grid;
   }
@@ -1206,6 +1210,7 @@ a {
     color: #f42;
     text-decoration: none;
     margin-left: 20px;
+    font-family: "Avalon",sans-serif;
   }
 
   .left-art a {
@@ -1525,10 +1530,7 @@ a {
     height: auto;
   }
 
-  .micro-grav2 {
-    width: 220px;
-  }
-
+ 
   .micro-grav2 h4 {
     font-size: 1em;
   }
@@ -1922,6 +1924,8 @@ a {
     padding: 0%;
   }
 
+
+
   .small-header {
     background-color: #fff;
     display: grid;
@@ -2072,15 +2076,6 @@ a {
     margin-left: 0.6em;
   }
 
-  .info a {
-    color: #f42;
-    font-size: 25px;
-    font-weight: 700;
-    left: 20px;
-    margin: 0 0 20px 20px;
-    text-decoration: none;
-  }
-
   .latest-div1 a {
     font-size: 17px;
   }
@@ -2092,6 +2087,10 @@ a {
 
   .info1 a {
     color: #f42;
+  }
+
+  .info{
+    margin-top: 30px;
   }
 
   .funding-list a {
@@ -2187,29 +2186,18 @@ a {
   .micro-grav {
     display: grid;
     gap: 10px;
-    grid-template-columns: repeat(2, 100px);
+    grid-template-columns: repeat(2, auto);
   }
 
   .micro-grav1 {
     display: grid;
     gap: 10px;
-    grid-template-columns: repeat(2, 100px);
+    grid-template-columns: repeat(2, auto);
     margin-left: 50px;
   }
 
   .div-extra h4 {
     margin-bottom: 13px;
-  }
-
-  .micro-grav2 h4 {
-    font-size: 0.7em;
-    width: 70vw;
-  }
-
-  .cosmic-op,
-  .hours-3 {
-    color: #5c5959;
-    font-size: 13px;
   }
 
   .smartlogo {
@@ -2270,11 +2258,6 @@ a {
     padding: 5px;
   }
 
-  #sec-4-eight {
-    bottom: 150px;
-    margin-top: 0;
-  }
-
   .eight-grids {
     width: 100%;
     z-index: 0;
@@ -2299,7 +2282,7 @@ a {
     color: #f42;
     font-size: 1em;
     font-weight: 700;
-    width: 90%;
+    margin: 0;
   }
 
   .red {
@@ -2359,10 +2342,6 @@ a {
     width: 500px;
   }
 
-  .info {
-    width: 98%;
-  }
-
   .fb-class h4,
   .fb-class h2 {
     font-size: 1em;
@@ -2372,7 +2351,8 @@ a {
 
   .funding {
     display: grid;
-    height: 80px;
+    margin: 0;
+    width: 100%;
   }
 
   .funding-nav ul {
@@ -2391,14 +2371,6 @@ a {
     padding-left: 0 !important;
   }
 
-  #fund-round {
-    font-size: 30px;
-    margin-left: 40px;
-    padding: 5px;
-    position: relative;
-    top: 80px;
-  }
-
   .one {
     margin-left: 0;
   }
@@ -2409,7 +2381,6 @@ a {
     flex-wrap: nowrap;
     width: 100%;
     margin-bottom: 2em;
-    margin-top: 30px;
   }
 
   .div-4-eight1 {
@@ -2460,12 +2431,6 @@ a {
   .footer-down-div span {
     background-color: #000;
     font-size: 14px;
-  }
-
-  #one-img {
-    height: 500px;
-    padding: 0;
-    width: 100%;
   }
 
   .info-txt-div,
@@ -2519,11 +2484,13 @@ a {
   }
 
   .info0 a {
-    color: #f00;
+    color: #f42;
     font-size: 1.6em;
   }
 }
 
+.cosmic-op:hover,
+.hours-3:hover,
 .info a:hover,
 .info0 a:hover,
 .info1 a:hover,
@@ -2539,4 +2506,9 @@ a {
 
 .button:hover {
   color: #f42;
+}
+
+.micro-grav2 h4:hover{
+  color: #f42;
+  text-decoration: underline;
 }
