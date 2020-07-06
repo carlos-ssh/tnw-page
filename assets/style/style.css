@@ -125,6 +125,23 @@ a {
   z-index: 0;
 }
 
+.grd-items img{
+  height: 100%;
+  width: 100%;
+}
+
+.grd-items{
+  position: relative;
+}
+
+
+
+
+
+
+
+
+
 .img-clue a {
   color: #000;
   font-size: 16px;
@@ -364,92 +381,13 @@ a {
 }
 
 .bio-tnw {
+  margin: 81px auto 0 auto;
   display: grid;
-  grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+  height: 100%;
+  grid-template-rows: repeat(3, minmax(100px, 1fr));
+  grid-template-columns: 100%;
+  grid-gap: 10px;
   width: 98%;
-  margin-top: 105px;
-  gap: 0;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.right-art {
-  display: grid;
-  grid-template-rows: repeat(2, auto);
-  margin-left: 10px;
-  gap: 10px;
-}
-
-.right-art-top {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 1) 95%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Sprint_image.jpg");
-  background-size: cover;
-  grid-row: 1;
-  width: 100%;
-}
-
-.right-art-bottom {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 1) 95%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/bmw-ix3-all-electric-car-suv-sav-shift-evs-796x448.jpg");
-  background-size: cover;
-  grid-row: 2;
-  width: 100%;
-}
-
-.left-art {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 10%, rgb(224, 108, 108) 95%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/header-image-apple-own-arm-based-chips-796x417.png");
-  background-size: cover;
-  color: #fff;
-  display: grid;
-  grid-template-rows: repeat(2, auto);
-  width: 100%;
-  height: 30em;
-  z-index: 0;
-}
-
-.left-art img {
-  height: auto;
-  margin-left: 10px;
-  width: 30%;
-  z-index: 0;
-}
-
-.left-art p {
-  font-family: "ARS Maquette Web One", sans-serif;
-  margin-top: 20px;
-  font-size: 18px;
-  height: 5px;
-  text-align: right;
-  position: relative;
-  right: 1em;
-  z-index: 0;
-}
-
-.left-art h2 {
-  margin-top: 220px;
-  margin-left: 15px;
-  font-size: 3em;
-  z-index: 0;
-  font-family: "Avalon", sans-serif;
-}
-
-.div-callum {
-  margin-left: 20px;
-  margin-top: 130px;
-  font-family: "ARS Maquette Web One", sans-serif;
-  font-size: 16px;
-  color: #FFFFFF;
-}
-
-.div-callum1 {
-  margin-left: 20px;
-  margin-top: 15px;
-  font-family: "ARS Maquette Web One", sans-serif;
-  font-size: 16px;
-  color: #FFFFFF;
-}
-
-.div-callum a{
-  text-decoration: none;
 }
 
 .micro-grav2 h4 {
@@ -464,21 +402,6 @@ a {
 .hours-3 {
   font-size: 12px;
   color: #9b9595;
-}
-
-.left-art-top {
-  height: 198px;
-  width: 100%;
-}
-
-.right-top-img {
-  height: 198px;
-  width: 100%;
-}
-
-.right-bottom-img {
-  width: 100%;
-  height: 198px;
 }
 
 .eight-grids {
@@ -1402,10 +1325,6 @@ a {
     display: none;
   }
 
-  .left-art h2{
-    font-size: 45px;
-  }
-
   .svg-inline--fa.fa-search.fa-w-16 {
     left: 200px;
   }
@@ -2016,72 +1935,6 @@ a {
     display: none;
   }
 
-  .bio-tnw {
-    display: grid;
-    grid-template-columns: 1fr;
-    width: 100%;
-    margin: 6em 0 0 0;
-    row-gap: 0.7em;
-  }
-
-  .right-art {
-    display: grid;
-    grid-template-rows: repeat(2, auto);
-    z-index: 0;
-    width: 95%;
-  }
-
-  .right-art-top {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 1) 95%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Sprint_image.jpg");
-    background-size: 100% 100%;
-    grid-row: 1;
-    height: 23em;
-    width: 100%;
-  }
-
-  .right-art-top a {
-    color: #fff;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 1.5em;
-    position: relative;
-    top: 9em;
-    left: 1em;
-    text-decoration: none;
-    z-index: 0;
-    width: 100%;
-  }
-
-  .right-art-bottom {
-    background-image: linear-gradient ( to bottom, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 1) 95% ), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/bmw-ix3-all-electric-car-suv-sav-shift-evs-796x448.jpg");
-    background-size: 100% 100%;
-    grid-row: 2;
-    height: 23em;
-    width: 100%;
-  }
-
-  .right-art-bottom a {
-    color: #fff;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 1.5em;
-    text-decoration: none;
-    position: relative;
-    top: 8em;
-    width: 100%;
-    z-index: 0;
-  }
-
-  .left-art {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 10%, rgb(224, 108, 108) 95%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/header-image-apple-own-arm-based-chips-796x417.png");
-    background-size: 100% 100%;
-    color: #fff;
-    display: grid;
-    grid-template-rows: repeat(2, auto);
-    height: 23em;
-    width: 95%;
-    z-index: 0;
-    margin-left: 0.6em;
-  }
-
   .latest-div1 a {
     font-size: 17px;
   }
@@ -2107,23 +1960,6 @@ a {
     font-size: 11px;
     line-height: 5px;
     top: 0;
-  }
-
-  .left-art-down h2{
-    font-size: 1.5em;
-    margin: 12em 0.5em 0 0.5em;
-    width: 90%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
-
-  .right-top-img {
-    height: 198px;
-    width: 100%;
-  }
-
-  .right-bottom-img {
-    height: 198px;
-    width: 100%;
   }
 
   .div-extra {
