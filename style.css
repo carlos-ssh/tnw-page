@@ -197,18 +197,18 @@ a:visited {
 
 /* FUNDING SECTION  */
 
-.funding-title-container {
+.funding-title-div {
   width: 95%;
   margin: 0 auto 30px auto;
   color: #f42;
   line-height: 2em;
 }
 
-.funding-title {
+.funding-header {
   font-size: 28px;
 }
 
-.funding-list {
+.funding-anchors {
   font-size: 14px;
 }
 
@@ -592,13 +592,13 @@ a:visited {
 
   /* FUNDING SECTION  */
 
-  .funding-list li {
+  .funding-anchors li {
     display: inline;
     font-size: 16px;
     padding: 0 8px;
   }
 
-  .funding-list li:nth-of-type(2) {
+  .funding-anchors li:nth-of-type(2) {
     border-left: 1px solid #f42;
     border-right: 1px solid #f42;
   }
@@ -678,7 +678,7 @@ a:visited {
 
   /* FUNDING SECTION  */
 
-  .funding-title-container {
+  .funding-title-div {
     display: flex;
     justify-content: space-between;
   }
