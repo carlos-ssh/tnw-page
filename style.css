@@ -105,7 +105,7 @@ a {
   font-family: "ARS+Maquette+Web+One", sans-serif;
 }
 
-.yellow-bar a{
+.yellow-bar a {
   color: #000;
 }
 
@@ -508,12 +508,11 @@ a {
      Meedia 1023px - 768px
 ========================== */
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
 
-  .blk-right{
+  .blk-right {
     display: none;
   }
-
 }
 
 @media only screen and (min-width: 640px) {
@@ -552,7 +551,7 @@ a {
     font-size: 14px;
   }
 
-  .blk-left{
+  .blk-left {
     align-self: center;
     padding-left: 20px;
   }
