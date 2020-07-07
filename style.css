@@ -228,6 +228,9 @@ a:visited {
 
 .funding-anchors {
   font-size: 14px;
+  color: #f42;
+  font-family: "ARS+Maquette+Web+One", sans-serif;
+  list-style: none;
 }
 
 .funding-grid-container {
