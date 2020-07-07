@@ -338,6 +338,10 @@ a {
   font-family: "Avalon", sans-serif;
 }
 
+.apps-anch {
+  padding-left: 0;
+}
+
 .img-txt-container {
   position: relative;
   margin-top: 20px;
