@@ -99,6 +99,8 @@ a:visited {
   padding-left: 10px;
   font-size: 14px;
   line-height: 40px;
+  color: #000000;
+  font-family: "ARS+Maquette+Web+One", sans-serif;
 }
 
 .big-menu {
