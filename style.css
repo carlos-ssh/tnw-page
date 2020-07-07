@@ -504,7 +504,7 @@ a {
 ========================== */
 
 @media only screen and (min-width: 738px) {
-  .small-menu, 
+  .small-menu,
   .blk-right {
     display: none;
   }
