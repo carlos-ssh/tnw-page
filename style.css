@@ -22,16 +22,21 @@ a {
   text-decoration: none;
 }
 
-a:visited {
-  color: #000;
-}
+/*a:visited {
+  color: #f42;
+  text-decoration: none;
+}*/
 
+.fa-search,
+.fa-bars{
+  margin: 12px 5px;
+}
 .small-menu {
   position: fixed;
   display: block;
   top: 0;
   width: 100%;
-  height: 80px;
+  height: 48px;
   z-index: 100;
 }
 
@@ -39,31 +44,24 @@ a:visited {
   background-color: white;
   display: flex;
   justify-content: space-between;
-  height: 10.5vh;
 }
 
 .small-menu img {
-  height: 100%;
-  max-width: 120px;
-  position: absolute;
-  bottom: 0;
-  color: white;
-  background:
-    linear-gradient(
-      to bottom,
-      rgb(255, 115, 1) 40%,
-      rgb(255, 0, 0) 60%
-    );
-  width: 100%;
-  padding: 5px 10px;
+  height: 28px;
+  display: block;
+  background-color: #f42;
+  background: linear-gradient(to bottom right,#c09,#f42 85%);
+  width: 66px;
+  padding: 10px 20px;
+  will-change: height;
 }
 
 .nav-small a {
-  font-size: 65px;
+  font-size: 20px;
   color: #aaa;
   border-left: 1px solid lightgray;
-  padding: 7px 10px;
-  line-height: 40px;
+  height: 50px;
+  padding: 10px 20px;
 }
 
 .tertiary-container a {
@@ -88,7 +86,7 @@ a:visited {
   margin: 20px 5px;
   background-color: #333;
   border-radius: 50%;
-  padding: 10px;
+  padding: 8px 10px;
   color: white;
   border: 1.8px solid #333;
 }
@@ -109,6 +107,7 @@ a:visited {
   height: 50%;
   overflow: hidden;
   padding-left: 10px;
+  padding-bottom: 15px;
   font-size: 14px;
   line-height: 40px;
   color: #000;
@@ -121,7 +120,7 @@ a:visited {
 }
 
 .the-main {
-  margin: 81px auto 0 auto;
+  margin: 80px auto 0 auto;
   display: grid;
   height: 100%;
   grid-template-rows: repeat(3, minmax(100px, 1fr));
@@ -147,12 +146,7 @@ a:visited {
   position: absolute;
   bottom: 0;
   color: white;
-  background:
-    linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0) 10%,
-      rgba(0, 0, 0, 1) 80%
-    );
+  background: linear-gradient(to bottom,rgba(0, 0, 0, 0) 10%,rgba(0, 0, 0, 1) 80%);
   width: 100%;
 }
 
@@ -240,7 +234,7 @@ a:visited {
   color: #f42;
 }
 
-.funding-anchors {
+.funding-anchors a{
   font-size: 14px;
   color: #f42;
   font-family: "ARS+Maquette+Web+One", sans-serif;
@@ -248,6 +242,10 @@ a:visited {
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+.funding-anchors {
+  padding: 0;
 }
 
 
@@ -327,6 +325,15 @@ a:visited {
   display: none;
 }
 
+.funding-anchors > li{
+  font-family: "ARS+Maquette+Web+One", sans-serif;
+  list-style: none;
+  color: #f42;
+  margin: 0px;
+}
+
+
+
 .ocho-grid {
   display: grid;
   grid-template-rows: repeat(8, minmax(auto, 1fr));
@@ -352,11 +359,7 @@ a:visited {
   bottom: 0;
   width: 100%;
   background:
-    linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0) 0%,
-      rgba(0, 0, 0, 1) 80%
-    );
+    linear-gradient(to bottom,rgba(0, 0, 0, 0) 0%,rgba(0, 0, 0, 1) 80%);
 }
 
 .text-main-img * {
@@ -412,8 +415,6 @@ a:visited {
 .tertiary-container {
   padding-left: 20px;
 }
-
-/* LATEST DEALS  */
 
 .latest-container {
   width: 95%;
@@ -643,7 +644,7 @@ a:visited {
   }
 
   .funding-anchors li {
-    display: inline;
+    display: inline-flex;
     font-size: 16px;
     padding: 0 8px;
     font-family: "ARS+Maquette+Web+One", sans-serif;
@@ -688,6 +689,7 @@ a:visited {
 
   .yellow-bar {
     padding-left: 18px;
+    padding-bottom: 0;
   }
 
   .up-grid-item1 .tnw-logo-up {
@@ -696,17 +698,16 @@ a:visited {
     padding: 2% 48% 41% 2%;
     width: 50%;
     height: auto;
-    background:
-      linear-gradient(
-        135deg,
-        rgb(238, 61, 91) 0%,
-        rgba(125, 185, 232, 0) 100%
-      );
+    background: linear-gradient(135deg,rgb(238, 61, 91) 0%,rgba(125, 185, 232, 0) 100%);
+  }
+
+  .main-up-text h3{
+    position: absolute;
   }
 
   .up-grid-item1 h2 {
-    font-size: 56px;
-    line-height: 1.5em;
+    font-size: 50px;
+    line-height: 1.2em;
   }
 
   .up-grid-item2 h2,
@@ -793,4 +794,10 @@ a:visited {
 
 .tertiary-container a:hover {
   color: #000;
+}
+
+.small-menu img:hover{
+  background-image: url(assets/font/img/home-1.gif);
+  background-position: 50%;
+  background-size: cover
 }
