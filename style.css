@@ -1,3 +1,18 @@
+@font-face{
+  font-family: Avalon;
+  src: url(assets/font/avalon/Avalon.woff);
+}
+
+@font-face{
+  font-family: ARS+Maquette+Web+One;
+  src: url(assets/font/ars/ARS+Maquette+Web+One.woff);
+}
+
+@font-face{
+  font-family: ShentoxW01-UltraLight;
+  src: url(assets/font/shentox/ShentoxW01-UltraLight.woff);
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -8,7 +23,7 @@ a {
 }
 
 a:visited {
-  color: unset;
+  color: #000000;
 }
 
 .small-menu {
