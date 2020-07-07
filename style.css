@@ -518,6 +518,11 @@ a:visited {
     display: none;
   }
 
+  .the-main img{
+    width: 100%;
+    height: 100%;
+  }
+
   .big-menu {
     display: block;
     height: 80px;
