@@ -130,7 +130,8 @@ a {
   position: relative;
 }
 
-.tnw-logo-up {
+.tnw-logo-up,
+.funding-grid-item4 {
   display: none;
 }
 
@@ -310,10 +311,6 @@ a {
 .beige2 {
   background-color: #fffaf8;
   height: 45px;
-}
-
-.funding-grid-item4 {
-  display: none;
 }
 
 .funding-anchors > li {
@@ -506,8 +503,9 @@ a {
      Meedia 768px - 1023px
 ========================== */
 
-@media only screen and (min-width: 768px) {
-  .small-menu {
+@media only screen and (min-width: 738px) {
+  .small-menu, 
+  .blk-right {
     display: none;
   }
 
@@ -592,9 +590,8 @@ a {
   }
 
   .yellow-bar {
-    height: 30px;
+    height: 20px;
     line-height: 30px;
-    padding-left: 15%;
     font-family: "ARS+Maquette+Web+One", sans-serif;
     color: #000;
   }
@@ -606,7 +603,7 @@ a {
   }
 
   .up-grid-item1 h2 {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .up-grid-item1 {
