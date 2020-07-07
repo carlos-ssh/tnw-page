@@ -371,12 +371,12 @@ a:visited {
 
 /* LATEST DEALS  */
 
-.latest-deal-container {
+.latest-container {
   width: 95%;
   margin: 50px auto;
 }
 
-.deals-title-container {
+.deals-title {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
@@ -384,12 +384,12 @@ a:visited {
   align-items: flex-end;
 }
 
-.deals-title-container h2 {
+.deals-title h2 {
   font-size: 28px;
   font-weight: bold;
 }
 
-.deals-grid-container {
+.deals-grid {
   display: grid;
   grid-template-rows: repeat(8, minmax(auto, 1fr));
 }
@@ -616,7 +616,7 @@ a:visited {
 
   /* LATEST DEALS  */
 
-  .deals-grid-container {
+  .deals-grid {
     grid-template-rows: repeat(3, minmax(auto, 1fr));
     grid-template-columns: repeat(3, minmax(auto, 1fr));
     gap: 20px;
@@ -700,7 +700,7 @@ a:visited {
 
   /* LATEST DEALS  */
 
-  .deals-grid-container {
+  .deals-grid {
     grid-template-rows: repeat(2, minmax(auto, 1fr));
     grid-template-columns: repeat(4, minmax(auto, 1fr));
   }
