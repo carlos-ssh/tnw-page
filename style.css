@@ -509,7 +509,6 @@ a {
 ========================== */
 
 @media only screen and (max-width: 768px) {
-
   .blk-right {
     display: none;
   }
@@ -582,7 +581,7 @@ a {
   .blk-container a:hover {
     color: white;
   }
- 
+
   .blk-container1 {
     height: 35px;
     display: flex;
