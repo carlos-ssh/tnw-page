@@ -283,7 +283,7 @@ a:visited {
 
 /* Eight Grid Container  */
 
-.eight-grid-container {
+.ocho-grid {
   display: grid;
   grid-template-rows: repeat(8, minmax(auto, 1fr));
   width: 95%;
@@ -291,7 +291,7 @@ a:visited {
   gap: 20px;
 }
 
-.eight-grid-items h2 {
+.ocho-grid-items h2 {
   color: #f42;
   font-size: 28px;
   font-weight: bold;
@@ -609,7 +609,7 @@ a:visited {
 
   /* 8 Grid Items  */
 
-  .eight-grid-container {
+  .ocho-grid {
     grid-template-columns: repeat(2, minmax(auto, 1fr));
     grid-template-rows: repeat(4, minmax(auto, 1fr));
   }
@@ -693,7 +693,7 @@ a:visited {
 
   /* 8 Grid Items */
 
-  .eight-grid-container {
+  .ocho-grid {
     grid-template-columns: repeat(3, minmax(auto, 1fr));
     grid-template-rows: repeat(3, minmax(auto, 1fr));
   }
